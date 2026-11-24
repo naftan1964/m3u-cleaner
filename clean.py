@@ -1,14 +1,34 @@
 import concurrent.futures
 import os
-import re
 import sys
 import time
-from urllib.parse import urljoin
+from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 import urllib.request
 
 USER_AGENT = "Mozilla/5.0"
 TIMEOUT = 10
 OUTPUT_FILE = "cleaned_playlist.m3u"
+KEYS_FILE = "keys.txt"
+MAX_WORKERS = 20
+
+STATIC_SEGMENTS = {
+    "iptv",
+    "live",
+    "hls",
+    "stream",
+    "streams",
+    "tv",
+    "udp",
+    "http",
+    "play",
+    "playlist",
+    "index",
+    "mono",
+    "video",
+    "tracks-v1a1",
+    "ch",
+    "channel",
+}
 
 
 def fetch_bytes(url, max_bytes=16384, timeout=TIMEOUT):
@@ -22,7 +42,7 @@ def fetch_bytes(url, max_bytes=16384, timeout=TIMEOUT):
 def is_valid_ts_data(data):
   if not data or len(data) < 1880:
     return False
-  head = data.split(b"\n", 1).pop(0).lstrip().lower()
+  head = data.split(b"\n", 1)[0].lstrip().lower()
   if head.startswith(
       (b"<!doctype", b"<html", b"404", b"403", b"error", b"no signal")
   ):
@@ -45,12 +65,11 @@ def is_valid_ts_data(data):
   return False
 
 
-def check_entry(entry):
-  idx, name, group, header_lines, url = entry
+def check_url(url):
   try:
     data = fetch_bytes(url, max_bytes=8192)
     if not data:
-      return (idx, False)
+      return False
 
     if data.lstrip().startswith(b"#EXTM3U"):
       current_url = url
@@ -62,22 +81,22 @@ def check_entry(entry):
             if line.strip() and not line.strip().startswith("#")
         ]
         if not sub_links:
-          return (idx, False)
+          return False
         next_url = urljoin(current_url, sub_links[0])
         if ".m3u8" in next_url.lower() and next_url != current_url:
           sub_data = fetch_bytes(next_url, max_bytes=8192)
           if not sub_data or not sub_data.lstrip().startswith(b"#EXTM3U"):
-            return (idx, False)
+            return False
           current_url = next_url
           text = sub_data.decode("utf-8", errors="ignore")
         else:
           seg_data = fetch_bytes(next_url, max_bytes=16384)
-          return (idx, is_valid_ts_data(seg_data))
-      return (idx, False)
+          return is_valid_ts_data(seg_data)
+      return False
 
-    return (idx, is_valid_ts_data(data))
+    return is_valid_ts_data(data)
   except Exception:
-    return (idx, False)
+    return False
 
 
 def load_playlist_lines(source):
@@ -85,94 +104,250 @@ def load_playlist_lines(source):
   if source.startswith(("http://", "https://")):
     if "dropbox.com" in source and "dl=0" in source:
       source = source.replace("dl=0", "dl=1")
-    print("🌐 Загружаю плейлист по ссылке...")
+    print("Загружаю плейлист по ссылке...")
     req = urllib.request.Request(source, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=20) as resp:
-      return resp.read().decode("utf-8", errors="ignore").splitlines()
-  else:
-    if not os.path.exists(source):
-      print(f"❌ Ошибка: файл '{source}' не найден в репозитории!")
-      sys.exit(1)
-    print(f"📂 Открываю локальный файл: {source}")
-    with open(source, "r", encoding="utf-8", errors="ignore") as f:
-      return f.read().splitlines()
+      raw = resp.read().decode("utf-8", errors="ignore")
+      return raw.splitlines()
+  if not os.path.exists(source):
+    raise FileNotFoundError(f"Файл не найден: {source}")
+  print(f"Читаю локальный файл: {source}")
+  with open(source, "r", encoding="utf-8", errors="ignore") as f:
+    return f.read().splitlines()
+
+
+def load_keys(filepath=KEYS_FILE):
+  if not os.path.exists(filepath):
+    return []
+  keys = []
+  with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+    for line in f:
+      item = line.strip()
+      if item and not item.startswith("#"):
+        keys.append(item)
+  return keys
+
+
+def parse_playlist(lines):
+  entries = []
+  header_lines = []
+  for line in lines:
+    stripped = line.strip()
+    if not stripped or stripped == "#EXTM3U":
+      continue
+    if stripped.startswith("#"):
+      header_lines.append(stripped)
+    else:
+      entries.append((len(entries), header_lines, stripped))
+      header_lines = []
+  return entries
+def build_candidate_urls(old_url, key_item):
+  candidates = []
+  parsed = urlparse(old_url)
+  clean_key = key_item.strip()
+
+  if clean_key.startswith(("http://", "https://")):
+    kp = urlparse(clean_key.rstrip("/"))
+    old_parts = [p for p in parsed.path.split("/") if p]
+    key_parts = [p for p in kp.path.split("/") if p]
+
+    if len(old_parts) > len(key_parts):
+      tail = "/".join(old_parts[len(key_parts) :])
+      new_path = "/" + "/".join(key_parts + [tail])
+    else:
+      new_path = parsed.path
+
+    candidates.append(
+        urlunparse(
+            (kp.scheme, kp.netloc, new_path, parsed.params, parsed.query, "")
+        )
+    )
+    return candidates
+
+  if "/" not in clean_key and (":" in clean_key or "." in clean_key):
+    candidates.append(
+        urlunparse((
+            parsed.scheme,
+            clean_key,
+            parsed.path,
+            parsed.params,
+            parsed.query,
+            "",
+        ))
+    )
+    return candidates
+
+  if "/" in clean_key:
+    key_parts = [p for p in clean_key.split("/") if p]
+    old_parts = [p for p in parsed.path.split("/") if p]
+    k_len = len(key_parts)
+    if k_len > 0 and len(old_parts) >= k_len:
+      for i in range(len(old_parts) - k_len + 1):
+        if (
+            old_parts[i] == key_parts[0]
+            or old_parts[i + k_len - 1] == key_parts[-1]
+        ):
+          new_parts = old_parts[:i] + key_parts + old_parts[i + k_len :]
+          new_path = "/" + "/".join(new_parts)
+          candidates.append(
+              urlunparse((
+                  parsed.scheme,
+                  parsed.netloc,
+                  new_path,
+                  parsed.params,
+                  parsed.query,
+                  "",
+              ))
+          )
+      if not candidates and len(old_parts) > k_len:
+        new_parts = key_parts + old_parts[k_len:]
+        new_path = "/" + "/".join(new_parts)
+        candidates.append(
+            urlunparse((
+                parsed.scheme,
+                parsed.netloc,
+                new_path,
+                parsed.params,
+                parsed.query,
+                "",
+            ))
+        )
+    return candidates
+
+  if parsed.query:
+    q_pairs = parse_qsl(parsed.query, keep_blank_values=True)
+    for idx, (qk, qv) in enumerate(q_pairs):
+      if qk.lower() in {"token", "key", "hash", "auth", "pass", "id"} or (
+          len(qv) >= 6 and qv.isalnum()
+      ):
+        new_q = list(q_pairs)
+        new_q[idx] = (qk, clean_key)
+        candidates.append(
+            urlunparse((
+                parsed.scheme,
+                parsed.netloc,
+                parsed.path,
+                parsed.params,
+                urlencode(new_q),
+                "",
+            ))
+        )
+
+  old_parts = [p for p in parsed.path.split("/") if p]
+  for i, part in enumerate(old_parts):
+    is_last_file = i == len(old_parts) - 1 and (
+        "." in part or part.isdigit()
+    )
+    if is_last_file or part.lower() in STATIC_SEGMENTS:
+      continue
+    if len(part) >= 5:
+      new_parts = old_parts[:i] + [clean_key] + old_parts[i + 1 :]
+      new_path = "/" + "/".join(new_parts)
+      candidates.append(
+          urlunparse((
+              parsed.scheme,
+              parsed.netloc,
+              new_path,
+              parsed.params,
+              parsed.query,
+              "",
+          ))
+      )
+
+  return candidates
+
+
+def process_entry(entry, keys, working_key_cache):
+  idx, header_lines, url = entry
+
+  if check_url(url):
+    return (idx, "alive", header_lines, url)
+
+  if keys:
+    host = urlparse(url).netloc
+    ordered_keys = list(keys)
+
+    cached_key = working_key_cache.get(host)
+    if cached_key and cached_key in ordered_keys:
+      ordered_keys.remove(cached_key)
+      ordered_keys.insert(0, cached_key)
+
+    for key_item in ordered_keys:
+      for candidate in build_candidate_urls(url, key_item):
+        if candidate != url and check_url(candidate):
+          working_key_cache[host] = key_item
+          return (idx, "fixed", header_lines, candidate)
+
+  return (idx, "dead", header_lines, url)
 
 
 def main():
-  source = os.environ.get("TARGET_SOURCE", "").strip()
+  if len(sys.argv) > 1:
+    source = sys.argv[1]
+  elif os.environ.get("PLAYLIST_URL"):
+    source = os.environ["PLAYLIST_URL"]
+  else:
+    source = input("Введите ссылку на Main Mix или путь к файлу: ").strip()
+
   if not source:
-    print("❌ Не указана ни ссылка, ни имя файла для проверки!")
-    sys.exit(1)
+    print("Источник не указан.")
+    return
 
+  start_time = time.time()
   lines = load_playlist_lines(source)
-  top_header = "#EXTM3U"
-  entries = []
-  header_lines = []
-  current_name = "Без названия"
-  current_group = "Без группы"
+  entries = parse_playlist(lines)
+  keys = load_keys(KEYS_FILE)
 
-  for raw in lines:
-    line = raw.strip()
-    if not line:
-      continue
-    if line.startswith("#EXTM3U"):
-      top_header = line
-    elif line.startswith("#EXTINF"):
-      header_lines = [line]
-      current_name = line.rsplit(",", 1)[-1].strip()
-      m_grp = re.search(r'group-title="([^"]*)"', line)
-      current_group = m_grp.group(1) if m_grp else "Без группы"
-    elif line.startswith("#") and header_lines:
-      header_lines.append(line)
-      if line.startswith("#EXTGRP:"):
-        current_group = line.split(":", 1)[1].strip()
-    elif line.startswith(("http://", "https://")) and header_lines:
-      entries.append(
-          (len(entries), current_name, current_group, header_lines, line)
-      )
-      header_lines = []
-      current_group = "Без группы"
+  print(f"Найдено каналов: {len(entries)}")
+  if keys:
+    print(f"Загружено ключей из {KEYS_FILE}: {len(keys)}")
+  else:
+    print(f"Файл {KEYS_FILE} пуст или не найден — работаю в режиме очистки.")
 
-  if not entries:
-    print("⚠️ В плейлисте не найдено ни одного канала!")
-    sys.exit(0)
+  working_key_cache = {}
+  results = [None] * len(entries)
+  done_count = 0
 
-  print(f"🔍 Начинаю проверку {len(entries)} каналов...")
-  results = {}
-  with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
-    for idx, is_alive in executor.map(check_entry, entries):
-      results[idx] = is_alive
+  with concurrent.futures.ThreadPoolExecutor(
+      max_workers=MAX_WORKERS
+  ) as executor:
+    futures = [
+        executor.submit(process_entry, entry, keys, working_key_cache)
+        for entry in entries
+    ]
+    for future in concurrent.futures.as_completed(futures):
+      idx, status, header_lines, final_url = future.result()
+      results[idx] = (status, header_lines, final_url)
+      done_count += 1
+      if done_count % 25 == 0 or done_count == len(entries):
+        print(f"Проверено: {done_count}/{len(entries)}")
 
-  alive_entries = []
-  dead_entries = []
-  for entry in entries:
-    if results.get(entry[0]):
-      alive_entries.append(entry)
-    else:
-      dead_entries.append(entry)
+  alive_count = 0
+  fixed_count = 0
+  dead_count = 0
 
   with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
-    out.write(top_header + "\n")
-    for _, _, _, h_lines, url in alive_entries:
-      for h in h_lines:
-        out.write(h + "\n")
-      out.write(url + "\n")
+    out.write("#EXTM3U\n")
+    for status, header_lines, final_url in results:
+      if status in ("alive", "fixed"):
+        if status == "alive":
+          alive_count += 1
+        else:
+          fixed_count += 1
+        for h in header_lines:
+          out.write(h + "\n")
+        out.write(final_url + "\n")
+      else:
+        dead_count += 1
 
-  print("\n" + "=" * 45)
-  print("🧹 ОТЧЁТ О ЧИСТКЕ ПЛЕЙЛИСТА")
-  print("=" * 45)
-  print(f"📋 Всего было каналов: {len(entries)}")
-  print(f"✅ Оставлено рабочих: {len(alive_entries)}")
-  print(f"🗑️ Удалено мёртвых: {len(dead_entries)}")
-  if dead_entries:
-    print("\n❌ Список удалённых каналов:")
-    for num, (_, name, grp, _, _) in enumerate(dead_entries, 1):
-      print(f"  {num}. {name} (группа: {grp})")
-  else:
-    print("\n🎉 Все каналы в листе полностью рабочие!")
-  print("=" * 45)
-  print(f"💾 Готовый файл сохранён как: {OUTPUT_FILE}\n")
+  elapsed = round(time.time() - start_time, 1)
+  print("\nГотово!")
+  print(f"Рабочих изначально: {alive_count}")
+  print(f"Восстановлено через {KEYS_FILE}: {fixed_count}")
+  print(f"Удалено нерабочих: {dead_count}")
+  print(f"Сохранено в {OUTPUT_FILE} за {elapsed} сек.")
 
 
 if __name__ == "__main__":
   main()
+
