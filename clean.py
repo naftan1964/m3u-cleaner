@@ -286,9 +286,8 @@ def process_entry(entry, keys, working_key_cache):
 def main():
   if len(sys.argv) > 1:
     source = sys.argv[1]
-      elif os.environ.get("TARGET_SOURCE"):
-      source = os.environ["TARGET_SOURCE"]
-
+  elif os.environ.get("TARGET_SOURCE"):
+    source = os.environ["TARGET_SOURCE"] 
   else:
     source = input("Введите ссылку на Main Mix или путь к файлу: ").strip()
 
