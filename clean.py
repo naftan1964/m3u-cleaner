@@ -9,7 +9,7 @@ USER_AGENT = "Mozilla/5.0"
 TIMEOUT = 10
 OUTPUT_FILE = "cleaned_playlist.m3u"
 KEYS_FILE = "keys.txt"
-MAX_WORKERS = 20
+MAX_WORKERS = 4
 
 STATIC_SEGMENTS = {
     "iptv",
