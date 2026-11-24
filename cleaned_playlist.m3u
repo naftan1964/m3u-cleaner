@@ -3,6 +3,8 @@
 #EXTINF:0 group-title="General✨" tvg-id="162" tvg-logo="http://epg.one/img2/2001.png" tvg-rec="3",НТВ HD 🇷🇺(borman)
 https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=igQsAY6jjMrZlDidg-nMDA&e=2069285048&scheme=https
 #EXTINF:0 group-title="General✨" tvg-id="162" tvg-logo="http://epg.one/img2/2001.png" tvg-rec="3",НТВ HD 🇷🇺
+https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
+#EXTINF:0 group-title="General✨" tvg-id="162" tvg-logo="http://epg.one/img2/2001.png" tvg-rec="3",НТВ HD 🇷🇺
 https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=N0-bW3tTXMTHsvfw7DOgug&e=2094297252&scheme=https
 #EXTINF:0 group-title="General✨" tvg-id="162" tvg-logo="http://epg.one/img2/2001.png" tvg-rec="7",НТВ HD 🇷🇺(zabava)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
@@ -65,6 +67,8 @@ https://stream.smotrim.ru/hls3/fasttv06/playlist_3.m3u8
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
 #EXTINF:0 group-title="General✨" tvg-id="146" tvg-logo="http://epg.one/img2/983.png" tvg-rec="7",Первый канал HD 🇨🇿**
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/204/index.m3u8
+#EXTINF:0 group-title="General✨" tvg-id="146" tvg-logo="http://epg.one/img2/983.png" tvg-rec="7",Первый канал HD 🇨🇿**
+http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/204/index.m3u8
 #EXTINF:0 group-title="General✨" tvg-id="146" tvg-logo="http://epg.one/img2/983.png" tvg-rec="7",Первый канал HD 🇷🇺 (borman)
 https://bl.rutube.ru/livestream/c58f502c7bb34a8fcdd976b221fca292/index.m3u8?s=e_zItsSCacnAOVzjWHK0nw&e=2094556527&scheme=https
 #EXTINF:0 group-title="General✨" tvg-id="146" tvg-logo="http://epg.one/img2/983.png" tvg-rec="7",Первый канал HD 🇷🇺(zabava)
@@ -73,6 +77,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/127/index.m3u8
 #EXTINF:0 group-title="General✨" tvg-id="146" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9.gif" tvg-rec="7",Первый канал 🇨🇿*
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/127/index.m3u8
+#EXTINF:0 group-title="General✨" tvg-id="146" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9.gif" tvg-rec="7",Первый канал 🇨🇿**
+http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/127/index.m3u8
 #EXTINF:0 group-title="General✨" tvg-id="1000" tvg-logo="http://epg.one/img2/1000.png" tvg-rec="0",ОТР HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/20018/index.m3u8
 #EXTINF:0 group-title="General✨" tvg-id="1000" tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/101/logo_256.webp" tvg-rec="7",ОТР 🇳🇱**
@@ -201,8 +207,12 @@ http://ultxov4g.streamoras.top/iptv/MMRPH2Q5M9SZL4/501/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/501/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="2041" tvg-logo="http://epg.one/img2/2041.png" tvg-rec="0",НТВ Хит HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/16062/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="2041" tvg-logo="http://epg.one/img2/2041.png" tvg-rec="0",НТВ Хит HD 🇪🇸
+http://4ba794f5.ottrast.com/iptv/K96HCCYTDKSMB2/16062/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="1755" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%9D%D0%A2%D0%92%D1%81%D1%82%D0%B8%D0%BB%D1%8C.png" tvg-rec="0",НТВ Стиль HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/20037/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="1755" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%9D%D0%A2%D0%92%D1%81%D1%82%D0%B8%D0%BB%D1%8C.png" tvg-rec="0",НТВ Стиль HD 🇪🇸
+http://4ba794f5.ottrast.com/iptv/K96HCCYTDKSMB2/20037/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="1754" tvg-logo="http://epg.one/img2/1754.png" tvg-rec="7",НТВ Сериал 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/744/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="1754" tvg-logo="http://epg.one/img2/1754.png" tvg-rec="3",НТВ Сериал 🇨🇿*
@@ -231,6 +241,8 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ
 http://901b3df3.edemist.com/iptv/HUHD4R93BHAACTNFQWLBC3DZ/127/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="146" tvg-logo="http://epg.one/img/146.png" tvg-rec="7",Первый канал 🇨🇿**
 http://dc24261a.ucomist.net/iptv/38KCLU4X4D9KL495GVMAWNPH/127/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="146" tvg-logo="http://epg.one/img/146.png" tvg-rec="7",Первый канал 🇪🇸
+http://9a2f7532.akadatel.com/iptv/AYYSWWLWY9MHT9W4YNWLDZM4/127/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="690" tvg-logo="http://epg.one/img2/690.png" tvg-rec="7",Санкт-Петербург 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/19383/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="690" tvg-logo="http://epg.one/img2/690.png" tvg-rec="7",Санкт-Петербург 🇨🇿*
@@ -243,8 +255,6 @@ http://2b26c4a1.amazzin.pw/iptv/H2D2PZRSF54ZEE/715/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9096/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="427" tvg-logo="http://epg.one/img2/427.png" tvg-rec="7",Пятый канал 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/112/index.m3u8
-#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="427" tvg-logo="http://epg.one/img2/427.png" tvg-rec="7", Пятый канал 🇪🇸
-http://acbpts0g.streamoras.top/iptv/SSZE2XUAX2DSTN/112/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="18" tvg-logo="http://epg.one/img2/18.png" tvg-rec="7",РЕН ТВ HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/2024/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="18" tvg-logo="http://epg.one/img2/18.png" tvg-rec="7",РЕН ТВ HD 🇨🇿*
@@ -255,6 +265,8 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/2024/inde
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Z9LPP8ZWL9WCSR/128/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="4661" tvg-logo="http://epg.one/img2/4661.png" tvg-rec="0",Звезда Плюс HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Z9LPP8ZWL9WCSR/19230/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="4661" tvg-logo="http://epg.one/img2/4661.png" tvg-rec="0",Звезда Плюс HD 🇨🇿*
+http://901b3df3.edemist.com/iptv/AYYSWWLWY9MHT9W4YNWLDZM4/19230/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="4661" tvg-logo="http://epg.one/img2/4661.png" tvg-rec="0",Звезда Плюс HD 🇨🇿**
 http://696a00e0.kazaktelekom.com/iptv/E5R9G9N6MTC7XV7BA98X4223/19230/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="4661" tvg-logo="http://epg.one/img/4661.png" tvg-rec="7",Звезда Плюс 🇨🇿*
@@ -279,6 +291,8 @@ http://901b3df3.edemist.com/iptv/LBYUHCMK9WGMBX/5044/index.m3u8
 http://4417651a.rossteleccom.net/iptv/HE5SQDGXRPHALY/5044/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="3357" tvg-logo="http://epg.one/img2/3357.png" tvg-rec="0",Мосфильм. Золотая коллекция HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/7347/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="3357" tvg-logo="http://epg.one/img2/3357.png" tvg-rec="0",Мосфильм. Золотая коллекция HD 🇨🇿**
+http://696a00e0.kazaktelekom.com/iptv/K96HCCYTDKSMB2/7347/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="2762" tvg-logo="http://epg.one/img2/2762.png" tvg-rec="3",Т24 orig 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/9292/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="2762" tvg-logo="http://epg.one/img2/2762.png" tvg-rec="3",Т24 orig 🇨🇿*
@@ -301,6 +315,8 @@ http://696a00e0.kazaktelekom.com/iptv/E5R9G9N6MTC7XV7BA98X4223/2110/index.m3u8
 http://ultxov4g.streamoras.top/iptv/V5LQDM4CPUCC2C/2110/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="304" tvg-logo="http://epg.one/img2/304.png" tvg-rec="0",Домашний HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/15116/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="304" tvg-logo="http://epg.one/img2/304.png" tvg-rec="0",Домашний HD 🇪🇸
+http://4ba794f5.ottrast.com/iptv/K96HCCYTDKSMB2/15116/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="304" tvg-logo="http://epg.one/img/304.png" tvg-rec="7",Домашний 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/514/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="304" tvg-logo="http://epg.one/img/304.png" tvg-rec="7",Домашний 🇨🇿*
@@ -309,6 +325,8 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3PSGY2LLR9PCWQS2MD5ELFVC
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/514/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="649" tvg-logo="http://epg.one/img/649.png" tvg-rec="0",ТВ Центр HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/19222/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="649" tvg-logo="http://epg.one/img/649.png" tvg-rec="0",ТВ Центр HD 🇪🇸
+http://4ba794f5.ottrast.com/iptv/K96HCCYTDKSMB2/19222/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="649" tvg-logo="http://epg.one/img/649.png" tvg-rec="0",ТВ Центр HD 🇨🇿**
 http://0fbssbd4.vexiumis.top/iptv/BQMULWS5WQ4M59XBABNYRFYS/19222/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="649" tvg-logo="http://epg.one/img2/649.png" tvg-rec="7",ТВ Центр 🇨🇿*
@@ -319,18 +337,24 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3PSGY2LLR9PCWQS2MD5ELFVC
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/520/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="79" tvg-logo="http://epg.one/img2/79.png" tvg-rec="3",СТС HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/6303/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="79" tvg-logo="http://epg.one/img2/79.png" tvg-rec="3",СТС HD 🇪🇸
+http://4ba794f5.ottrast.com/iptv/K96HCCYTDKSMB2/6303/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="79" tvg-logo="http://epg.one/img/79.png" tvg-rec="7",СТС 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Q5STBM8EKGPQMU/506/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="79" tvg-logo="http://epg.one/img/79.png" tvg-rec="7",СТС 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/506/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="1000" tvg-logo="http://epg.one/img/1000.png" tvg-rec="0",ОТР HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/20018/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="1000" tvg-logo="http://epg.one/img/1000.png" tvg-rec="0",ОТР HD 🇪🇸
+http://4ba794f5.ottrast.com/iptv/K96HCCYTDKSMB2/20018/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="1000" tvg-logo="http://epg.one/img2/1000.png" tvg-rec="7",ОТР 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/705/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="1000" tvg-logo="http://epg.one/img2/1000.png" tvg-rec="7",ОТР 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/705/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="698" tvg-logo="http://epg.one/img/698.png" tvg-rec="3",ТВ-3 HD 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/5033/index.m3u8
+#EXTINF:0 group-title="ЭФИР 🧨" tvg-id="698" tvg-logo="http://epg.one/img/698.png" tvg-rec="3",ТВ-3 HD 🇪🇸
+http://4ba794f5.ottrast.com/iptv/K96HCCYTDKSMB2/5033/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="698" tvg-logo="http://epg.one/img2/698.png" tvg-rec="7",ТВ-3 🇨🇿*
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/C9DFPUSLDSN9QF6G89US54YZ/508/index.m3u8
 #EXTINF:0 group-title="ЭФИР 🧨" tvg-id="698" tvg-logo="http://epg.one/img2/698.png" tvg-rec="7",ТВ-3 🇨🇿*
@@ -458,19 +482,29 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ
 #EXTINF:0 group-title="🕒Общие Плюс🔔" tvg-id="3036" tvg-logo="http://epg.one/img2/3036.png" tvg-rec="0",Звезда +7
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/72GDQ7UXN3TCEZ/6047/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="6773" tvg-logo="http://epg.one/img2/6773.png" tvg-rec="0",НТВ Беларусь BY
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/19371/index.m3u8
+#EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="6773" tvg-logo="http://epg.one/img2/6773.png" tvg-rec="0",НТВ Беларусь BY
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/19371/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="6773" tvg-logo="http://epg.one/img2/6773.png" tvg-rec="0",НТВ Беларусь BY
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/19371/index.m3u8
+#EXTINF:0 group-title="Беларусь🇧🇾"tvg-id="2538" tvg-logo="http://epg.one/img2/2538.png" tvg-rec="3",Беларусь 1
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/2170/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾"tvg-id="2538" tvg-logo="http://epg.one/img2/2538.png" tvg-rec="3",Беларусь 1
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/2170/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾"tvg-id="2538" tvg-logo="http://epg.one/img2/2538.png" tvg-rec="3",Беларусь 1
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/2170/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2540" tvg-logo="http://epg.one/img2/2540.png" tvg-rec="3",Беларусь 3
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/2174/index.m3u8
+#EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2540" tvg-logo="http://epg.one/img2/2540.png" tvg-rec="3",Беларусь 3
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/2174/index.m3u8
+#EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2541" tvg-logo="http://epg.one/img2/2541.png" tvg-rec="3",Беларусь 5 BY
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/5060/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2541" tvg-logo="http://epg.one/img2/2541.png" tvg-rec="3",Беларусь 5 BY
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/D57DXXPP469XZ2/5060/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2541" tvg-logo="http://epg.one/img2/2541.png" tvg-rec="3",Беларусь 5 BY
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/5060/index.m3u8
+#EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2543" tvg-logo="http://epg.one/img2/2543.png" tvg-rec="3",СТВ BY
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/2172/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2543" tvg-logo="http://epg.one/img2/2543.png" tvg-rec="3",СТВ BY
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/9ETYFY3QDH8YBT/2172/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2543" tvg-logo="http://epg.one/img2/2543.png" tvg-rec="3",СТВ BY
@@ -482,11 +516,15 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/1061/inde
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="4627" tvg-logo="http://epg.one/img2/4627.png" tvg-rec="0",Белсат HD
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/9ETYFY3QDH8YBT/10036/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="4627" tvg-logo="http://epg.one/img2/4627.png" tvg-rec="0",Белсат HD
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/10036/index.m3u8
+#EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="4627" tvg-logo="http://epg.one/img2/4627.png" tvg-rec="0",Белсат HD
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/10036/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2294" tvg-logo="http://epg.one/img2/2294.png" tvg-rec="3",Союзный
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/5062/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="2294" tvg-logo="http://epg.one/img2/2294.png" tvg-rec="3",Союзный
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/5062/index.m3u8
+#EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="4626" tvg-logo="http://epg.one/img/4626.png" tvg-rec="0",Яснае HD BY
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/10035/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="4626" tvg-logo="http://epg.one/img/4626.png" tvg-rec="0",Яснае HD BY
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/10035/index.m3u8
 #EXTINF:0 group-title="Беларусь🇧🇾" tvg-id="4626" tvg-logo="http://epg.one/img/4626.png" tvg-rec="0",Яснае HD BY
@@ -497,12 +535,53 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/1015/index.m3u8
 #EXTINF:0 group-title="Украина🇺🇦 | Українські🇺🇦" tvg-id="2227" tvg-logo="http://epg.one/img/2227.png" tvg-rec="3",Київ UA
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/1045/index.m3u8
+#EXTINF:0 tvg-rec="3",Перший Міський HD (Одеса) UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/981/index.m3u8
 #EXTINF:0 group-title="Украина🇺🇦 | Українські🇺🇦" tvg-id="8859" tvg-logo="http://epg.one/img/8859.png" tvg-rec="0",Перший Міський HD (Кривий Ріг) UA🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/31736/index.m3u8
+#EXTINF:0 tvg-rec="0",НТН HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/15011/index.m3u8
+#EXTINF:0 tvg-rec="0",ICTV 2 HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/15235/index.m3u8
+#EXTINF:0 tvg-rec="0",Сфера ТВ HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/15008/index.m3u8
+#EXTINF:0 tvg-rec="3",5 Канал UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/945/index.m3u8
+#EXTINF:0 tvg-rec="0",Kino Comedy HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/31814/index.m3u8
+#EXTINF:0 tvg-rec="0",FilmBox+ Festival UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/31807/index.m3u8
+#EXTINF:0 tvg-rec="0",Kino Premiere HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/31815/index.m3u8
+#EXTINF:0 tvg-rec="0",Kino Action HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/31813/index.m3u8
+#EXTINF:0 tvg-rec="0",FilmUA Live HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/31808/index.m3u8
+#EXTINF:0 tvg-rec="0",Мега HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/15124/index.m3u8
+#EXTINF:0 tvg-rec="0",Новий Канал HD UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/15128/index.m3u8
+#EXTINF:0 tvg-rec="3",НТН UA
+#EXTGRP:Украина🇺🇦 | Українські🇺🇦
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/936/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2051" tvg-logo="http://epg.one/img/2051.png" tvg-rec="7",Матч ТВ HD 50 🇪🇸
 http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/10020/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2051" tvg-logo="http://epg.one/img/2051.png" tvg-rec="7",Матч ТВ HD 50 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/10020/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2051" tvg-logo="http://epg.one/img/2051.png" tvg-rec="7",Матч ТВ HD 50 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/10020/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2051" tvg-logo="http://epg.one/img/2051.png" tvg-rec="7",Матч ТВ HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/212/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2051" tvg-logo="http://epg.one/img/2051.png" tvg-rec="7",Матч ТВ HD 🇨🇿
@@ -511,36 +590,62 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DDW9HTKX2X2QPM/212/index
 http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/535/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2051" tvg-logo="http://epg.one/img/2051.png" tvg-rec="7",Матч ТВ 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/535/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2051" tvg-logo="http://epg.one/img/2051.png" tvg-rec="7",Матч ТВ 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/535/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png" tvg-rec="0",Матч! Премьер HD 50 🇪🇸
 http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/10021/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png" tvg-rec="0",Матч! Премьер HD 50 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/10021/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png" tvg-rec="0",Матч! Премьер HD 50 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/10021/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png" tvg-rec="7",Матч! Премьер HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/220/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png" tvg-rec="7",Матч! Премьер HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/220/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png" tvg-rec="7",Матч! Премьер 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/531/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2250" tvg-logo="http://epg.one/img2/2250.png" tvg-rec="7",Матч! Премьер 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/531/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2044" tvg-logo="http://epg.one/img2/2044.png" tvg-rec="7",Матч! Футбол 1 HD 🇪🇸
 http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/222/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2044" tvg-logo="http://epg.one/img2/2044.png" tvg-rec="7",Матч! Футбол 1 HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/222/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2044" tvg-logo="http://epg.one/img2/2044.png" tvg-rec="7",Матч! Футбол 1 HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/222/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2044" tvg-logo="http://epg.one/img/2044.png" tvg-rec="7",Матч! Футбол 1 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/124/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2044" tvg-logo="http://epg.one/img/2044.png" tvg-rec="7",Матч! Футбол 1 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/124/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="1042" tvg-logo="http://epg.one/img2/1042.png" tvg-rec="7",Матч! Футбол 2 HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/211/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="1042" tvg-logo="http://epg.one/img2/1042.png" tvg-rec="7",Матч! Футбол 2 HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/211/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="1042" tvg-logo="http://epg.one/img2/1042.png" tvg-rec="7",Матч! Футбол 2 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/530/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="1042" tvg-logo="http://epg.one/img2/1042.png" tvg-rec="7",Матч! Футбол 2 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/530/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2005" tvg-logo="http://epg.one/img2/2005.png" tvg-rec="7",Матч! Футбол 3 HD 🇪🇸
 http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/206/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2005" tvg-logo="http://epg.one/img2/2005.png" tvg-rec="7",Матч! Футбол 3 HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/206/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2005" tvg-logo="http://epg.one/img2/2005.png" tvg-rec="7",Матч! Футбол 3 HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/206/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2005" tvg-logo="http://epg.one/img2/2005.png" tvg-rec="7",Матч! Футбол 3 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/522/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2005" tvg-logo="http://epg.one/img2/2005.png" tvg-rec="7",Матч! Футбол 3 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/522/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2530" tvg-logo="http://epg.one/img2/2530.png" tvg-rec="3",Старт HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/6384/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2530" tvg-logo="http://epg.one/img2/2530.png" tvg-rec="3",Старт HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/6384/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="9112" tvg-logo="http://epg.one/img2/9112.png" tvg-rec="0",Старт Триумф HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/16034/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="9112" tvg-logo="http://epg.one/img2/9112.png" tvg-rec="0",Старт Триумф HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/16034/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7517" tvg-logo="http://epg.one/img2/7517.png" tvg-rec="3",Setanta Sports 1 HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/271/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="7517" tvg-logo="http://epg.one/img2/7517.png" tvg-rec="3",Setanta Sports 1 HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/271/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2363" tvg-logo="http://epg.one/img/2363.png" tvg-rec="0",Setanta Sports 2 HD orig 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/6542/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2363" tvg-logo="http://epg.one/img/2363.png" tvg-rec="0",Setanta Sports 2 HD orig 🇨🇿
@@ -581,6 +686,8 @@ http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20135/index.m3u8
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/20135/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7889" tvg-logo="http://epg.one/img2/7889.png" tvg-rec="0",Окко Спорт HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20138/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="7889" tvg-logo="http://epg.one/img2/7889.png" tvg-rec="0",Окко Спорт HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/20138/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2782" tvg-logo="http://epg.one/img2/2782.png" tvg-rec="0",Футбол HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/19244/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2782" tvg-logo="http://epg.one/img2/2782.png" tvg-rec="0",Футбол HD 🇳🇱
@@ -591,6 +698,8 @@ http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/19244/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/20091/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7531" tvg-logo="http://epg.one/img2/7531.png" tvg-rec="3",Fint Ga 1 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20091/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="7531" tvg-logo="http://epg.one/img2/7531.png" tvg-rec="3",Fint Ga 1 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/20091/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7532" tvg-logo="http://epg.one/img2/7532.png" tvg-rec="0",Fint Ga 2 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/20092/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7532" tvg-logo="http://epg.one/img2/7532.png" tvg-rec="0",Fint Ga 2 🇳🇱
@@ -601,6 +710,8 @@ http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/20092/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/20093/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7533" tvg-logo="http://epg.one/img2/7533.png" tvg-rec="0",Fint Ga 3 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20093/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="7533" tvg-logo="http://epg.one/img2/7533.png" tvg-rec="0",Fint Ga 3 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/20093/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7539" tvg-logo="http://epg.one/img2/7539.png" tvg-rec="3",ViP Sport 1 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/20099/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7540" tvg-logo="http://epg.one/img2/7540.png" tvg-rec="3",ViP Sport 2 🇪🇸
@@ -617,12 +728,22 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/2EZAKDSGZZRHAQ/20107/ind
 http://901b3df3.edemist.com/iptv/G8HSPYL2U5KEF6/20107/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7545" tvg-logo="http://epg.one/img2/7545.png" tvg-rec="3",ViP Sport 7 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/2EZAKDSGZZRHAQ/20108/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="7545" tvg-logo="http://epg.one/img2/7545.png" tvg-rec="3",ViP Sport 7 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/20108/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7546" tvg-logo="http://epg.one/img2/7546.png" tvg-rec="0",ViP Sport 8 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/96FNZHEUB9GK66/20109/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7547" tvg-logo="http://epg.one/img2/7547.png" tvg-rec="0",ViP Sport 9 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/96FNZHEUB9GK66/20110/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7548" tvg-logo="http://epg.one/img2/7548.png" tvg-rec="3",ViP Sport 10 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/96FNZHEUB9GK66/20100/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="7548" tvg-logo="http://epg.one/img2/7548.png" tvg-rec="3",ViP Sport 10 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/20100/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="8831" tvg-logo="http://epg.one/img2/8831.png" tvg-rec="0",BOX SportCast HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/31650/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="7890" tvg-logo="http://epg.one/img2/7890.png" tvg-rec="0",BOX SportCast Live 1 HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/20166/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="7891" tvg-logo="http://epg.one/img2/7891.png" tvg-rec="0",BOX SportCast Live 2 HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/20167/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7892" tvg-logo="http://epg.one/img2/7892.png" tvg-rec="0",BOX SportCast Live 3 HD 🇨🇿
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DM5Z5ZG799WVM2/20168/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="7892" tvg-logo="http://epg.one/img2/7892.png" tvg-rec="0",BOX SportCast Live 3 HD 🇨🇿
@@ -702,21 +823,19 @@ http://86f624624.amazzin.pw/iptv/9ETYFY3QDH8YBT/5060/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2052" tvg-logo="http://epg.one/img/2052.png" tvg-rec="7",Eurosport 1 HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/9ETYFY3QDH8YBT/228/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2052" tvg-logo="http://epg.one/img/2052.png" tvg-rec="7",Eurosport 1 HD 🇳🇱
-http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/228/index.m3u8
-#EXTINF:0 group-title="SPORT 🏀" tvg-id="2052" tvg-logo="http://epg.one/img/2052.png" tvg-rec="7",Eurosport 1 HD 🇳🇱
 http://4417651a.rossteleccom.net/iptv/HE5SQDGXRPHALY/228/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2052" tvg-logo="http://epg.one/img/2052.png" tvg-rec="7",Eurosport 1 HD 🇨🇿
 http://901b3df3.edemist.com/iptv/Z9LPP8ZWL9WCSR/228/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="2052" tvg-logo="http://epg.one/img/2052.png" tvg-rec="7",Eurosport 1 🇳🇱
+http://acbpts0g.streamoras.top/iptv/HSD8UEK6E2AENH/141/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2052" tvg-logo="http://epg.one/img/2052.png" tvg-rec="7",Eurosport 1 🇨🇿
 http://6l8sj4ww.vexiumis.top/iptv/MMRPH2Q5M9SZL4/141/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="4313" tvg-logo="http://epg.one/img/4313.png" tvg-rec="7",Eurosport 2 HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/234/index.m3u8
-#EXTINF:0 group-title="SPORT 🏀" tvg-id="4313" tvg-logo="http://epg.one/img/4313.png" tvg-rec="7",Eurosport 2 HD 🇳🇱
-http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/234/index.m3u8
-#EXTINF:0 group-title="SPORT 🏀" tvg-id="4313" tvg-logo="http://epg.one/img/4313.png" tvg-rec="7",Eurosport 2 HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/234/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="4313" tvg-logo="http://epg.one/img/4313.png" tvg-rec="7",Eurosport 2 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/234/index.m3u8
+#EXTINF:0 group-title="SPORT 🏀" tvg-id="4313" tvg-logo="http://epg.one/img/4313.png" tvg-rec="7",Eurosport 2 HD 🇨🇿
+http://ftcxowga.zyntras.top/iptv/XM896GLGDHY76Q/234/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2003" tvg-logo="http://epg.one/img2/2003.png" tvg-rec="7",Матч! Арена HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/FX8YANKAXDBBEM/207/index.m3u8
 #EXTINF:0 group-title="SPORT 🏀" tvg-id="2003" tvg-logo="http://epg.one/img2/2003.png" tvg-rec="7",Матч! Арена HD 🇨🇿
@@ -801,20 +920,14 @@ http://u1oybvgx.lunexas.top/iptv/5RCBW62HM2HTXF/234/index.m3u8
 http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/20066/index.m3u8
 #EXTINF:0 group-title="Спорт✨" tvg-id="1038" tvg-logo="http://epg.one/img/1038.png" tvg-rec="0",KHL Prime HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/19396/index.m3u8
-#EXTINF:0 group-title="Спорт✨" tvg-id="1038" tvg-logo="http://epg.one/img/1038.png" tvg-rec="0",KHL Prime HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19396/index.m3u8
 #EXTINF:0 group-title="Спорт✨" tvg-id="1038" tvg-logo="http://epg.one/img/1038.png" tvg-rec="0",KHL Prime HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/19396/index.m3u8
 #EXTINF:0 group-title="Спорт✨" tvg-id="2048" tvg-logo="http://epg.one/img/2048.png" tvg-rec="7",KHL HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/215/index.m3u8
-#EXTINF:0 group-title="Спорт✨" tvg-id="2048" tvg-logo="http://epg.one/img/2048.png" tvg-rec="7",KHL HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/215/index.m3u8
 #EXTINF:0 group-title="Спорт✨" tvg-id="2048" tvg-logo="http://epg.one/img/2048.png" tvg-rec="7",KHL HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/215/index.m3u8
 #EXTINF:-1 group-title="Sport OTT club 🇺🇦"tvg-id="eurosport1" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/eurosport1_logo.png",Eurosport 1 🇺🇦
 http://live.y666tv.cc/8163/video.m3u8?token=09b9751a49b0f563639b23b4bd2ba1bd
-#EXTINF:-1 group-title="Sport OTT club 🇺🇦"tvg-id="eurosport2" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/eurosport2_logo.png",Eurosport 2 🇺🇦
-http://live.y666tv.cc/8178/video.m3u8?token=09b9751a49b0f563639b23b4bd2ba1bd
 #EXTINF:0 tvg-id="102" tvg-logo="http://epg.cdntv.online/img/102.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Cinema OTT club🇺🇦", Viju TV1000 Русское 🇪🇸
 #EXTGRP: Cinema OTT club🇺🇦
 http://acbpts0g.streamoras.top/iptv/EBX97N4T5NSSM33N49RSNKLN/101/index.m3u8
@@ -830,16 +943,14 @@ http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/202/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/5081/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="1012" tvg-logo="https://karnei4.github.io/convert/logo-z/2813651cbb78d3cedfdc5c2bbfcd5d95.png" tvg-rec="7",Viju+ Megahit HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/201/index.m3u8
-#EXTINF:0 group-title="KINO 🎁" tvg-id="1012" tvg-logo="https://karnei4.github.io/convert/logo-z/2813651cbb78d3cedfdc5c2bbfcd5d95.png" tvg-rec="7",Viju+ Megahit HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/201/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="1012" tvg-logo="https://karnei4.github.io/convert/logo-z/2813651cbb78d3cedfdc5c2bbfcd5d95.png" tvg-rec="7",Viju+ Megahit HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/201/index.m3u8
+#EXTINF:0 group-title="KINO 🎁" tvg-id="1011" tvg-logo="https://karnei4.github.io/convert/logo-z/c2765abd19e67ab5996f9adad3f29b75.png" tvg-rec="7",Viju+ Comedy HD🇨🇿
+http://901b3df3.edemist.com/iptv/XLLWS47TLMFBMWCP56MEZD43/200/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="125" tvg-logo="https://karnei4.github.io/convert/logo-z/870b306c1e157893cbe7aeb31d0af7f3.png" tvg-rec="3",Viju TV1000 Action HD orig 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/9057/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="125" tvg-logo="https://karnei4.github.io/convert/logo-z/870b306c1e157893cbe7aeb31d0af7f3.png" tvg-rec="3",Viju TV1000 Action HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/6386/index.m3u8
-#EXTINF:0 group-title="KINO 🎁" tvg-id="125" tvg-logo="https://karnei4.github.io/convert/logo-z/870b306c1e157893cbe7aeb31d0af7f3.png" tvg-rec="3",Viju TV1000 Action HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/6386/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="125" tvg-logo="https://karnei4.github.io/convert/logo-z/870b306c1e157893cbe7aeb31d0af7f3.png" tvg-rec="3",Viju TV1000 Action HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/6386/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="125" tvg-logo="https://yootv.online/icons/TV1000_Action_HD.png" tvg-rec="7",Viju TV1000 Action 🇪🇸
@@ -851,33 +962,23 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU
 #EXTINF:0 group-title="KINO 🎁" tvg-id="127" tvg-logo="https://karnei4.github.io/convert/logo-z/4803d692fc08de94829388c77ebc6635.png" tvg-rec="3",Viju TV1000 HD 🇳🇱
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/6387/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="127" tvg-logo="https://karnei4.github.io/convert/logo-z/4803d692fc08de94829388c77ebc6635.png" tvg-rec="3",Viju TV1000 HD 🇨🇿
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/6387/index.m3u8
-#EXTINF:0 group-title="KINO 🎁" tvg-id="127" tvg-logo="https://karnei4.github.io/convert/logo-z/4803d692fc08de94829388c77ebc6635.png" tvg-rec="3",Viju TV1000 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/6387/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="127" tvg-logo="https://yootv.online/icons/TV1000_HD.png" tvg-rec="7",Viju TV1000 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/132/index.m3u8
-#EXTINF:0 group-title="KINO 🎁" tvg-id="127" tvg-logo="https://yootv.online/icons/TV1000_HD.png" tvg-rec="3",Viju TV1000 HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/132/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="127" tvg-logo="https://yootv.online/icons/TV1000_HD.png" tvg-rec="3",Viju TV1000 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/132/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="267" tvg-logo="https://karnei4.github.io/convert/logo-z/ae5612bdcce089d4fb5321db519e5ccb.png" tvg-rec="0",Viju TV1000 Русское HD orig 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/9059/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="267" tvg-logo="https://karnei4.github.io/convert/logo-z/ae5612bdcce089d4fb5321db519e5ccb.png" tvg-rec="0",Viju TV1000 Русское HD 🇳🇱
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/6388/index.m3u8
-#EXTINF:0 group-title="KINO 🎁" tvg-id="267" tvg-logo="https://karnei4.github.io/convert/logo-z/ae5612bdcce089d4fb5321db519e5ccb.png" tvg-rec="0",Viju TV1000 Русское HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/6388/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="267" tvg-logo="https://karnei4.github.io/convert/logo-z/ae5612bdcce089d4fb5321db519e5ccb.png" tvg-rec="0",Viju TV1000 Русское HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/6388/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="267" tvg-logo="https://yootv.online/icons/TV1000_rus_kino_HD.png" tvg-rec="7",Viju TV1000 Русское 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/101/index.m3u8
-#EXTINF:0 group-title="KINO 🎁" tvg-id="267" tvg-logo="https://yootv.online/icons/TV1000_rus_kino_HD.png" tvg-rec="0",Viju TV1000 Русское HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/101/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="267" tvg-logo="https://yootv.online/icons/TV1000_rus_kino_HD.png" tvg-rec="0",Viju TV1000 Русское HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/101/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="1584" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B5_%D0%BA%D0%B8%D0%BD%D0%BE.png" tvg-rec="3",Мужское Кино HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/10045/index.m3u8
-#EXTINF:0 group-title="KINO 🎁" tvg-id="1584" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B5_%D0%BA%D0%B8%D0%BD%D0%BE.png" tvg-rec="3",Мужское Кино HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/10045/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="1584" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B5_%D0%BA%D0%B8%D0%BD%D0%BE.png" tvg-rec="3",Мужское Кино HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/10045/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="1584" tvg-logo="https://karnei4.github.io/convert/logo-z/1dd4fdb251a56c05470481ff59576656.png" tvg-rec="3",Мужское Кино HD 🇪🇸
@@ -902,6 +1003,8 @@ http://901b3df3.edemist.com/iptv/U6WF7B4RHF275S/7249/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/509/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg- id="133" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BA%D0%B8%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D1%81.png" tvg-rec="0",Киномикс HD 🇳🇱
 http://9a2f7532.akadatel.com/iptv/Z9LPP8ZWL9WCSR/509/index.m3u8
+#EXTINF:0 group-title="KINO 🎁" tvg-id="566" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BA%D0%B8%D0%BD%D0%BE%D0%BF%D1%80%D0%B5%D0%BC%D1%8C%D0%B5%D1%80%D0%B0.png" tvg-rec="7",Кинопремьера HD 🇪🇸
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/XLLWS47TLMFBMWCP56MEZD43/224/index.m3u8
 #EXTINF:0 group-title="KINO 🎁"tvg-id="566" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BA%D0%B8%D0%BD%D0%BE%D0%BF%D1%80%D0%B5%D0%BC%D1%8C%D0%B5%D1%80%D0%B0.png" tvg-rec="7",Кинопремьера HD 🇨🇿
 http://901b3df3.edemist.com/iptv/2ATGFW9WHHST2M4PQ48D2SNG/224/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="566" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D0%BA%D0%B8%D0%BD%D0%BE%D0%BF%D1%80%D0%B5%D0%BC%D1%8C%D0%B5%D1%80%D0%B0.png" tvg-rec="7",Кинопремьера HD🇨🇿
@@ -930,6 +1033,8 @@ http://9a2f7532.akadatel.com/iptv/PMANKV82HAHF4Z/2056/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/2ATGFW9WHHST2M4PQ48D2SNG/2056/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="rodnoe-kino" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D0%BA%D0%B8%D0%BD%D0%BE.png" tvg-rec="7",Родное Кино 🇨🇿
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/TZT2YUHDYRRDRM/126/index.m3u8
+#EXTINF:0 group-title="KINO 🎁" tvg-id="12" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D0%BA%D0%B8%D0%BD%D0%BE.png" tvg-rec="7",Родное Кино 🇳🇱
+http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/9127/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="12" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D0%BA%D0%B8%D0%BD%D0%BE.png" tvg-rec="7",Родное Кино 🇳🇱
 http://4369ebe9.kazaktelekom.com/iptv/FX8YANKAXDBBEM/126/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="rodnoe-kino" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D0%BA%D0%B8%D0%BD%D0%BE.png" tvg-rec="7",Родное Кино 🇨🇿
@@ -970,6 +1075,8 @@ http://l7psy1ox.zyntras.top/iptv/VRTC2LAHBSG2YS/911/index.m3u8
 http://9a2f7532.akadatel.com/iptv/33RWU7D7E7Z2VG/911/index.m3u8
 #EXTINF:0 group-title="KINO 🎁 " tvg-id="domkino" tvg-logo="https://icon.y666tv.cc/icon/%D0%94%D0%BE%D0%BC%20%D0%9A%D0%B8%D0%BD%D0%BE%20orig.png" tvg-rec="3", Дом Кино 🇨🇿
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Z9LPP8ZWL9WCSR/154/index.m3u8
+#EXTINF:-1 tvg-id="Дом Кино" group-title="KINO 🎁"  tvg-logo="https://icon.y666tv.cc/icon/%D0%94%D0%BE%D0%BC%20%D0%9A%D0%B8%D0%BD%D0%BE%20orig.png" catchup="default" catchup-days="7" catchup-source="http://live.y666tv.cc/8136/video-${start}-${duration}.m3u8?token=09b9751a49b0f563639b23b4bd2ba1bd" timeshift="7", Дом Кино 🇩🇪
+http://live.y666tv.cc/8136/video.m3u8?token=09b9751a49b0f563639b23b4bd2ba1bd
 #EXTINF:0 group-title="KINO 🎁 " tvg-id="2403" tvg-logo="https://karnei4.github.io/convert/logo-z/58e633cb619b1335c521010a80cff9f2.png" tvg-rec="3",Иллюзион+ HD orig 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/33RWU7D7E7Z2VG/9079/index.m3u8
 #EXTINF:0 group-title="KINO 🎁 " tvg-id="2403" tvg-logo="https://karnei4.github.io/convert/logo-z/58e633cb619b1335c521010a80cff9f2.png" tvg-rec="3",Иллюзион+ HD orig 🇨🇿
@@ -986,6 +1093,8 @@ http://901b3df3.edemist.com/iptv/U6WF7B4RHF275S/2114/index.m3u8
 http://901b3df3.edemist.com/iptv/HUHD4R93BHAACTNFQWLBC3DZ/547/index.m3u8
 #EXTINF:0 group-title="KINO 🎁 " tvg-id="russky-illuzion" tvg-logo="https://karnei4.github.io/convert/logo-z/c88b3f226f02d9b98adeada85ee6c50e.png" tvg-rec="3",Русский иллюзион HD 🇳🇱
 http://86f624624.amazzin.pw/iptv/Z9LPP8ZWL9WCSR/547/index.m3u8
+#EXTINF:0 group-title="KINO 🎁" tvg-id="1588" tvg-logo="http://epg.one/img2/1588.png" tvg-rec="7",Остросюжетное 🇪🇸
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/XLLWS47TLMFBMWCP56MEZD43/904/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="1588" tvg-logo="http://epg.one/img2/1588.png" tvg-rec="7",Остросюжетное HD 🇳🇱
 http://86f624624.amazzin.pw/iptv/VRTC2LAHBSG2YS/904/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="1588" tvg-logo="http://epg.one/img2/1588.png" tvg-rec="7",Остросюжетное HD 🇳🇱
@@ -1008,14 +1117,14 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/9ETYFY3QDH8YBT/7260/inde
 http://brt4bmz1.nexeraso.top/iptv/2ATGFW9WHHST2M4PQ48D2SNG/7260/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="4466" tvg-logo="http://epg.one/img2/4466.png" tvg-rec="0",KinoJam 1 HD 🇳🇱
 http://ax0x2jeb.vexiumis.top/iptv/33RWU7D7E7Z2VG/7260/index.m3u8
+#EXTINF:0 group-title="KINO 🎁"  tvg-id="4467" tvg-logo="http://epg.one/img2/4467.png" tvg-rec="0",KinoJam 2 HD 🇪🇸
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/XLLWS47TLMFBMWCP56MEZD43/7261/index.m3u8
 #EXTINF:0 group-title="KINO 🎁"  tvg-id="4467" tvg-logo="http://epg.one/img2/4467.png" tvg-rec="0",KinoJam 2 HD 🇳🇱
 http://a661c782.ucomist.net/iptv/VRTC2LAHBSG2YS/7261/index.m3u8
 #EXTINF:0 group-title="KINO 🎁"  tvg-id="4467" tvg-logo="http://epg.one/img2/4467.png" tvg-rec="0",KinoJam 2 HD 🇨🇿
 http://901b3df3.edemist.com/iptv/33RWU7D7E7Z2VG/7261/index.m3u8
 #EXTINF:0 group-title="KINO 🎁 " tvg-id="2831" tvg-logo="http://epg.one/img/2831.png" tvg-rec="3",Наш Кинопоказ HD 🇳🇱
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/2434/index.m3u8
-#EXTINF:0 group-title="KINO 🎁 " tvg-id="2831" tvg-logo="http://epg.one/img/2831.png" tvg-rec="3",Наш Кинопоказ HD 🇨🇿
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/2434/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="2834" tvg-logo="http://epg.one/img2/2834.png" tvg-rec="3",Кинопоказ HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/EAMZWV3TFEVWL3/2439/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="2834" tvg-logo="http://epg.one/img2/2834.png" tvg-rec="3",Кинопоказ HD 🇨🇿
@@ -1077,6 +1186,8 @@ http://901b3df3.edemist.com/iptv/U6WF7B4RHF275S/5052/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="2447" tvg-logo="http://epg.one/img2/2447.png" tvg-rec="7",Победа 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/2ATGFW9WHHST2M4PQ48D2SNG/2003/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="2447" tvg-logo="http://epg.one/img2/2447.png" tvg-rec="7",Победа 🇨🇿
+http://901b3df3.edemist.com/iptv/XLLWS47TLMFBMWCP56MEZD43/2003/index.m3u8
+#EXTINF:0 group-title="KINO 🎁" tvg-id="2447" tvg-logo="http://epg.one/img2/2447.png" tvg-rec="7",Победа 🇨🇿
 http://86f624624.amazzin.pw/iptv/33RWU7D7E7Z2VG/2003/index.m3u8
 #EXTINF:0 group-title="KINO 🎁"  tvg-id="1570" tvg-logo="http://epg.one/img2/1570.png" tvg-rec="7",Русский детектив 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/GPD2N3AEEZZ9XT/907/index.m3u8
@@ -1126,8 +1237,6 @@ http://ax0x2jeb.vexiumis.top/iptv/275EP3V8V4MZHG8KQGLFDPSK/20021/index.m3u8
 http://4ba794f5.ottrast.com/iptv/K7EMHCB2D66ZE8/20021/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="9180" tvg-logo="http://epg.one/img/9180.png" tvg-rec="0",9-1-1 HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU/2049/index.m3u8
-#EXTINF:0 group-title="KINO 🎁" tvg-id="suspense" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/suspense_logo.png" tvg-rec="0",9-1-1 HD 🇪🇸
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/2049/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="suspense" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/suspense_logo.png" tvg-rec="0",9-1-1 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/2049/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="518" tvg-logo="http://epg.one/img2/518.png" tvg-rec="7",НСТ 🇳🇱
@@ -1196,368 +1305,218 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/9135/inde
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/D57DXXPP469XZ2/550/index.m3u8
 #EXTINF:0 group-title="KINO 🎁" tvg-id="7314" tvg-logo="http://epg.one/img2/7314.png" tvg-rec="7",Кинеко 🇨🇿
 http://901b3df3.edemist.com/iptv/33RWU7D7E7Z2VG/550/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8790" tvg-logo="http://epg.one/img2/8790.png" tvg-rec="0",Z!Russian HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31704/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8790" tvg-logo="http://epg.one/img2/8790.png" tvg-rec="0",Z!Russian HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31704/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="1114" tvg-logo="http://epg.one/img2/1114.png" tvg-rec="0",Z!Comedy HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/14135/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="1114" tvg-logo="http://epg.one/img2/1114.png" tvg-rec="0",Z!Comedy HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/14135/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8782" tvg-logo="http://epg.one/img2/8782.png" tvg-rec="0",Z!Thriller HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31693/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8782" tvg-logo="http://epg.one/img2/8782.png" tvg-rec="0",Z!Thriller HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31693/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8783" tvg-logo="http://epg.one/img2/8783.png" tvg-rec="0",Z!Action HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31694/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8783" tvg-logo="http://epg.one/img2/8783.png" tvg-rec="0",Z!Action HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31694/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8784" tvg-logo="http://epg.one/img2/8784.png" tvg-rec="0",Z!Adventure HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31698/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8784" tvg-logo="http://epg.one/img2/8784.png" tvg-rec="0",Z!Adventure HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31698/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8785" tvg-logo="http://epg.one/img2/8785.png" tvg-rec="0",Z!Detective HD 🇨🇿
+http://05cea6e8.ucomist.net/iptv/HSD8UEK6E2AENH/31699/index.m3u8
+#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8785" tvg-logo="http://epg.one/img2/8785.png" tvg-rec="0",Z!Detective HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31699/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8787" tvg-logo="http://epg.one/img2/8787.png" tvg-rec="0",Z!Family HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31701/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8787" tvg-logo="http://epg.one/img2/8787.png" tvg-rec="0",Z!Family HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31701/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8788" tvg-logo="http://epg.one/img2/8788.png" tvg-rec="0",Z!Fantastic HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31702/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8788" tvg-logo="http://epg.one/img2/8788.png" tvg-rec="0",Z!Fantastic HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31702/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8789" tvg-logo="http://epg.one/img2/8789.png" tvg-rec="0",Z!Fantasy HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31703/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8789" tvg-logo="http://epg.one/img2/8789.png" tvg-rec="0",Z!Fantasy HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31703/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8786" tvg-logo="http://epg.one/img2/8786.png" tvg-rec="0",Z!Drama HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31700/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8786" tvg-logo="http://epg.one/img2/8786.png" tvg-rec="0",Z!Drama HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31700/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="1113" tvg-logo="http://epg.one/img2/1113.png" tvg-rec="0",Z!Channel HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/14134/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="1113" tvg-logo="http://epg.one/img2/1113.png" tvg-rec="0",Z!Channel HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/14134/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8820" tvg-logo="http://epg.one/img2/8820.png" tvg-rec="0",Z!Military HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31696/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8820" tvg-logo="http://epg.one/img2/8820.png" tvg-rec="0",Z!Military HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31696/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8821" tvg-logo="http://epg.one/img2/8821.png" tvg-rec="0",Z!Biography HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31697/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8821" tvg-logo="http://epg.one/img2/8821.png" tvg-rec="0",Z!Biography HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31697/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="1115" tvg-logo="http://epg.one/img2/1115.png" tvg-rec="0",Z!Crime HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/14136/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="1115" tvg-logo="http://epg.one/img2/1115.png" tvg-rec="0",Z!Crime HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/14136/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="1116" tvg-logo="http://epg.one/img2/1116.png" tvg-rec="0",Z!Horror HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/14137/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="1116" tvg-logo="http://epg.one/img2/1116.png" tvg-rec="0",Z!Horror HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/14137/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5898" tvg-logo="http://epg.one/img2/5898.png" tvg-rec="0",Z!Serial HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/15140/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5898" tvg-logo="http://epg.one/img2/5898.png" tvg-rec="0",Z!Serial HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/15140/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5899" tvg-logo="http://epg.one/img2/5899.png" tvg-rec="0",Z!Sitcom HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/15141/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5899" tvg-logo="http://epg.one/img2/5899.png" tvg-rec="0",Z!Sitcom HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/15141/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8760" tvg-logo="http://epg.one/img2/8760.png" tvg-rec="0",VeleS 60fps 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31637/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8760" tvg-logo="http://epg.one/img2/8760.png" tvg-rec="0",VeleS 60fps 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31637/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8761" tvg-logo="http://epg.one/img2/8761.png" tvg-rec="0",VeleS Киноплёнка 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31638/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8763" tvg-logo="http://epg.one/img2/8763.png" tvg-rec="0",VeleS Premiere 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/31641/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8763" tvg-logo="http://epg.one/img2/8763.png" tvg-rec="0",VeleS Premiere 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31641/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8763" tvg-logo="http://epg.one/img2/8763.png" tvg-rec="0",VeleS Premiere 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31641/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8764" tvg-logo="http://epg.one/img2/8764.png" tvg-rec="0",VeleS Страшное 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31642/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8764" tvg-logo="http://epg.one/img2/8764.png" tvg-rec="0",VeleS Страшное 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31642/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8765" tvg-logo="http://epg.one/img2/8765.png" tvg-rec="0",VeleS СССР 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31643/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8765" tvg-logo="http://epg.one/img2/8765.png" tvg-rec="0",VeleS СССР 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31643/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8762" tvg-logo="http://epg.one/img2/8762.png" tvg-rec="0",VeleS Киносерия 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31640/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8762" tvg-logo="http://epg.one/img2/8762.png" tvg-rec="0",VeleS Киносерия 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31640/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8766" tvg-logo="http://epg.one/img2/8766.png" tvg-rec="0",VeleS Movie Hits 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31644/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8766" tvg-logo="http://epg.one/img2/8766.png" tvg-rec="0",VeleS Movie Hits 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31644/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4762" tvg-logo="http://epg.one/img2/4762.png" tvg-rec="7",BCU Russian HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11041/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4762" tvg-logo="http://epg.one/img2/4762.png" tvg-rec="7",BCU Russian HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11041/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4747" tvg-logo="http://epg.one/img2/4747.png" tvg-rec="7",BCU СССР HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11026/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4747" tvg-logo="http://epg.one/img2/4747.png" tvg-rec="7",BCU СССР HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11026/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4767" tvg-logo="http://epg.one/img2/4767.png" tvg-rec="7",BCU RuSerial HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11046/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4767" tvg-logo="http://epg.one/img2/4767.png" tvg-rec="7",BCU RuSerial HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11046/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5515" tvg-logo="http://epg.one/img2/5515.png" tvg-rec="0",BCU Comedy HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11031/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5515" tvg-logo="http://epg.one/img2/5515.png" tvg-rec="0",BCU Comedy HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/15026/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4748" tvg-logo="http://epg.one/img2/4748.png" tvg-rec="7",BCU Action HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11027/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4748" tvg-logo="http://epg.one/img2/4748.png" tvg-rec="7",BCU Action HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11027/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4760" tvg-logo="http://epg.one/img2/4760.png" tvg-rec="7",BCU Premiere HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11039/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4760" tvg-logo="http://epg.one/img2/4760.png" tvg-rec="7",BCU Premiere HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11039/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4736" tvg-logo="http://epg.one/img2/4736.png" tvg-rec="7",BCU Premiere1 HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11015/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4736" tvg-logo="http://epg.one/img2/4736.png" tvg-rec="7",BCU Premiere1 HD🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11015/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4737" tvg-logo="http://epg.one/img2/4737.png" tvg-rec="7",BCU Premiere 2 HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11016/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4737" tvg-logo="http://epg.one/img2/4737.png" tvg-rec="7",BCU Premiere 2 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11016/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4738" tvg-logo="http://epg.one/img2/4738.png" tvg-rec="7",BCU Premiere 3 HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11017/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4738" tvg-logo="http://epg.one/img2/4738.png" tvg-rec="7",BCU Premiere 3 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11017/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4751" tvg-logo="http://epg.one/img2/4751.png" tvg-rec="7",BCU Cinema+ HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11030/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4751" tvg-logo="http://epg.one/img2/4751.png" tvg-rec="7",BCU Cinema+ HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11030/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4750" tvg-logo="http://epg.one/img2/4750.png" tvg-rec="7",BCU Cinema HDR 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11029/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4750" tvg-logo="http://epg.one/img2/4750.png" tvg-rec="7",BCU Cinema HDR 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11029/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4749" tvg-logo="http://epg.one/img2/4749.png" tvg-rec="7",BCU Catastrophe 🇳🇱 HDR
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11028/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4749" tvg-logo="http://epg.one/img2/4749.png" tvg-rec="7",BCU Catastrophe 🇨🇿 HDR
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11028/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4769" tvg-logo="http://epg.one/img2/4769.png" tvg-rec="7",BCU Criminal HDR 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11048/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4769" tvg-logo="http://epg.one/img2/4769.png" tvg-rec="7",BCU Criminal HDR 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11048/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4769" tvg-logo="http://epg.one/img2/4769.png" tvg-rec="7",BCU Criminal HDR 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11048/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4753" tvg-logo="http://epg.one/img2/4753.png" tvg-rec="7",BCU Fantastic HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11032/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4753" tvg-logo="http://epg.one/img2/4753.png" tvg-rec="7",BCU Fantastic HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11032/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4753" tvg-logo="http://epg.one/img2/4753.png" tvg-rec="7",BCU Fantastic HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11032/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4754" tvg-logo="http://epg.one/img2/4754.png" tvg-rec="7",BCU FilMystic HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11033/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4754" tvg-logo="http://epg.one/img2/4754.png" tvg-rec="7",BCU FilMystic HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11033/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4754" tvg-logo="http://epg.one/img2/4754.png" tvg-rec="7",BCU FilMystic HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11033/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4755" tvg-logo="http://epg.one/img2/4755.png" tvg-rec="7",BCU History HDR 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11034/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4755" tvg-logo="http://epg.one/img2/4755.png" tvg-rec="7",BCU History HDR 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11034/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4755" tvg-logo="http://epg.one/img2/4755.png" tvg-rec="7",BCU History HDR 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11034/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4758" tvg-logo="http://epg.one/img2/4758.png" tvg-rec="7",BCU Kinorating 🇪🇸 HDR
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11037/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4758" tvg-logo="http://epg.one/img2/4758.png" tvg-rec="7",BCU Kinorating 🇳🇱 HDR
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11037/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4758" tvg-logo="http://epg.one/img2/4758.png" tvg-rec="7",BCU Kinorating 🇨🇿 HDR
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11037/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8964" tvg-logo="http://epg.one/img2/8964.png" tvg-rec="7",BCU Marvel HDR 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11038/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8964" tvg-logo="http://epg.one/img2/8964.png" tvg-rec="7",BCU Marvel HDR 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11038/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8964" tvg-logo="http://epg.one/img2/8964.png" tvg-rec="7",BCU Marvel HDR 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11038/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4761" tvg-logo="http://epg.one/img2/4761.png" tvg-rec="7",BCU Romantic HDR 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11040/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4761" tvg-logo="http://epg.one/img2/4761.png" tvg-rec="7",BCU Romantic HDR 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11040/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4761" tvg-logo="http://epg.one/img2/4761.png" tvg-rec="7",BCU Romantic HDR 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11040/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4763" tvg-logo="http://epg.one/img2/4763.png" tvg-rec="7",BCU VHS HDR 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11042/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4763" tvg-logo="http://epg.one/img2/4763.png" tvg-rec="7",BCU VHS HDR 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11042/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4763" tvg-logo="http://epg.one/img2/4763.png" tvg-rec="7",BCU VHS HDR 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11042/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4765" tvg-logo="http://epg.one/img2/4765.png" tvg-rec="7",BCU Stars HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11044/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4765" tvg-logo="http://epg.one/img2/4765.png" tvg-rec="7",BCU Stars HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11044/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4765" tvg-logo="http://epg.one/img2/4765.png" tvg-rec="7",BCU Stars HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11044/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6175" tvg-logo="http://epg.one/img2/6175.png" tvg-rec="0",BCU Survival HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/17019/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6175" tvg-logo="http://epg.one/img2/6175.png" tvg-rec="0",BCU Survival HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/17019/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6175" tvg-logo="http://epg.one/img2/6175.png" tvg-rec="0",BCU Survival HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/17019/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4691" tvg-logo="http://epg.one/img/4691.png" tvg-rec="7",CineMan РуКино 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11013/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4691" tvg-logo="http://epg.one/img/4691.png" tvg-rec="7",CineMan РуКино 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11013/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4691" tvg-logo="http://epg.one/img/4691.png" tvg-rec="7",CineMan РуКино 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11013/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4689" tvg-logo="http://epg.one/img2/4689.png" tvg-rec="7",CineMan Комедия 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11011/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4689" tvg-logo="http://epg.one/img2/4689.png" tvg-rec="7",CineMan Комедия 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11011/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4689" tvg-logo="http://epg.one/img2/4689.png" tvg-rec="7",CineMan Комедия 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11011/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4690" tvg-logo="http://epg.one/img2/4690.png" tvg-rec="7",CineMan VHS 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11012/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4690" tvg-logo="http://epg.one/img2/4690.png" tvg-rec="7",CineMan VHS 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11012/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4690" tvg-logo="http://epg.one/img2/4690.png" tvg-rec="7",CineMan VHS 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11012/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4682" tvg-logo="http://epg.one/img2/4682.png" tvg-rec="7",CineMan 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11004/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4682" tvg-logo="http://epg.one/img2/4682.png" tvg-rec="7",CineMan 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11004/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4682" tvg-logo="http://epg.one/img2/4682.png" tvg-rec="7",CineMan 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11004/index.m3u8
 #EXTINF:0 group-title=" 📺Кинозалы👑🐦‍🔥🌍" tvg-id="4683" tvg-logo="http://epg.one/img2/4683.png" tvg-rec="7",CineMan Top 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11005/index.m3u8
-#EXTINF:0 group-title=" 📺Кинозалы👑🐦‍🔥🌍" tvg-id="4683" tvg-logo="http://epg.one/img2/4683.png" tvg-rec="7",CineMan Top 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11005/index.m3u8
 #EXTINF:0 group-title=" 📺Кинозалы👑🐦‍🔥🌍" tvg-id="4683" tvg-logo="http://epg.one/img2/4683.png" tvg-rec="7",CineMan Top 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11005/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7485" tvg-logo="http://epg.one/img2/7485.png" tvg-rec="0",CineMan Premium 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/20112/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7485" tvg-logo="http://epg.one/img2/7485.png" tvg-rec="0",CineMan Premium 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20112/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7485" tvg-logo="http://epg.one/img2/7485.png" tvg-rec="0",CineMan Premium 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/20112/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4684" tvg-logo="http://epg.one/img2/4684.png" tvg-rec="7",CineMan Action 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11006/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4684" tvg-logo="http://epg.one/img2/4684.png" tvg-rec="7",CineMan Action 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11006/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4684" tvg-logo="http://epg.one/img2/4684.png" tvg-rec="7",CineMan Action 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11006/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4685" tvg-logo="http://epg.one/img2/4685.png" tvg-rec="7",CineMan Thriller 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11007/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4685" tvg-logo="http://epg.one/img2/4685.png" tvg-rec="7",CineMan Thriller 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11007/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4685" tvg-logo="http://epg.one/img2/4685.png" tvg-rec="7",CineMan Thriller 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11007/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5585" tvg-logo="http://epg.one/img2/5585.png" tvg-rec="0",CineMan 🇪🇸Катастрофы
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/15106/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5585" tvg-logo="http://epg.one/img2/5585.png" tvg-rec="0",CineMan 🇳🇱Катастрофы
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/15106/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5585" tvg-logo="http://epg.one/img2/5585.png" tvg-rec="0",CineMan 🇨🇿Катастрофы
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/15106/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4686" tvg-logo="http://epg.one/img2/4686.png" tvg-rec="7",CineMan 🇪🇸Мелодрама
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11008/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4686" tvg-logo="http://epg.one/img2/4686.png" tvg-rec="7",CineMan 🇳🇱Мелодрама
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11008/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4686" tvg-logo="http://epg.one/img2/4686.png" tvg-rec="7",CineMan 🇨🇿Мелодрама
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11008/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4687" tvg-logo="http://epg.one/img2/4687.png" tvg-rec="7",CineMan Marvel 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11009/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4687" tvg-logo="http://epg.one/img2/4687.png" tvg-rec="7",CineMan Marvel 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11009/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4687" tvg-logo="http://epg.one/img2/4687.png" tvg-rec="7",CineMan Marvel 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11009/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4688" tvg-logo="http://epg.one/img2/4688.png" tvg-rec="7",CineMan Ужасы 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11010/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4688" tvg-logo="http://epg.one/img2/4688.png" tvg-rec="7",CineMan Ужасы 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11010/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4688" tvg-logo="http://epg.one/img2/4688.png" tvg-rec="7",CineMan Ужасы 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11010/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="11884" tvg-logo="http://epg.one/img2/11884.png" tvg-rec="0",CineMan 🇳🇱Военные Сериалы HD
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/32230/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="11884" tvg-logo="http://epg.one/img2/11884.png" tvg-rec="0",CineMan 🇨🇿Военные Сериалы HD
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/32230/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="9437" tvg-logo="http://epg.one/img2/9437.png" tvg-rec="0",CineMan 🇳🇱Комедийные Сериалы
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31628/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="9437" tvg-logo="http://epg.one/img2/9437.png" tvg-rec="0",CineMan 🇨🇿Комедийные Сериалы
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31628/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="9436" tvg-logo="http://epg.one/img2/9436.png" tvg-rec="0",CineMan 🇪🇸Криминальные Сериалы
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/31626/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="9436" tvg-logo="http://epg.one/img2/9436.png" tvg-rec="0",CineMan 🇳🇱Криминальные Сериалы
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31626/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5163" tvg-logo="http://epg.one/img2/5163.png" tvg-rec="0",MM Роскино HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13050/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5163" tvg-logo="http://epg.one/img2/5163.png" tvg-rec="0",MM Роскино HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13050/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5163" tvg-logo="http://epg.one/img2/5163.png" tvg-rec="0",MM Роскино HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13050/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5127" tvg-logo="http://epg.one/img2/5127.png" tvg-rec="0",MM NewFilm RU HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13014/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5127" tvg-logo="http://epg.one/img2/5127.png" tvg-rec="0",MM NewFilm RU HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13014/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5127" tvg-logo="http://epg.one/img2/5127.png" tvg-rec="0",MM NewFilm RU HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13014/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5132" tvg-logo="http://epg.one/img2/5132.png" tvg-rec="0",MM USSR Комедия HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13019/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5132" tvg-logo="http://epg.one/img2/5132.png" tvg-rec="0",MM USSR Комедия HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13019/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5132" tvg-logo="http://epg.one/img2/5132.png" tvg-rec="0",MM USSR Комедия HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13019/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5570" tvg-logo="http://epg.one/img2/5570.png" tvg-rec="0",MM USSR Приключения HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13060/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5570" tvg-logo="http://epg.one/img2/5570.png" tvg-rec="0",MM USSR Приключения HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13060/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5570" tvg-logo="http://epg.one/img2/5570.png" tvg-rec="0",MM USSR Приключения HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13060/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5209" tvg-logo="http://epg.one/img2/5209.png" tvg-rec="0",MM USSR Детектив HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13096/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5209" tvg-logo="http://epg.one/img2/5209.png" tvg-rec="0",MM USSR Детектив HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13096/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5209" tvg-logo="http://epg.one/img2/5209.png" tvg-rec="0",MM USSR Детектив HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13096/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5150" tvg-logo="http://epg.one/img2/5150.png" tvg-rec="0",MM Комедия Classic HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13037/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5150" tvg-logo="http://epg.one/img2/5150.png" tvg-rec="0",MM Комедия Classic HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13037/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5150" tvg-logo="http://epg.one/img2/5150.png" tvg-rec="0",MM Комедия Classic HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13037/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5151" tvg-logo="http://epg.one/img2/5151.png" tvg-rec="0",MM Комедия HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13038/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5151" tvg-logo="http://epg.one/img2/5151.png" tvg-rec="0",MM Комедия HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13038/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5151" tvg-logo="http://epg.one/img2/5151.png" tvg-rec="0",MM Комедия HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13038/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5140" tvg-logo="http://epg.one/img2/5140.png" tvg-rec="0",MM Боевик Classic HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13027/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5140" tvg-logo="http://epg.one/img2/5140.png" tvg-rec="0",MM Боевик Classic HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13027/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5140" tvg-logo="http://epg.one/img2/5140.png" tvg-rec="0",MM Боевик Classic HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13027/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5141" tvg-logo="http://epg.one/img2/5141.png" tvg-rec="0",MM Боевик HD 🇳🇱
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PLKYEKSX6SGE6A88XMV6FTQP/13028/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5141" tvg-logo="http://epg.one/img2/5141.png" tvg-rec="0",MM Боевик HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13028/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5141" tvg-logo="http://epg.one/img2/5141.png" tvg-rec="0",MM Боевик HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13028/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5171" tvg-logo="http://epg.one/img2/5171.png" tvg-rec="0",MM Триллер HD 🇳🇱
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PLKYEKSX6SGE6A88XMV6FTQP/13058/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5171" tvg-logo="http://epg.one/img2/5171.png" tvg-rec="0",MM Триллер HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13058/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5171" tvg-logo="http://epg.one/img2/5171.png" tvg-rec="0",MM Триллер HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13058/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5124" tvg-logo="http://epg.one/img2/5124.png" tvg-rec="0",MM NewFilm 1 HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13011/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5124" tvg-logo="http://epg.one/img2/5124.png" tvg-rec="0",MM NewFilm 1 HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13011/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5124" tvg-logo="http://epg.one/img2/5124.png" tvg-rec="0",MM NewFilm 1 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13011/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5125" tvg-logo="http://epg.one/img2/5125.png" tvg-rec="0",MM NewFilm 2 HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13012/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5125" tvg-logo="http://epg.one/img2/5125.png" tvg-rec="0",MM NewFilm 2 HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13012/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5125" tvg-logo="http://epg.one/img2/5125.png" tvg-rec="0",MM NewFilm 2 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13012/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5126" tvg-logo="http://epg.one/img2/5126.png" tvg-rec="0",MM NewFilm 3 HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13013/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5126" tvg-logo="http://epg.one/img2/5126.png" tvg-rec="0",MM NewFilm 3 HD 🇳🇱
-http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13013/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5126" tvg-logo="http://epg.one/img2/5126.png" tvg-rec="0",MM NewFilm 3 HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13013/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5147" tvg-logo="http://epg.one/img2/5147.png" tvg-rec="0",MM Катастрофа HD 🇪🇸
@@ -1630,66 +1589,36 @@ http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13098/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/13099/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5212" tvg-logo="http://epg.one/img2/5212.png" tvg-rec="0",MM Ужасы HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13099/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5215" tvg-logo="http://epg.one/img2/5215.png" tvg-rec="0",MM Ужасы Classic HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/14128/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5215" tvg-logo="http://epg.one/img2/5215.png" tvg-rec="0",MM Ужасы Classic HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/14128/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5172" tvglogo="http://epg.one/img2/5172.png" tvg-rec="0",MM Ужастик HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/13059/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5172" tvglogo="http://epg.one/img2/5172.png" tvg-rec="0",MM Ужастик HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13059/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5137" tvg-logo="http://epg.one/img2/5137.png" tvg-rec="0",MM Агата Кристи HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/13024/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5137" tvg-logo="http://epg.one/img2/5137.png" tvg-rec="0",MM Агата Кристи HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13024/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5122" tvg-logo="http://epg.one/img2/5122.png" tvg-rec="0",MM 007 HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/13009/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5122" tvg-logo="http://epg.one/img2/5122.png" tvg-rec="0",MM 007 HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/13009/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4721" tvg-logo="http://epg.one/img2/4721.png" tvg-rec="7",PG РуКино HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11096/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4721" tvg-logo="http://epg.one/img2/4721.png" tvg-rec="7",PG РуКино HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11096/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4727" tvg-logo="http://epg.one/img2/4727.png" tvg-rec="7",PG USSR HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11102/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4727" tvg-logo="http://epg.one/img2/4727.png" tvg-rec="7",PG USSR HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11102/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4719" tvg-logo="http://epg.one/img2/4719.png" tvg-rec="7",PG Premiere HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11094/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4719" tvg-logo="http://epg.one/img2/4719.png" tvg-rec="7",PG Premiere HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11094/index.m3u8
-#EXTINF:0 group-title=" 📺Кинозалы👑🐦‍🔥🌍" tvg-id="4720" tvg-logo="http://epg.one/img2/4720.png" tvg-rec="7",PG Premium HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11095/index.m3u8
 #EXTINF:0 group-title=" 📺Кинозалы👑🐦‍🔥🌍" tvg-id="4720" tvg-logo="http://epg.one/img2/4720.png" tvg-rec="7",PG Premium HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11095/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4724" tvg-logo="http://epg.one/img2/4724.png" tvg-rec="7",PG Thriller HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11099/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4724" tvg-logo="http://epg.one/img2/4724.png" tvg-rec="7",PG Thriller HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11099/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4726" tvg-logo="http://epg.one/img2/4726.png" tvg-rec="7",PG Serial HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11101/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4726" tvg-logo="http://epg.one/img2/4726.png" tvg-rec="7",PG Serial HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11101/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5462" tvg-logo="http://epg.one/img2/5462.png" tvg-rec="0",PG VHS HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/15000/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="5462" tvg-logo="http://epg.one/img2/5462.png" tvg-rec="0",PG VHS HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/15000/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4722" tvg-logo="http://epg.one/img2/4722.png" tvg-rec="7",PG Victory HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11097/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4722" tvg-logo="http://epg.one/img2/4722.png" tvg-rec="7",PG Victory HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11097/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4723" tvg-logo="http://epg.one/img2/4723.png" tvg-rec="7",PG Paradox HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11098/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4723" tvg-logo="http://epg.one/img2/4723.png" tvg-rec="7",PG Paradox HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11098/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4725" tvg-logo="http://epg.one/img2/4725.png" tvg-rec="7",PG Paradise HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/11100/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4725" tvg-logo="http://epg.one/img2/4725.png" tvg-rec="7",PG Paradise HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11100/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4725" tvg-logo="http://epg.one/img2/4725.png" tvg-rec="7",PG Paradise HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11100/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6836" tvg-logo="http://epg.one/img2/6836.png" tvg-rec="0",PG Insomnia HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/19398/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6836" tvg-logo="http://epg.one/img2/6836.png" tvg-rec="0",PG Insomnia HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19398/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6836" tvg-logo="http://epg.one/img2/6836.png" tvg-rec="0",PG Insomnia HD🇨🇿
@@ -1722,8 +1651,6 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11069/ind
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11069/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4779" tvg-logo="http://epg.one/img2/4779.png" tvg-rec="7",StrahTV Страх HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11069/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8801" tvg-logo="http://epg.one/img2/8801.png" tvg-rec="0",StrahTV Страх 2.0 HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/31720/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8801" tvg-logo="http://epg.one/img2/8801.png" tvg-rec="0",StrahTV Страх 2.0 HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31720/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4776" tvg-logo="http://epg.one/img2/4776.png" tvg-rec="7",StrahTV VHS HD 🇪🇸
@@ -1744,12 +1671,8 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/11055/ind
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/11055/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4693" tvg-logo="http://epg.one/img2/4693.png" tvg-rec="7",StrahTV The X-Files 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/11055/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8795" tvg-logo="http://epg.one/img2/8795.png" tvg-rec="0",StrahTV Коломбо 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/31713/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8795" tvg-logo="http://epg.one/img2/8795.png" tvg-rec="0",StrahTV Коломбо 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31713/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="88023" tvg-logo="http://epg.one/img2/88023.png" tvg-rec="0",StrahTV Однажды в милиции 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/31715/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="88023" tvg-logo="http://epg.one/img2/88023.png" tvg-rec="0",StrahTV Однажды в милиции 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31715/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6136" tvg-logo="http://epg.one/img2/6136.png" tvg-rec="0",Citrus Comedy 🇪🇸
@@ -1828,18 +1751,18 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/18125/ind
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/18125/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6329" tvg-logo="http://epg.one/img2/6329.png" tvg-rec="0",VF Беларусьфильм 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/18125/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6155" tvg-logo="http://epg.one/img2/6155.png" tvg-rec="0",VF Эльдар Рязанов 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/17012/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6155" tvg-logo="http://epg.one/img2/6155.png" tvg-rec="0",VF Эльдар Рязанов 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/17012/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6148" tvg-logo="http://epg.one/img2/6148.png" tvg-rec="0",VF Леонид Гайдай 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/17004/index.m3u8
+#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6155" tvg-logo="http://epg.one/img2/6155.png" tvg-rec="0",VF Эльдар Рязанов 🇨🇿
+http://05cea6e8.ucomist.net/iptv/HSD8UEK6E2AENH/17012/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6148" tvg-logo="http://epg.one/img2/6148.png" tvg-rec="0",VF Леонид Гайдай 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/17004/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6144" tvg-logo="http://epg.one/img2/6144.png" tvg-rec="0",VF Луи де Фюнес 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/17000/index.m3u8
+#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6148" tvg-logo="http://epg.one/img2/6148.png" tvg-rec="0",VF Леонид Гайдай 🇨🇿
+http://05cea6e8.ucomist.net/iptv/HSD8UEK6E2AENH/17004/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6144" tvg-logo="http://epg.one/img2/6144.png" tvg-rec="0",VF Луи де Фюнес 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/17000/index.m3u8
+#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6144" tvg-logo="http://epg.one/img2/6144.png" tvg-rec="0",VF Луи де Фюнес 🇨🇿
+http://05cea6e8.ucomist.net/iptv/HSD8UEK6E2AENH/17000/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4665" tvg-logo="http://epg.one/img2/4665.png" tvg-rec="7",VF Военные 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/10082/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="4665" tvg-logo="http://epg.one/img2/4665.png" tvg-rec="7",VF Военные 🇳🇱
@@ -2150,12 +2073,8 @@ http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/19301/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/19289/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6711" tvg-logo="http://epg.one/img2/6711.png" tvg-rec="0",Fresh Comedy 🇳🇱
 http://u1oybvgx.lunexas.top/iptv/5RCBW62HM2HTXF/19289/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6722" tvg-logo="http://epg.one/img2/6722.png" tvg-rec="0",Fresh Thriller 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/19300/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6722" tvg-logo="http://epg.one/img2/6722.png" tvg-rec="0",Fresh Thriller 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19300/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6105" tvg-logo="http://epg.one/img2/6105.png" tvg-rec="0",Fresh Cinema 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/19287/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6105" tvg-logo="http://epg.one/img2/6105.png" tvg-rec="0",Fresh Cinema 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19287/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6716" tvg-logo="http://epg.one/img2/6716.png" tvg-rec="0",Fresh Fantastic 🇪🇸
@@ -2168,8 +2087,6 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/19290/ind
 http://u1oybvgx.lunexas.top/iptv/5RCBW62HM2HTXF/19290/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6712" tvg-logo="http://epg.one/img2/6712.png" tvg-rec="0",Fresh Premiere 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/19290/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6713" tvg-logo="http://epg.one/img2/6713.png" tvg-rec="0",Fresh Family 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/19291/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6713" tvg-logo="http://epg.one/img2/6713.png" tvg-rec="0",Fresh Family 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19291/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6714" tvg-logo="http://epg.one/img2/6714.png" tvg-rec="0",Fresh Rating 🇪🇸
@@ -2214,28 +2131,16 @@ http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/18062/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3F6EXEEA7RHP74/18063/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6250" tvg-logo="http://epg.one/img2/6250.png" tvg-rec="0",Magic Comedy HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/18063/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6252" tvg-logo="http://epg.one/img2/6252.png" tvg-rec="0",Magic Thriller HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/18065/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6252" tvg-logo="http://epg.one/img2/6252.png" tvg-rec="0",Magic Thriller HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/18065/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6253" tvg-logo="http://epg.one/img2/6253.png" tvg-rec="0",Magic Action HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/18066/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6253" tvg-logo="http://epg.one/img2/6253.png" tvg-rec="0",Magic Action HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/18066/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7487" tvg-logo="http://epg.one/img2/7487.png" tvg-rec="0",Magic Adventure HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/20141/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7487" tvg-logo="http://epg.one/img2/7487.png" tvg-rec="0",Magic Adventure HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20141/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6254" tvg-logo="http://epg.one/img2/6254.png" tvg-rec="0",Magic Galaxy HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/18067/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6254" tvg-logo="http://epg.one/img2/6254.png" tvg-rec="0",Magic Galaxy HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/18067/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6255" tvg-logo="http://epg.one/img2/6255.png" tvg-rec="0",Magic Horror HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/18068/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6255" tvg-logo="http://epg.one/img2/6255.png" tvg-rec="0",Magic Horror HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/18068/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6337" tvg-logo="http://epg.one/img2/6337.png" tvg-rec="0",Magic Family HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5PEDN3VA439B8KTVXUL7LXBR/18170/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6337" tvg-logo="http://epg.one/img2/6337.png" tvg-rec="0",Magic Family HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/18170/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7490" tvg-logo="http://epg.one/img/7490.png" tvg-rec="0",BOX Fantasy HD 🇪🇸
@@ -2244,52 +2149,28 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/RU6NCTBUGWZKQTFN48VN6NRU
 http://u1oybvgx.lunexas.top/iptv/5RCBW62HM2HTXF/20156/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7490" tvg-logo="http://epg.one/img/7490.png" tvg-rec="0",BOX Fantasy HD 🇨🇿
 http://2b26c4a1.amazzin.pw/iptv/H2D2PZRSF54ZEE/20156/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8768" tvg-logo="http://epg.one/img/8768.png" tvg-rec="0",BOX Apocalypse HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/31655/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="8768" tvg-logo="http://epg.one/img/8768.png" tvg-rec="0",BOX Apocalypse HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31655/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6697" tvg-logo="http://epg.one/img/6697.png" tvg-rec="0",BOX Hybrid HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19275/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6697" tvg-logo="http://epg.one/img/6697.png" tvg-rec="0",BOX Hybrid HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19275/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6696" tvg-logo="http://epg.one/img/6696.png" tvg-rec="0",BOX Franchise HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19274/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6696" tvg-logo="http://epg.one/img/6696.png" tvg-rec="0",BOX Franchise HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19274/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6699" tvg-logo="http://epg.one/img/6699.png" tvg-rec="0",BOX Gangster HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19277/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6699" tvg-logo="http://epg.one/img/6699.png" tvg-rec="0",BOX Gangster HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19277/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6700" tvg-logo="http://epg.one/img/6700.png" tvg-rec="0",BOX Oscar HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19278/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6700" tvg-logo="http://epg.one/img/6700.png" tvg-rec="0",BOX Oscar HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19278/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6701" tvg-logo="http://epg.one/img/6701.png" tvg-rec="0",BOX Memory HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19279/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6701" tvg-logo="http://epg.one/img/6701.png" tvg-rec="0",BOX Memory HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19279/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6703" tvg-logo="http://epg.one/img/6703.png" tvg-rec="0",BOX Serial HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19281/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6703" tvg-logo="http://epg.one/img/6703.png" tvg-rec="0",BOX Serial HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19281/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6705" tvg-logo="http://epg.one/img/6705.png" tvg-rec="0",BOX Spy HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19285/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6705" tvg-logo="http://epg.one/img/6705.png" tvg-rec="0",BOX Spy HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19285/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6832" tvg-logo="http://epg.one/img/6832.png" tvg-rec="0",BOX Western HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19419/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6832" tvg-logo="http://epg.one/img/6832.png" tvg-rec="0",BOX Western HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19419/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6833" tvg-logo="http://epg.one/img/6833.png" tvg-rec="0",BOX Zombie HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/19420/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6833" tvg-logo="http://epg.one/img/6833.png" tvg-rec="0",BOX Zombie HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/19420/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7488" tvg-logo="http://epg.one/img/7488.png" tvg-rec="0",BOX Ghost HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/20154/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7488" tvg-logo="http://epg.one/img/7488.png" tvg-rec="0",BOX Ghost HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20154/index.m3u8
-#EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7489" tvg-logo="http://epg.one/img/7489.png" tvg-rec="0",BOX Stories HD 🇪🇸
-http://ahz1seig.lunexas.top/iptv/5PEDN3VA439B8KTVXUL7LXBR/20155/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="7489" tvg-logo="http://epg.one/img/7489.png" tvg-rec="0",BOX Stories HD 🇳🇱
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20155/index.m3u8
 #EXTINF:0 group-title="📺Кинозалы👑🐦‍🔥🌍" tvg-id="6207" tvg-logo="http://epg.one/img/6207.png" tvg-rec="0",Eye Media HD 🇪🇸
@@ -2428,20 +2309,18 @@ http://901b3df3.edemist.com/iptv/FX8YANKAXDBBEM/31705/index.m3u8
 http://4ba794f5.ottrast.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/31705/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="9082" tvg-logo="http://myott.tv/images/450.png" tvg-rec="0",The Explorers HD 🇨🇿
 http://4dg1mmfk.megatv.fun/iptv/5LZL8KXZLUL56V/16035/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="9082" tvg-logo="http://myott.tv/images/450.png" tvg-rec="0",The Explorers HD 🇨🇿
-http://901b3df3.edemist.com/iptv/A9YQFCNK7NZN2A/16035/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="9082" tvg-logo="http://myott.tv/images/450.png" tvg-rec="0",The Explorers HD 🇳🇱
 http://4ba794f5.ottrast.com/iptv/HUHD4R93BHAACTNFQWLBC3DZ/16035/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="55" tvg-logo="http://epg.one/img2/55.png" tvg-rec="7",Океан HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/703/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="55" tvg-logo="http://epg.one/img/55.png" tvg-rec="7",Океан HD 🇳🇱
 http://4ba794f5.ottrast.com/iptv/FX8YANKAXDBBEM/703/index.m3u8
+#EXTINF:0 group-title="SCIENCE 💥" tvg-id="55" tvg-logo="http://epg.one/img2/55.png" tvg-rec="7",Океан HD 🇨🇿
+http://901b3df3.edemist.com/iptv/M9MN473ULZPRPW/703/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="102" tvg-logo="http://epg.one/img2/102.png" tvg-rec="0",National Geographic HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/14001/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="102" tvg-logo="http://epg.one/img2/102.png" tvg-rec="0",National Geographic HD 🇨🇿
 http://901b3df3.edemist.com/iptv/FX8YANKAXDBBEM/14001/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="102" tvg-logo="http://epg.one/img2/102.png" tvg-rec="0",National Geographic 🇨🇿
-http://901b3df3.edemist.com/iptv/Z9LPP8ZWL9WCSR/14000/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="102" tvg-logo="http://epg.one/img2/102.png" tvg-rec="0",National Geographic 🇳🇱
 http://4ba794f5.ottrast.com/iptv/HUHD4R93BHAACTNFQWLBC3DZ/14000/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2444" tvg-logo="http://epg.one/img2/2444.png" tvg-rec="7",Мужской 🇪🇸🇨🇿
@@ -2449,15 +2328,13 @@ http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/20035/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2444" tvg-logo="http://epg.one/img2/2444.png" tvg-rec="7",Мужской 🇳🇱
 http://4ba794f5.ottrast.com/iptv/K7EMHCB2D66ZE8/20035/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2444" tvg-logo="http://epg.one/img2/2444.png" tvg-rec="7",Мужской 🇳🇱
-http://4ba794f5.ottrast.com/iptv/Z9LPP8ZWL9WCSR/2047/index.m3u8
+http://4ba794f5.ottrast.com/iptv/275EP3V8V4MZHG8KQGLFDPSK/20035/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2444" tvg-logo="http://epg.one/img2/2444.png" tvg-rec="7",Мужской 🇨🇿
 http://901b3df3.edemist.com/iptv/HUHD4R93BHAACTNFQWLBC3DZ/2047/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="7632" tvg-logo="http://epg.one/img2/7632.png" tvg-rec="3",TERRA HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/2416/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="7632" tvg-logo="http://epg.one/img2/7632.png" tvg-rec="3",TERRA HD 🇳🇱
 http://4ba794f5.ottrast.com/iptv/FX8YANKAXDBBEM/2416/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="7632" tvg-logo="http://epg.one/img2/7632.png" tvg-rec="7",TERRA 🇳🇱
-http://4ba794f5.ottrast.com/iptv/Z9LPP8ZWL9WCSR/230/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="7632" tvg-logo="http://epg.one/img2/7632.png" tvg-rec="7",TERRA 🇨🇿
 http://901b3df3.edemist.com/iptv/HUHD4R93BHAACTNFQWLBC3DZ/230/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="8816" tvg-logo="http://epg.one/img2/8816.png" tvg-rec="0",BOX Travel Premiere HD 🇨🇿
@@ -2504,20 +2381,14 @@ http://7j9atzv2.streamoras.top/iptv/Y64FMSPU68BNV2/31619/index.m3u8
 http://4ba794f5.ottrast.com/iptv/LBYUHCMK9WGMBX/31617/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="8812" tvg-logo="http://epg.one/img/8812.png" tvg-rec="0",Yosso TV Science 🇨🇿
 http://l7psy1ox.zyntras.top/iptv/7PV43BXZ9XEN88P4A88E8HBV/31617/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="9155" tvg-logo="http://epg.one/img/9155.png" tvg-rec="0",TravelXP HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DDHWUBMVDBPFYZ/15018/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="9155" tvg-logo="http://epg.one/img/9155.png" tvg-rec="0",TravelXP HD 🇳🇱
 http://86f624624.amazzin.pw/iptv/LBYUHCMK9WGMBX/15018/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="9155" tvg-logo="http://epg.one/img/9155.png" tvg-rec="0",TravelXP HD 🇨🇿
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/15018/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="5994" tvg-logo="http://epg.one/img2/5994.png" tvg-rec="0",VF Путешествия 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DDHWUBMVDBPFYZ/15515/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="5994" tvg-logo="http://epg.one/img2/5994.png" tvg-rec="0",VF Путешествия 🇳🇱
 http://9a2f7532.akadatel.com/iptv/LBYUHCMK9WGMBX/15515/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="5994" tvg-logo="http://epg.one/img2/5994.png" tvg-rec="0",VF Путешествия 🇨🇿
 http://7j9atzv2.streamoras.top/iptv/Y64FMSPU68BNV2/15515/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="6125" tvg-logo="http://epg.one/img2/6125.png" tvg-rec="0",VF Стройка 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DDHWUBMVDBPFYZ/16139/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="6125" tvg-logo="http://epg.one/img2/6125.png" tvg-rec="0",VF Стройка 🇳🇱
 http://dd624624.ottolok.net/iptv/Y64FMSPU68BNV2/16139/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="9328" tvg-logo="http://epg.one/img2/9328.png" tvg-rec="0",VF Орел и решка 🇳🇱
@@ -2525,58 +2396,58 @@ http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31476/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="9328" tvg-logo="http://epg.one/img2/9328.png" tvg-rec="0",VF Орел и решка 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31476/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LBYUHCMK9WGMBX/2009/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2417" tvg-logo="http://epg.one/img2/2417.png" tvg-rec="7",Большая Азия HD 🇳🇱
-http://9e8d70c4.edmonst.net/iptv/DDHWUBMVDBPFYZ/2009/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2417" tvg-logo="http://epg.one/img2/2417.png" tvg-rec="7",Большая Азия HD 🇨🇿
 http://7j9atzv2.streamoras.top/iptv/Y64FMSPU68BNV2/2009/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="5642" tvg-logo="http://epg.one/img2/5642.png" tvg-rec="0",Мир Вокруг HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/15219/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="5642" tvg-logo="http://epg.one/img2/5642.png" tvg-rec="0",Мир Вокруг HD 🇳🇱
 http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/15219/index.m3u8
+#EXTINF:0 group-title="SCIENCE 💥" tvg-id="325" tvg-logo="http://epg.one/img/325.png" tvg-rec="7",Discovery Channel HD 🇪🇸
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/M9MN473ULZPRPW/227/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="325" tvg-logo="http://epg.one/img2/325.png" tvg-rec="7",Discovery Channel HD 🇨🇿
 http://brt4bmz1.nexeraso.top/iptv/Y64FMSPU68BNV2/227/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="325" tvg-logo="http://epg.one/img2/325.png" tvg-rec="7",Discovery Channel 🇳🇱
-http://86f624624.amazzin.pw/iptv/Z9LPP8ZWL9WCSR/140/index.m3u8
 #EXTGRP:SCIENCE 💥
 http://wq9imfor.streamoras.top/iptv/R289VL865ZMLBCBG2U4CFVU3/9054/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="425" tvg-logo="http://epg.one/img2/425.png" tvg-rec="7",TLC HD 🇳🇱
 http://696a00e0.kazaktelekom.com/iptv/E5R9G9N6MTC7XV7BA98X4223/9024/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="425" tvg-logo="http://epg.one/img2/425.png" tvg-rec="7",TLC HD 🇨🇿
 http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/9021/index.m3u8
+#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2310" tvg-logo="http://epg.one/img2/2310.png" tvg-rec="7",Первый космическийHD 🇪🇸
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/M9MN473ULZPRPW/908/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2310" tvg-logo="http://epg.one/img2/2310.png" tvg-rec="7",Первый космический HD 🇨🇿
 http://dd624624.ottolok.net/iptv/FX8YANKAXDBBEM/908/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2310" tvg-logo="http://epg.one/img2/2310.png" tvg-rec="7",Первый космический HD 🇨🇿
 http://dbca06a0.rossteleccom.net/iptv/Y64FMSPU68BNV2/908/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="4778" tvg-logo="http://epg.one/img/4778.png" tvg-rec="7",StrahTV Космо HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VGWB9P9PSCG8HS/11065/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="4778" tvg-logo="http://epg.one/img/4778.png" tvg-rec="7",StrahTV Космо HD 🇳🇱
-http://dd624624.ottolok.net/iptv/A9YQFCNK7NZN2A/11065/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="11553" tvg-logo="http://epg.one/img/11553.png" tvg-rec="0",Venera.TV Космос 🇨🇿
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/30197/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="11553" tvg-logo="http://epg.one/img/11553.png" tvg-rec="0",Venera.TV Космос 🇨🇿
 http://4ba794f5.ottrast.com/iptv/K7EMHCB2D66ZE8/30197/index.m3u8
+#EXTINF:0 group-title="SCIENCE 💥" tvg-id="11553" tvg-logo="http://epg.one/img/11553.png" tvg-rec="0",Venera.TV Космос 🇳🇱
+http://ax0x2jeb.vexiumis.top/iptv/275EP3V8V4MZHG8KQGLFDPSK/30197/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="11595" tvg-logo="http://epg.one/img/11595.png" tvg-rec="0",Venera.TV Подводная одиссея 🇳🇱
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/30196/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="11595" tvg-logo="http://epg.one/img/11595.png" tvg-rec="0",Venera.TV Подводная одиссея 🇨🇿
 http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/30196/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2424" tvg-logo="http://epg.one/img2/2424.png" tvg-rec="3",Телепутешествия orig 🇨🇿
-http://dbca06a0.rossteleccom.net/iptv/DDHWUBMVDBPFYZ/9307/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2424" tvg-logo="http://epg.one/img2/2424.png" tvg-rec="3",Телепутешествия 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/2051/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2424" tvg-logo="http://epg.one/img2/2424.png" tvg-rec="3",Телепутешествия 🇳🇱
 http://dd624624.ottolok.net/iptv/Y64FMSPU68BNV2/2051/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2508" tvg-logo="http://epg.one/img2/2508.png" tvg-rec="3",Глазами Туриста HD 🇨🇿
 http://7j9atzv2.streamoras.top/iptv/Y64FMSPU68BNV2/2104/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2508" tvg-logo="http://epg.one/img2/2508.png" tvg-rec="3",Глазами Туриста HD 🇪🇸
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Z9LPP8ZWL9WCSR/2104/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2311" tvg-logo="http://epg.one/img2/2311.png" tvg-rec="7",Приключения HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/920/index.m3u8
+#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2311" tvg-logo="http://epg.one/img2/2311.png" tvg-rec="7",Приключения HD 🇨🇿
+http://dbca06a0.rossteleccom.net/iptv/M9MN473ULZPRPW/920/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="521" tvg-logo="http://epg.one/img2/521.png" tvg-rec="3",Viju Explore HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/6381/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="521" tvg-logo="http://epg.one/img2/521.png" tvg-rec="7",Viju Explore 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/2ATGFW9WHHST2M4PQ48D2SNG/163/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="521" tvg-logo="http://epg.one/img2/521.png" tvg-rec="7",Viju Explore or if  🇳🇱
 http://2b26c4a1.amazzin.pw/iptv/H2D2PZRSF54ZEE/9275/index.m3u8
+#EXTINF:0 group-title="SCIENCE 💥" tvg-id="521" tvg-logo="http://epg.one/img2/521.png" tvg-rec="7",Viju Explore 🇨🇿
+http://dbca06a0.rossteleccom.net/iptv/M9MN473ULZPRPW/163/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="277" tvg-logo="http://epg.one/img2/277.png" tvg-rec="7",Viju History HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/203/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="277" tvg-logo="http://epg.one/img2/277.png" tvg-rec="7",Viju History 🇪🇸
@@ -2588,7 +2459,7 @@ http://696a00e0.kazaktelekom.com/iptv/E5R9G9N6MTC7XV7BA98X4223/162/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2012" tvg-logo="http://epg.one/img2/2012.png" tvg-rec="3",Viju+ Planet HD 🇨🇿
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/9027/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2012" tvg-logo="http://epg.one/img2/2012.png" tvg-rec="3",Viju+ Planet HD 🇳🇱
-http://9e8d70c4.edmonst.net/iptv/2AYQXHZTLBQ9F794ZUVBKUUQ/9027/index.m3u8
+http://ax0x2jeb.vexiumis.top/iptv/275EP3V8V4MZHG8KQGLFDPSK/9027/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="5208" tvg-logo="http://epg.one/img2/5208.png" tvg-rec="0",MM Live Planet HD 🇳🇱
 http://b7224e95.cbilant.com/iptv/BAV3V5UU8DHH653GUHGFY4K4/13095/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="5208" tvg-logo="http://epg.one/img2/5208.png" tvg-rec="0",MM Live Planet HD 🇳🇱
@@ -2604,21 +2475,19 @@ http://dd624624.ottolok.net/iptv/2ATGFW9WHHST2M4PQ48D2SNG/231/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="1394" tvg-logo="http://epg.one/img2/1394.png" tvg-rec="7",History HD 🇨🇿
 http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/231/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2356" tvg-logo="http://epg.one/img2/2356.png" tvg-rec="3",History 2 HD 🇨🇿
-http://dd624624.ottolok.net/iptv/A9YQFCNK7NZN2A/9013/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2356" tvg-logo="http://epg.one/img2/2356.png" tvg-rec="3",History 2 HD 🇨🇿
 http://s7bf1pj0.virelloso.top/iptv/HUHD4R93BHAACTNFQWLBC3DZ/9013/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2356" tvg-logo="http://epg.one/img2/2356.png" tvg-rec="3",History 2 HD 🇳🇱
 http://dbca06a0.rossteleccom.net/iptv/HUHD4R93BHAACTNFQWLBC3DZ/9013/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2356" tvg-logo="http://epg.one/img2/2356.png" tvg-rec="3",History 2 HD 🇳🇱
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/9019/index.m3u8
+#EXTINF:0 group-title="SCIENCE 💥" tvg-id="1035" tvg-logo="http://epg.one/img2/1035.png" tvg-rec="3",Travel+Adventure HD orig 🇳🇱
+http://ax0x2jeb.vexiumis.top/iptv/275EP3V8V4MZHG8KQGLFDPSK/9019/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="1035" tvg-logo="http://epg.one/img2/1035.png" tvg-rec="3",Travel+Adventure HD orig 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/9019/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="1035" tvg-logo="http://epg.one/img2/1035.png" tvg-rec="7",Travel+Adventure 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/2ATGFW9WHHST2M4PQ48D2SNG/850/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="1035" tvg-logo="http://epg.one/img2/1035.png" tvg-rec="7",Travel+Adventure 🇳🇱
 http://696a00e0.kazaktelekom.com/iptv/E5R9G9N6MTC7XV7BA98X4223/9019/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="613" tvg-logo="http://epg.one/img2/613.png" tvg-rec="7",Travel Channel HD 🇳🇱
-http://bval1.kazaktelekom.com/iptv/Z9LPP8ZWL9WCSR/233/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="613" tvg-logo="http://epg.one/img2/613.png" tvg-rec="7",Travel Channel HD 🇨🇿
 http://dbca06a0.rossteleccom.net/iptv/HUHD4R93BHAACTNFQWLBC3DZ/233/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="675" tvg-logo="http://epg.one/img2/675.png" tvg-rec="3",Моя Планета HD 🇨🇿
@@ -2627,8 +2496,6 @@ http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/9050/index.m3u8
 http://4ba794f5.ottrast.com/iptv/K7EMHCB2D66ZE8/2090/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="675" tvg-logo="http://epg.one/img2/675.png" tvg-rec="3",Моя Планета HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/2090/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="675" tvg-logo="http://epg.one/img2/675.png" tvg-rec="7",Моя Планета 🇳🇱
-http://bval1.kazaktelekom.com/iptv/Z9LPP8ZWL9WCSR/117/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="675" tvg-logo="http://epg.one/img2/675.png" tvg-rec="7",Моя Планета 🇨🇿
 http://dbca06a0.rossteleccom.net/iptv/HUHD4R93BHAACTNFQWLBC3DZ/117/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2028" tvg-logo="http://epg.one/img2/2028.png" tvg-rec="0",Моя Стихия HD 🇪🇸
@@ -2643,8 +2510,6 @@ http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/9221/index.m3u8
 http://4ba794f5.ottrast.com/iptv/K7EMHCB2D66ZE8/20036/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="7623" tvg-logo="http://epg.one/img2/7623.png" tvg-rec="0",Big Planet HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/20036/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="7623" tvg-logo="http://epg.one/img2/7623.png" tvg-rec="0",Big Planet 🇳🇱
-http://bval1.kazaktelekom.com/iptv/Z9LPP8ZWL9WCSR/14027/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="7623" tvg-logo="http://epg.one/img2/7623.png" tvg-rec="0",Big Planet🇨🇿
 http://dbca06a0.rossteleccom.net/iptv/HUHD4R93BHAACTNFQWLBC3DZ/14027/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2350" tvg-logo="http://epg.one/img2/2350.png" tvg-rec="7",Поехали! 🇪🇸
@@ -2657,18 +2522,10 @@ http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/20034/index.m3u8
 http://4ba794f5.ottrast.com/iptv/K7EMHCB2D66ZE8/20034/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="617" tvg-logo="http://epg.one/img2/617.png" tvg-rec="0",Точка Отрыва HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/20034/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2484" tvg-logo="http://epg.one/img/2484.png" tvg-rec="7",Дикая рыбалка HD 🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/2005/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2484" tvg-logo="http://epg.one/img/2484.png" tvg-rec="7",Дикая рыбалка HD 🇳🇱
 http://bval1.kazaktelekom.com/iptv/MMRPH2Q5M9SZL4/2005/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2627" tvg-logo="http://epg.one/img/2627.png" tvg-rec="3",Диалоги о рыбалке HD 🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/2394/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2283" tvg-logo="http://epg.one/img/2283.png" tvg-rec="7",Дикий🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/9282/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2283" tvg-logo="http://epg.one/img/2283.png" tvg-rec="7",Дикий🇳🇱
 http://bval1.kazaktelekom.com/iptv/MMRPH2Q5M9SZL4/9282/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="6124" tvg-logo="http://epg.one/img/6124.png" tvg-rec="0",VF Рыбалка 🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/16138/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="6124" tvg-logo="http://epg.one/img/6124.png" tvg-rec="0",VF Рыбалка 🇳🇱
 http://bval1.kazaktelekom.com/iptv/MMRPH2Q5M9SZL4/16138/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="434" tvg-logo="http://epg.one/img2/434.png" tvg-rec="0",Усадьба HD 🇪🇸
@@ -2679,6 +2536,8 @@ http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/9071/index.m3u8
 http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/9071/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2463" tvg-logo="http://epg.one/img2/2463.png" tvg-rec="3",Загородный 🇨🇿
 http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/9268/index.m3u8
+#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2463" tvg-logo="http://epg.one/img2/2463.png" tvg-rec="3",Загородный 🇳🇱
+http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/2124/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2463" tvg-logo="http://epg.one/img2/2463.png" tvg-rec="3",Загородный 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2099/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2463" tvg-logo="http://epg.one/img2/2463.png" tvg-rec="3",Загородный 🇳🇱
@@ -2691,36 +2550,22 @@ http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/9319/index.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/852/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2298" tvg-logo="http://epg.one/img2/2298.png" tvg-rec="7",Загородная Жизнь 🇳🇱
 http://dbca06a0.rossteleccom.net/iptv/3F6EXEEA7RHP74/852/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="6410" tvg-logo="http://epg.one/img/6410.png" tvg-rec="0",MM Микромир HD 🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/18193/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="6410" tvg-logo="http://epg.one/img/6410.png" tvg-rec="0",MM Микромир HD 🇳🇱
 http://bval1.kazaktelekom.com/iptv/MMRPH2Q5M9SZL4/18193/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="6411" tvg-logo="http://epg.one/img/6411.png" tvg-rec="0",MM Макромир HD 🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/18194/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="6411" tvg-logo="http://epg.one/img/6411.png" tvg-rec="0",MM Макромир HD 🇳🇱
 http://bval1.kazaktelekom.com/iptv/MMRPH2Q5M9SZL4/18194/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="6411" tvg-logo="http://epg.one/img/6411.png" tvg-rec="0",MM Макромир HD 🇨🇿
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PLKYEKSX6SGE6A88XMV6FTQP/18194/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="6412" tvg-logo="http://epg.one/img/6412.png" tvg-rec="0",MM Мегамир HD 🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/18195/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="6412" tvg-logo="http://epg.one/img/6412.png" tvg-rec="0",MM Мегамир HD 🇳🇱
 http://bval1.kazaktelekom.com/iptv/MMRPH2Q5M9SZL4/18195/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="6845" tvg-logo="http://epg.one/img/6845.png" tvg-rec="0",MM Experiment HD 🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/19412/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="6845" tvg-logo="http://epg.one/img/6845.png" tvg-rec="0",MM Experiment HD 🇳🇱
 http://bval1.kazaktelekom.com/iptv/MMRPH2Q5M9SZL4/19412/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="6846" tvg-logo="http://epg.one/img/6846.png" tvg-rec="0",MM Открытия HD 🇨🇿
-http://brt4bmz1.nexeraso.top/iptv/A9YQFCNK7NZN2A/19415/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="6846" tvg-logo="http://epg.one/img/6846.png" tvg-rec="0",MM Открытия HD 🇳🇱
 http://bval1.kazaktelekom.com/iptv/MMRPH2Q5M9SZL4/19415/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2430" tvg-logo="http://epg.one/img2/2430.png" tvg-rec="3",Оружие orig 🇨🇿
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/9323/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2430" tvg-logo="http://epg.one/img2/2430.png" tvg-rec="3",Оружие orig 🇳🇱
-http://bval1.kazaktelekom.com/iptv/2AYQXHZTLBQ9F794ZUVBKUUQ/9323/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2430" tvg-logo="http://epg.one/img2/2430.png" tvg-rec="3",Оружие orig 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/9323/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2430" tvg-logo="http://epg.one/img2/2430.png" tvg-rec="3",Оружие 🇳🇱
-http://bval1.kazaktelekom.com/iptv/Z9LPP8ZWL9WCSR/2087/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2430" tvg-logo="http://epg.one/img2/2430.png" tvg-rec="3",Оружие 🇳🇱
 http://s7bf1pj0.virelloso.top/iptv/HUHD4R93BHAACTNFQWLBC3DZ/2087/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2418" tvg-logo="http://epg.one/img2/2418.png" tvg-rec="3",Тайны Галактики HD 🇨🇿
@@ -2729,12 +2574,8 @@ http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/5045/index.m3u8
 http://4ba794f5.ottrast.com/iptv/K7EMHCB2D66ZE8/5045/index.m3u8
 #EXTINF:0 group-title="SCIENCE 💥" tvg-id="2418" tvg-logo="http://epg.one/img2/2418.png" tvg-rec="3",Тайны Галактики HD 🇪🇸
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/5045/index.m3u8
-#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2418" tvg-logo="http://epg.one/img2/2418.png" tvg-rec="7",Тайны Галактики 🇳🇱
-http://bval1.kazaktelekom.com/iptv/Z9LPP8ZWL9WCSR/2010/index.m3u8
 #EXTINF:-1 group-title="RELAX🏝️",Сити Эдем Meditation Music
 https://cityeden.catcast.tv/content/47410/index.m3u8
-#EXTINF:0 group-title="RELAX🏝️" tvg-id="93260" tvg-logo="http://epg.one/img2/93260.png" tvg-rec="0",CineMan Relax 4K
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DDHWUBMVDBPFYZ/32226/index.m3u8
 #EXTINF:-1 group-title="RELAX🏝️" tvg-logo="https://i.imgur.com/LMHrQJu.png",Better Life Nature Channel
 https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
 #EXTINF:-1 group-title="RELAX🏝️" tvg-logo="4580",Stingray Naturescape
@@ -2817,6 +2658,368 @@ https://d9rd4243pcy92.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://jmp2.uk/stvp-KRBD44000025L
 #EXTINF:0 group-title="🎸MuzHit🥁" tvg-id="5113" tvg-logo="http://epg.one/img/5113.png" tvg-rec="0",TOP Великолепный Век HD 🇨🇿
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/13001/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2015" tvg-logo="http://epg.one/img2/2015.png" tvg-rec="0",Русская Ночь orig
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/9344/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2632" tvg-logo="http://epg.one/img2/2632.png" tvg-rec="0",Exxxotica HD orig
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/9346/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2781" tvg-logo="http://epg.one/img2/2781.png" tvg-rec="3",Eroxxx HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/5015/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2021" tvg-logo="http://epg.one/img2/2021.png" tvg-rec="3",Brazzers TV Europe Россия
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/910/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2320" tvg-logo="http://epg.one/img2/2320.png" tvg-rec="3",Redlight HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/242/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2321" tvg-logo="http://epg.one/img2/2321.png" tvg-rec="3",Private TV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/243/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2322" tvg-logo="http://epg.one/img2/2322.png" tvg-rec="0",Hustler HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/244/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2324" tvg-logo="http://epg.one/img2/2324.png" tvg-rec="3",Dorcel TV HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/245/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2528" tvg-logo="http://epg.one/img2/2528.png" tvg-rec="1",Vivid Red HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/2162/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2632" tvg-logo="http://epg.one/img2/2632.png" tvg-rec="3",Exxxotica HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/2397/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2775" tvg-logo="http://epg.one/img2/2775.png" tvg-rec="3",XXL
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/5009/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2776" tvg-logo="http://epg.one/img/2776.png" tvg-rec="3",Penthouse Passion HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/5010/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2777" tvg-logo="http://epg.one/img/2777.png" tvg-rec="3",Penthouse Gold HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/5011/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2779" tvg-logo="http://epg.one/img/2779.png" tvg-rec="3",Penthouse Reality TV HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/5012/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3135" tvg-logo="http://epg.one/img/3135.png" tvg-rec="0",Adult Time
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6166/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3136" tvg-logo="http://epg.one/img/3136.png" tvg-rec="0",Red TV Anal
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6167/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3137" tvg-logo="http://epg.one/img/3137.png" tvg-rec="0",Analized HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6168/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3140" tvg-logo="http://epg.one/img/3140.png" tvg-rec="0",Babes HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6171/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3140" tvg-logo="http://epg.one/img/3140.png" tvg-rec="0",Babes
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6172/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3142" tvg-logo="http://epg.one/img/3142.png" tvg-rec="0",Bang Bros HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6173/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3143" tvg-logo="http://epg.one/img/3143.png" tvg-rec="0",Bang!
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6174/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3144" tvg-logo="http://epg.one/img/3144.png" tvg-rec="0",Red TV Big Ass
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6175/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3145" tvg-logo="http://epg.one/img/3145.png" tvg-rec="0",Red TV Big Dick
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6176/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3146" tvg-logo="http://epg.one/img/3146.png" tvg-rec="0",Red TV Big Tits
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6177/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3147" tvg-logo="http://epg.one/img/3147.png" tvg-rec="0",Blacked HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6178/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3149" tvg-logo="http://epg.one/img/3149.png" tvg-rec="0",Red TV Blowjob
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6180/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3150" tvg-logo="http://epg.one/img/3150.png" tvg-rec="0",Brazzers eXXtra
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6181/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3151" tvg-logo="http://epg.one/img/3151.png" tvg-rec="0",Brazzers HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6182/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3152" tvg-logo="http://epg.one/img/3152.png" tvg-rec="0",Red TV Brunette
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6183/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3154" tvg-logo="http://epg.one/img/3154.png" tvg-rec="0",Cherry Pimps
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6185/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3155" tvg-logo="http://epg.one/img/3155.png" tvg-rec="0",Club Sweethearts HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6186/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3156" tvg-logo="http://epg.one/img/3156.png" tvg-rec="0",Red TV Compilation
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6187/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3157" tvg-logo="http://epg.one/img/3157.png" tvg-rec="0",Red TV Cuckold
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6188/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3158" tvg-logo="http://epg.one/img/3158.png" tvg-rec="0",Cum Louder
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6189/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3160" tvg-logo="http://epg.one/img/3160.png" tvg-rec="0",Daughter Swap
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6191/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3161" tvg-logo="http://epg.one/img/3161.png" tvg-rec="0",Day with a Pornstar
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6192/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3162" tvg-logo="http://epg.one/img/3162.png" tvg-rec="0",DDF Busty
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6193/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3164" tvg-logo="http://epg.one/img/3164.png" tvg-rec="0",Digital Desire HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6195/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3165" tvg-logo="http://epg.one/img/3165.png" tvg-rec="0",Digital Playground HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6196/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3166" tvg-logo="http://epg.one/img/3166.png" tvg-rec="0",Dorcel Club
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6197/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3168" tvg-logo="http://epg.one/img/3168.png" tvg-rec="0",Evil Angel HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6199/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3169" tvg-logo="http://epg.one/img/3169.png" tvg-rec="0",Evolved Fights
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6200/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3171" tvg-logo="http://epg.one/img/3171.png" tvg-rec="0",Fake Taxi HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6202/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3177" tvg-logo="http://epg.one/img/3177.png" tvg-rec="0",Fap TV Compilation
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6208/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3181" tvg-logo="http://epg.one/img/3181.png" tvg-rec="0",FemJoy
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6212/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3182" tvg-logo="http://epg.one/img/3182.png" tvg-rec="0",Red TV Fetish
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6213/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3183" tvg-logo="http://epg.one/img/3183.png" tvg-rec="0",Red TV Gangbang
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6214/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3184" tvg-logo="http://epg.one/img/3184.png" tvg-rec="0",Red TV Gay
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6215/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3185" tvg-logo="http://epg.one/img/3185.png" tvg-rec="0",Got MYLF
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6216/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3186" tvg-logo="http://epg.one/img/3186.png" tvg-rec="0",DDF Hands on Hardcore
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6217/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3187" tvg-logo="http://epg.one/img/3187.png" tvg-rec="0",Hard X
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6218/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3188" tvg-logo="http://epg.one/img/3188.png" tvg-rec="0",Red TV Hardcore
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6219/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3189" tvg-logo="http://epg.one/img/3189.png" tvg-rec="0",Hitzefrei HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6220/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3190" tvg-logo="http://epg.one/img/3190.png" tvg-rec="0",Holed
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6221/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3191" tvg-logo="http://epg.one/img/3191.png" tvg-rec="0",Hot and Mean
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6222/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3192" tvg-logo="http://epg.one/img/3192.png" tvg-rec="0",Hot Guys Fuck
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6223/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3193" tvg-logo="http://epg.one/img/3193.png" tvg-rec="0",Red TV Interracial
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6224/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3194" tvg-logo="http://epg.one/img/3194.png" tvg-rec="0",Japan HDV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6225/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3194" tvg-logo="http://epg.one/img/3194
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6226/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3196" tvg-logo="http://epg.one/img/3196.png" tvg-rec="0",Lesbea
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6227/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3197" tvg-logo="http://epg.one/img/3197.png" tvg-rec="0",Red TV Lesbian
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6228/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3198" tvg-logo="http://epg.one/img/3198.png" tvg-rec="0",Lethal Hardcore
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6229/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3199" tvg-logo="http://epg.one/img/3199.png" tvg-rec="0",Little Asians HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6230/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3200" tvg-logo="http://epg.one/img/3200.png" tvg-rec="0",Red TV Live Cams
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6231/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3201" tvg-logo="http://epg.one/img/3201.png" tvg-rec="0",Lust Cinema
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6232/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3202" tvg-logo="http://epg.one/img/3202.png" tvg-rec="0",MetArt HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6233/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3203" tvg-logo="http://epg.one/img/3203.png" tvg-rec="0",Red TV Milf
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6234/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3204" tvg-logo="http://epg.one/img/3204.png" tvg-rec="0",Monsters of Cock
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6235/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3205" tvg-logo="http://epg.one/img/3205.png" tvg-rec="0",MYLF TV HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6236/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3206" tvg-logo="http://epg.one/img/3206.png" tvg-rec="0",Naughty America
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6237/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3207" tvg-logo="http://epg.one/img/3207.png" tvg-rec="0",Nubiles TV HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6238/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3209" tvg-logo="http://epg.one/img/3209.png" tvg-rec="0",Pink Erotic 3
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6240/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3210" tvg-logo="http://epg.one/img/3210.png" tvg-rec="0",Pink Erotic 4
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6241/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3211" tvg-logo="http://epg.one/img/3211.png" tvg-rec="0",Playboy Plus
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6242/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3213" tvg-logo="http://epg.one/img/3213.png" tvg-rec="0",Red TV POV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6244/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2321" tvg-logo="http://epg.one/img/2321.png" tvg-rec="3",Private TV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6245/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3215" tvg-logo="http://epg.one/img/3215.png" tvg-rec="0",Public Agent
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6246/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3219" tvg-logo="http://epg.one/img/3219.png" tvg-rec="0",Red TV Rough
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6250/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3220" tvg-logo="http://epg.one/img/3220.png" tvg-rec="0",Red TV Russian
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6251/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3221" tvg-logo="http://epg.one/img/3221.png" tvg-rec="0",Sex With Muslims
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6252/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3222" tvg-logo="http://epg.one/img/3222.png" tvg-rec="0",SexArt HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6253/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3224" tvg-logo="http://epg.one/img/3224.png" tvg-rec="0",SINematica
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6255/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3225" tvg-logo="http://epg.one/img2/3225.png" tvg-rec="0",Red TV Teen
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6256/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3226" tvg-logo="http://epg.one/img2/3226.png" tvg-rec="0",Red TV Threesome
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6257/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3228" tvg-logo="http://epg.one/img2/3228.png" tvg-rec="0",Trans Angels
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6259/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3229" tvg-logo="http://epg.one/img2/3229.png" tvg-rec="0",True Amateurs
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6260/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3230" tvg-logo="http://epg.one/img2/3230.png" tvg-rec="0",Tushy HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6261/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3231" tvg-logo="http://epg.one/img2/3231.png" tvg-rec="0",Tushy RAW HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6262/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3233" tvg-logo="http://epg.one/img2/3233.png" tvg-rec="0",Vivid TV Europe
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6264/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3234" tvg-logo="http://epg.one/img/3234.png" tvg-rec="0",Vixen HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6265/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3235" tvg-logo="http://epg.one/img/3235.png" tvg-rec="0",We Live Together
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6266/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3236" tvg-logo="http://epg.one/img/3236.png" tvg-rec="0",White Boxxx
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6267/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3237" tvg-logo="http://epg.one/img/3237.png" tvg-rec="0",Wicked
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6268/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3238" tvg-logo="http://epg.one/img/3238.png" tvg-rec="0",Xpanded TV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6269/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3239" tvg-logo="http://epg.one/img/3239.png" tvg-rec="0",Balkan Erotic
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6270/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7079" tvg-logo="http://epg.one/img/7079.png" tvg-rec="0",Red Lips
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6271/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4930" tvg-logo="http://epg.one/img/4930.png" tvg-rec="0",Leo TV HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6272/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3244" tvg-logo="http://epg.one/img/3244.png" tvg-rec="0",HOT
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6275/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3246" tvg-logo="http://epg.one/img/3246.png" tvg-rec="0",Hot Pleasure
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6277/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3250" tvg-logo="http://epg.one/img/3250.png" tvg-rec="0",Red XXX
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6281/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3251" tvg-logo="http://epg.one/img/3251.png" tvg-rec="0",Sexy Hot
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6282/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3253" tvg-logo="http://epg.one/img/3253.png" tvg-rec="0",Venus
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6284/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3255" tvg-logo="http://epg.one/img/3255.png" tvg-rec="0",XY Max HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6286/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3256" tvg-logo="http://epg.one/img/3256.png" tvg-rec="0",XY Mix HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6287/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3257" tvg-logo="http://epg.one/img/3257.png" tvg-rec="0",XY Plus HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6288/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3258" tvg-logo="http://epg.one/img/3258.png" tvg-rec="0",Pink Erotic 1
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6289/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3259" tvg-logo="http://epg.one/img/3259.png" tvg-rec="0",Pink Erotic 2
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6290/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3262" tvg-logo="http://epg.one/img/3262.png" tvg-rec="0",Pink Erotic 6
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6293/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3263" tvg-logo="http://epg.one/img/3263.png" tvg-rec="0",Pink Erotic 7
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6294/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3264" tvg-logo="http://epg.one/img/3264.png" tvg-rec="0",Pink Erotic 8
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6295/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2193" tvg-logo="http://epg.one/img/2193.png" tvg-rec="0",Erox HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6296/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3266" tvg-logo="http://epg.one/img/3266.png" tvg-rec="0",SuperOne HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/6298/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2322" tvg-logo="http://epg.one/img/2322.png" tvg-rec="0",Hustler HD orig
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/9065/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3170" tvg-logo="http://epg.one/img/3170.png" tvg-rec="7",StrahTV Extasy HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/11051/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4787" tvg-logo="http://epg.one/img/4787.png" tvg-rec="7",StrahTV KinoXXX
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/11052/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4788" tvg-logo="http://epg.one/img/4788.png" tvg-rec="7",StrahTV Ох-Ах HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/11068/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7722" tvg-logo="http://epg.one/img/7722.png" tvg-rec="0",Euro Girls On Girls
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12108/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7723" tvg-logo="http://epg.one/img/7723.png" tvg-rec="0",Erotica X
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12109/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7724" tvg-logo="http://epg.one/img/7724.png" tvg-rec="0",Erotic Spice
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12110/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7725" tvg-logo="http://epg.one/img/7725.png" tvg-rec="0",DP Fanatics
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12111/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3266" tvg-logo="http://epg.one/img/3266.png" tvg-rec="0",SuperOne
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12121/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7726" tvg-logo="http://epg.one/img/7726.png" tvg-rec="0",Dirty Wives Club
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12122/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2526" tvg-logo="http://epg.one/img/2526.png" tvg-rec="0",French Lover
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12124/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4932" tvg-logo="http://epg.one/img/4932.png" tvg-rec="0",Meiden Van Holland
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12125/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7727" tvg-logo="http://epg.one/img/7727.png" tvg-rec="0",Dirty Masseur
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12128/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7729" tvg-logo="http://epg.one/img/7729.png" tvg-rec="0",Dirty Flix
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12130/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="2324" tvg-logo="http://epg.one/img/2324.png" tvg-rec="0",Dorcel TV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12131/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3237" tvg-logo="http://epg.one/img/3237.png" tvg-rec="0",Wicked HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12133/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3249" tvg-logo="http://epg.one/img/3249.png" tvg-rec="0",Playboy LA
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12135/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4943" tvg-logo="http://epg.one/img/4943.png" tvg-rec="0",Passie XXX TV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12136/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7730" tvg-logo="http://epg.one/img/7730.png" tvg-rec="0",Deep Throat Sirens
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12138/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7731" tvg-logo="http://epg.one/img/7731.png" tvg-rec="0",Deep Lush
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12139/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7732" tvg-logo="http://epg.one/img/7732.png" tvg-rec="0",Dark X
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12140/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4948" tvg-logo="http://epg.one/img/4948.png" tvg-rec="0",Veraporn Group Sex
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12141/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4949" tvg-logo="http://epg.one/img/4949.png" tvg-rec="0",Veraporn Group Sex 2
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12142/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7733" tvg-logo="http://epg.one/img/7733.png" tvg-rec="0",Dane Jones
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12143/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4953" tvg-logo="http://epg.one/img/4953.png" tvg-rec="0",Pink Erotic 1 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12146/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4954" tvg-logo="http://epg.one/img/4954.png" tvg-rec="0",Pink Erotic 2 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12147/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4955" tvg-logo="http://epg.one/img/4955.png" tvg-rec="0",Pink Erotic 3 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12148/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4956" tvg-logo="http://epg.one/img/4956.png" tvg-rec="0",Pink Erotic 4 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12149/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4957" tvg-logo="http://epg.one/img/4957.png" tvg-rec="0",Pink Erotic 5 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12150/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4958" tvg-logo="http://epg.one/img/4958.png" tvg-rec="0",Pink Erotic 6 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12151/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4959" tvg-logo="http://epg.one/img/4959.png" tvg-rec="0",Pink Erotic 7 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12152/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4960" tvg-logo="http://epg.one/img/4960.png" tvg-rec="0",Pink Erotic 8 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12153/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7735" tvg-logo="http://epg.one/img/7735.png" tvg-rec="0",Dad Crush
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12154/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7736" tvg-logo="http://epg.one/img/7736.png" tvg-rec="0",Family Swap
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12155/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7737" tvg-logo="http://epg.one/img/7737.png" tvg-rec="0",Family Strokes
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12156/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7739" tvg-logo="http://epg.one/img/7739.png" tvg-rec="0",Cum Perfection
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12158/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7741" tvg-logo="http://epg.one/img/7741.png" tvg-rec="0",Bratty Sis
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12161/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7742" tvg-logo="http://epg.one/img/7742.png" tvg-rec="0",Brand New Amateurs
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12162/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7743" tvg-logo="http://epg.one/img/7743.png" tvg-rec="0",Beate Uhse
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12163/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7744" tvg-logo="http://epg.one/img/7744.png" tvg-rec="0",BBC Pie
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12164/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="11478" tvg-logo="http://epg.one/img/11478.png" tvg-rec="0",FTV Girls HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12165/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7746" tvg-logo="http://epg.one/img/7746.png" tvg-rec="0",Bang POV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12166/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7747" tvg-logo="http://epg.one/img/7747.png" tvg-rec="0",Bang Bus
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12167/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7748" tvg-logo="http://epg.one/img/7748.png" tvg-rec="0",Banana Fever
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12168/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7749" tvg-logo="http://epg.one/img/7749.png" tvg-rec="0",Asshole Fever
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12169/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7750" tvg-logo="http://epg.one/img/7750.png" tvg-rec="0",Ass Parade
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12178/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7751" tvg-logo="http://epg.one/img/7751.png" tvg-rec="0",Anal Time
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12181/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7752" tvg-logo="http://epg.one/img/7752.png" tvg-rec="0",Anal Teen Angels
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12183/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7753" tvg-logo="http://epg.one/img/7753.png" tvg-rec="0",Anal Only
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12184/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4994" tvg-logo="http://epg.one/img/4994.png" tvg-rec="0",Hot Wife XXX
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12187/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3230" tvg-logo="http://epg.one/img/3230.png" tvg-rec="0",Tushy
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12188/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7754" tvg-logo="http://epg.one/img/7754.png" tvg-rec="0",Anal Mom
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12189/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7755" tvg-logo="http://epg.one/img/7755.png" tvg-rec="0",Anal 4K
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12190/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7756" tvg-logo="http://epg.one/img/7756.png" tvg-rec="0",Amateur Boxxx
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12191/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7757" tvg-logo="http://epg.one/img/7757.png" tvg-rec="0",All Anal
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12192/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7758" tvg-logo="http://epg.one/img/7758.png" tvg-rec="0",Alex Legend
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12193/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7759" tvg-logo="http://epg.one/img/7759.png" tvg-rec="0",Alba XXX 2 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12194/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="4913" tvg-logo="http://epg.one/img/4913.png" tvg-rec="0",Alba XXX 1 HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12204/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3133" tvg-logo="http://epg.one/img/3133.png" tvg-rec="0",21 Sextury
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/12205/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="5392" tvg-logo="http://epg.one/img/5392.png" tvg-rec="0",Yosso TV Sexy
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/14176/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="6321" tvg-logo="http://epg.one/img/6321.png" tvg-rec="0",Tviksel Кино 18+ HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/18075/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="6322" tvg-logo="http://epg.one/img/6322.png" tvg-rec="0",Tviksel Кино 18+ International
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/18076/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="6228" tvg-logo="http://epg.one/img/6228.png" tvg-rec="0",BCU Charm HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/18053/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7251" tvg-logo="http://epg.one/img/7251.png" tvg-rec="0",CineMan ExExEx
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/20089/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7252" tvg-logo="http://epg.one/img/7252.png" tvg-rec="0",CineMan ExExEx TWO
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/20090/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="8847" tvg-logo="http://epg.one/img/8847.png" tvg-rec="0",StrahTV PlayBoyz TV HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/31709/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="8848" tvg-logo="http://epg.one/img/8848.png" tvg-rec="0",StrahTV Ню Арт HD
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/31716/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="7745" tvg-logo="http://epg.one/img/7745.png" tvg-rec="0",Barely Legal TV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/32231/index.m3u8
+#EXTINF:0 group-title="SEX🌸" tvg-id="3140" tvg-logo="http://epg.one/img/3140.png" tvg-rec="0",Babes TV
+http://45.156.223.203/iptv/HSD8UEK6E2AENH/32315/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="7757" tvg-logo="http://epg.one/img/7757.png" tvg-rec="0",All Anal
 http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/12192/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="7757" tvg-logo="http://epg.one/img/7757.png" tvg-rec="0",All Anal
@@ -2988,21 +3191,19 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Y64FMSPU68BNV2/12142/ind
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="7251" tvg-logo="http://epg.one/img2/7251.png" tvg-rec="0",CineMan ExExEx
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/20089/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="7251" tvg-logo="http://epg.one/img2/7251.png" tvg-rec="0",CineMan ExExEx
-http://9e8d70c4.edmonst.net/iptv/2AYQXHZTLBQ9F794ZUVBKUUQ/20089/index.m3u8
+http://ax0x2jeb.vexiumis.top/iptv/275EP3V8V4MZHG8KQGLFDPSK/20089/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="7252" tvg-logo="http://epg.one/img2/7252.png" tvg-rec="0",CineMan ExExEx TWO
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/20090/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="7252" tvg-logo="http://epg.one/img2/7252.png" tvg-rec="0",CineMan ExExEx TWO
-http://9e8d70c4.edmonst.net/iptv/2AYQXHZTLBQ9F794ZUVBKUUQ/20090/index.m3u8
+http://ax0x2jeb.vexiumis.top/iptv/275EP3V8V4MZHG8KQGLFDPSK/20090/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="2528" tvg-logo="http://epg.one/img2/2528.png" tvg-rec="1",Vivid Red HD
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/2162/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="2528" tvg-logo="http://epg.one/img2/2528.png" tvg-rec="1",Vivid Red HD
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/XLLWS47TLMFBMWCP56MEZD43/2162/index.m3u8
-#EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="2528" tvg-logo="http://epg.one/img2/2528.png" tvg-rec="1",Vivid Red HD
-http://9e8d70c4.edmonst.net/iptv/2AYQXHZTLBQ9F794ZUVBKUUQ/2162/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="2632" tvg-logo="http://epg.one/img2/2632.png" tvg-rec="3",Exxxotica HD
 http://901b3df3.edemist.com/iptv/WNUCXAAZ3QD86Z4MVRCGZ5X8/2397/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="2632" tvg-logo="http://epg.one/img2/2632.png" tvg-rec="3",Exxxotica HD
-http://9e8d70c4.edmonst.net/iptv/2AYQXHZTLBQ9F794ZUVBKUUQ/2397/index.m3u8
+http://ax0x2jeb.vexiumis.top/iptv/275EP3V8V4MZHG8KQGLFDPSK/2397/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="2775" tvg-logo="http://epg.one/img2/2775.png" tvg-rec="3",XXL
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/5009/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="2775" tvg-logo="http://epg.one/img2/2775.png" tvg-rec="3",XXL
@@ -3014,9 +3215,13 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/G8HSPYL2U5KEF6/6178/inde
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="3147" tvg-logo="http://epg.one/img2/3147.png" tvg-rec="0",Blacked HD
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/6178/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="3190" tvg-logo="http://epg.one/img2/3190.png" tvg-rec="0",Holed
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HSD8UEK6E2AENH/6221/index.m3u8
+#EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="3190" tvg-logo="http://epg.one/img2/3190.png" tvg-rec="0",Holed
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/6221/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="3190" tvg-logo="http://epg.one/img2/3190.png" tvg-rec="0",Holed
 http://4417651a.rossteleccom.net/iptv/HE5SQDGXRPHALY/6221/index.m3u8
+#EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="3204" tvg-logo="http://epg.one/img2/3204.png" tvg-rec="0",Monsters of Cock
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HSD8UEK6E2AENH/6235/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="3204" tvg-logo="http://epg.one/img2/3204.png" tvg-rec="0",Monsters of Cock
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/6235/index.m3u8
 #EXTINF:0 group-title="♋️Взрослые☯️" tvg-id="3204" tvg-logo="http://epg.one/img2/3204.png" tvg-rec="0",Monsters of Cock
