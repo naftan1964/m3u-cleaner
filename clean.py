@@ -116,16 +116,61 @@ def load_playlist_lines(source):
     return f.read().splitlines()
 
 
-def load_keys(filepath=KEYS_FILE):
+def load_keys_data(filepath=KEYS_FILE):
   if not os.path.exists(filepath):
-    return []
-  keys = []
+    return [], {}, {}
+
+  raw_lines = []
   with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
     for line in f:
       item = line.strip()
       if item and not item.startswith("#"):
-        keys.append(item)
-  return keys
+        raw_lines.append(item)
+
+  unique_items = list(dict.fromkeys(raw_lines))
+  tokens = []
+  by_tail = {}
+  by_name = {}
+
+  for item in unique_items:
+    if item.startswith(("http://", "https://")):
+      parsed = urlparse(item)
+      parts = [p for p in parsed.path.split("/") if p]
+      if parts:
+        last_part = parts[-1]
+        if "." in last_part and len(parts) >= 2:
+          tokens.append(parts[-2])
+        else:
+          tokens.append(last_part)
+
+      try:
+        pl_lines = load_playlist_lines(item)
+        pl_entries = parse_playlist(pl_lines)
+        for _, h_lines, stream_url in pl_entries:
+          if "err.cdntv" in stream_url:
+            continue
+          sp = urlparse(stream_url)
+          s_parts = [p for p in sp.path.split("/") if p]
+          if len(s_parts) >= 2:
+            tail = "/".join(s_parts[-2:])
+            by_tail.setdefault(tail, []).append(stream_url)
+          for h in h_lines:
+            if h.startswith("#EXTINF") and "," in h:
+              _, ch_name = h.rsplit(",", 1)
+              ch_key = ch_name.strip().lower()
+              if ch_key:
+                by_name.setdefault(ch_key, []).append(stream_url)
+      except Exception:
+        pass
+    else:
+      tokens.append(item)
+
+  unique_tokens = list(dict.fromkeys(tokens))
+  print(
+      f"Извлечено уникальных ключей из {filepath}: {len(unique_tokens)}"
+      f" ({', '.join(unique_tokens)})"
+  )
+  return unique_tokens, by_tail, by_name
 
 
 def parse_playlist(lines):
@@ -141,68 +186,49 @@ def parse_playlist(lines):
       entries.append((len(entries), header_lines, stripped))
       header_lines = []
   return entries
-    
 
-def build_candidate_urls(old_url, key_item):
+
+def extract_channel_name(header_lines):
+  for h in header_lines:
+    if h.startswith("#EXTINF") and "," in h:
+      _, name = h.rsplit(",", 1)
+      return name.strip().lower()
+  return ""
+
+
+def build_candidate_urls(old_url, header_lines, tokens, by_tail, by_name):
   candidates = []
   parsed = urlparse(old_url)
-  clean_key = key_item.strip()
+  old_parts = [p for p in parsed.path.split("/") if p]
 
-  if clean_key.startswith(("http://", "https://")):
-    kp = urlparse(clean_key.rstrip("/"))
-    old_parts = [p for p in parsed.path.split("/") if p]
-    key_parts = [p for p in kp.path.split("/") if p]
-
-    if len(old_parts) > len(key_parts):
-      tail = "/".join(old_parts[len(key_parts) :])
-      new_path = "/" + "/".join(key_parts + [tail])
-    else:
-      new_path = parsed.path
-
-    candidates.append(
-        urlunparse(
-            (kp.scheme, kp.netloc, new_path, parsed.params, parsed.query, "")
-        )
-    )
-    return candidates
-
-  if "/" not in clean_key and (":" in clean_key or "." in clean_key):
-    candidates.append(
-        urlunparse((
-            parsed.scheme,
-            clean_key,
-            parsed.path,
-            parsed.params,
-            parsed.query,
-            "",
-        ))
-    )
-    return candidates
-
-  if "/" in clean_key:
-    key_parts = [p for p in clean_key.split("/") if p]
-    old_parts = [p for p in parsed.path.split("/") if p]
-    k_len = len(key_parts)
-    if k_len > 0 and len(old_parts) >= k_len:
-      for i in range(len(old_parts) - k_len + 1):
-        if (
-            old_parts[i] == key_parts[0]
-            or old_parts[i + k_len - 1] == key_parts[-1]
+  for token in tokens:
+    if parsed.query:
+      q_pairs = parse_qsl(parsed.query, keep_blank_values=True)
+      for idx, (qk, qv) in enumerate(q_pairs):
+        if qk.lower() in {"token", "key", "hash", "auth", "pass", "id"} or (
+            len(qv) >= 6 and qv.isalnum()
         ):
-          new_parts = old_parts[:i] + key_parts + old_parts[i + k_len :]
-          new_path = "/" + "/".join(new_parts)
+          new_q = list(q_pairs)
+          new_q[idx] = (qk, token)
           candidates.append(
               urlunparse((
                   parsed.scheme,
                   parsed.netloc,
-                  new_path,
+                  parsed.path,
                   parsed.params,
-                  parsed.query,
+                  urlencode(new_q),
                   "",
               ))
           )
-      if not candidates and len(old_parts) > k_len:
-        new_parts = key_parts + old_parts[k_len:]
+
+    for i, part in enumerate(old_parts):
+      is_last_file = i == len(old_parts) - 1 and (
+          "." in part or part.isdigit()
+      )
+      if is_last_file or part.lower() in STATIC_SEGMENTS:
+        continue
+      if len(part) >= 5 and part != token:
+        new_parts = old_parts[:i] + [token] + old_parts[i + 1 :]
         new_path = "/" + "/".join(new_parts)
         candidates.append(
             urlunparse((
@@ -214,80 +240,57 @@ def build_candidate_urls(old_url, key_item):
                 "",
             ))
         )
-    return candidates
 
-  if parsed.query:
-    q_pairs = parse_qsl(parsed.query, keep_blank_values=True)
-    for idx, (qk, qv) in enumerate(q_pairs):
-      if qk.lower() in {"token", "key", "hash", "auth", "pass", "id"} or (
-          len(qv) >= 6 and qv.isalnum()
-      ):
-        new_q = list(q_pairs)
-        new_q[idx] = (qk, clean_key)
-        candidates.append(
-            urlunparse((
-                parsed.scheme,
-                parsed.netloc,
-                parsed.path,
-                parsed.params,
-                urlencode(new_q),
-                "",
-            ))
-        )
+  if len(old_parts) >= 2:
+    tail = "/".join(old_parts[-2:])
+    for u in by_tail.get(tail, []):
+      candidates.append(u)
 
-  old_parts = [p for p in parsed.path.split("/") if p]
-  for i, part in enumerate(old_parts):
-    is_last_file = i == len(old_parts) - 1 and (
-        "." in part or part.isdigit()
-    )
-    if is_last_file or part.lower() in STATIC_SEGMENTS:
-      continue
-    if len(part) >= 5:
-      new_parts = old_parts[:i] + [clean_key] + old_parts[i + 1 :]
-      new_path = "/" + "/".join(new_parts)
-      candidates.append(
-          urlunparse((
-              parsed.scheme,
-              parsed.netloc,
-              new_path,
-              parsed.params,
-              parsed.query,
-              "",
-          ))
-      )
+  ch_name = extract_channel_name(header_lines)
+  if ch_name:
+    for u in by_name.get(ch_name, []):
+      candidates.append(u)
 
-  return candidates
+  return list(dict.fromkeys(candidates))
 
 
-def process_entry(entry, keys, working_key_cache):
+def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
   idx, header_lines, url = entry
 
   if check_url(url):
     return (idx, "alive", header_lines, url)
 
-  if keys:
-    host = urlparse(url).netloc
-    ordered_keys = list(keys)
+  if tokens or by_tail or by_name:
+    parsed = urlparse(url)
+    old_parts = [p for p in parsed.path.split("/") if p]
+    host = parsed.netloc
 
-    cached_key = working_key_cache.get(host)
-    if cached_key and cached_key in ordered_keys:
-      ordered_keys.remove(cached_key)
-      ordered_keys.insert(0, cached_key)
+    cached_prefix = working_prefix_cache.get(host)
+    if cached_prefix and len(old_parts) >= 2:
+      fast_url = cached_prefix.rstrip("/") + "/" + "/".join(old_parts[-2:])
+      if fast_url != url and check_url(fast_url):
+        return (idx, "fixed", header_lines, fast_url)
 
-    for key_item in ordered_keys:
-      for candidate in build_candidate_urls(url, key_item):
-        if candidate != url and check_url(candidate):
-          working_key_cache[host] = key_item
-          return (idx, "fixed", header_lines, candidate)
+    for candidate in build_candidate_urls(
+        url, header_lines, tokens, by_tail, by_name
+    ):
+      if candidate != url and check_url(candidate):
+        cp = urlparse(candidate)
+        c_parts = [p for p in cp.path.split("/") if p]
+        if len(c_parts) >= 3:
+          prefix = f"{cp.scheme}://{cp.netloc}/" + "/".join(c_parts[:-2])
+          working_prefix_cache[host] = prefix
+        return (idx, "fixed", header_lines, candidate)
 
   return (idx, "dead", header_lines, url)
 
 
 def main():
-  if len(sys.argv) > 1:
-    source = sys.argv[1]
+  args_tail = sys.argv[1:]
+  if args_tail:
+    source = next(iter(args_tail))
   elif os.environ.get("TARGET_SOURCE"):
-    source = os.environ["TARGET_SOURCE"] 
+    source = os.environ["TARGET_SOURCE"]
   else:
     source = input("Введите ссылку на Main Mix или путь к файлу: ").strip()
 
@@ -298,15 +301,13 @@ def main():
   start_time = time.time()
   lines = load_playlist_lines(source)
   entries = parse_playlist(lines)
-  keys = load_keys(KEYS_FILE)
+  tokens, by_tail, by_name = load_keys_data(KEYS_FILE)
 
   print(f"Найдено каналов: {len(entries)}")
-  if keys:
-    print(f"Загружено ключей из {KEYS_FILE}: {len(keys)}")
-  else:
+  if not (tokens or by_tail or by_name):
     print(f"Файл {KEYS_FILE} пуст или не найден — работаю в режиме очистки.")
 
-  working_key_cache = {}
+  working_prefix_cache = {}
   results = [None] * len(entries)
   done_count = 0
 
@@ -314,7 +315,9 @@ def main():
       max_workers=MAX_WORKERS
   ) as executor:
     futures = [
-        executor.submit(process_entry, entry, keys, working_key_cache)
+        executor.submit(
+            process_entry, entry, tokens, by_tail, by_name, working_prefix_cache
+        )
         for entry in entries
     ]
     for future in concurrent.futures.as_completed(futures):
@@ -352,4 +355,5 @@ def main():
 
 if __name__ == "__main__":
   main()
+
 
