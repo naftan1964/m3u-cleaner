@@ -141,6 +141,8 @@ def parse_playlist(lines):
       entries.append((len(entries), header_lines, stripped))
       header_lines = []
   return entries
+    
+
 def build_candidate_urls(old_url, key_item):
   candidates = []
   parsed = urlparse(old_url)
