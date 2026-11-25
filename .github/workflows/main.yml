@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@://github.com"
-          git add cleaned_playlist.m3u test_playlist.m3u 2>/dev/null || true
+          git add cleaned_playlist.m3u test_playlist.m3u deleted_channels.txt keys.txt 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "Update playlist"
             git push
