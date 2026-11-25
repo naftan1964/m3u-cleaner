@@ -1,103 +1,88 @@
-Отчёт проверки от 2026-11-25 15:26:17 UTC
-Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 33
+Отчёт проверки от 2026-11-25 18:09:24 UTC
+Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 21
 ============================================================
 
-1. НТВ HD 🇷🇺 — Причина: пустой или слишком короткий ответ
-   https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
+1. [General✨] НТВ HD 🇷🇺 — Строка в файле: ~7
+   Причина: пустой или слишком короткий ответ
+   Ссылка: https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
 
-2. Россия 1 🇨🇿* — Причина: HTTP ошибка 404
-   https://flussonic.mkpnet.ru/tv-d696bdfd6a0e4373/video.m3u8
+2. [General✨] Мосфильм.Золотая коллекция HD 🇩🇪 — Строка в файле: ~254
+   Причина: HTTP ошибка 404
+   Ссылка: http://live.y666tv.cc/8707/video.m3u8?token=09b9751a49b0f563639b23b4bd2ba1bd
 
-3. Соловьёв Live — Причина: HTTP ошибка 404
-   https://stream.smotrim.ru/hls/solovievlive/playlist_6.m3u8
+3. [SPORT 🏀] ТВ SPORT HD 🇷🇺 — Строка в файле: ~1163
+   Причина: HTTP ошибка 503
+   Ссылка: http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
 
-4. Мир Баскетбола HD 🇪🇸 — Причина: HTTP ошибка 404
-   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DM5Z5ZG799WVM2/20004/index.m3u8
+4. [Без группы] .sci-fi HD 🇪🇸 — Строка в файле: ~2025
+   Причина: ошибка сети / таймаут ([Errno -2] Name or service not known)
+   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siaul
 
-5. Мир Баскетбола HD 🇳🇱 — Причина: HTTP ошибка 404
-   http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20004/index.m3u8
+5. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇪🇸 — Строка в файле: ~2199
+   Причина: HTTP ошибка 404
+   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZUXVS87HZNV54C/31695/index.m3u8
 
-6. Мир Баскетбола HD 🇨🇿 — Причина: HTTP ошибка 404
-   http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/20004/index.m3u8
+6. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇳🇱 — Строка в файле: ~2202
+   Причина: HTTP ошибка 502
+   Ссылка: http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31695/index.m3u8
 
-7. СтартБаскет 🇷🇺 — Причина: HTTP ошибка 403
-   http://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/1080p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8?live=15&ref=http://tvstart.ru/channels/start-basket-test/
+7. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇨🇿 — Строка в файле: ~2205
+   Причина: HTTP ошибка 502
+   Ссылка: http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31695/index.m3u8
 
-8. Дом Кино 🇩🇪 — Причина: HTTP ошибка 404
-   http://live.y666tv.cc/8136/video.m3u8?token=09b9751a49b0f563639b23b4bd2ba1bd
+8. [SCIENCE 💥] BOX Travel HD 🇨🇿 — Строка в файле: ~4347
+   Причина: HTTP ошибка 404
+   Ссылка: http://7j9atzv2.streamoras.top/iptv/VGWB9P9PSCG8HS/19418/
 
-9. .sci-fi HD 🇪🇸 — Причина: ошибка сети / таймаут ([Errno -2] Name or service not known)
-   http://sewv654wfcsdwfi87fwvgbngh.siaul
+9. [Без группы] Без названия — Строка в файле: ~4348
+   Причина: ошибка соединения (ValueError: unknown url type: 'index.m3u8')
+   Ссылка: index.m3u8
 
-10. Z!History HD 🇪🇸 — Причина: HTTP ошибка 404
-   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZUXVS87HZNV54C/31695/index.m3u8
+10. [SCIENCE 💥] VF Стройка 🇨🇿 — Строка в файле: ~4441
+   Причина: HTTP ошибка 404
+   Ссылка: http://7j9atzv2.streamoras.top/
 
-11. Z!History HD 🇳🇱 — Причина: HTTP ошибка 404
-   http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31695/index.m3u8
+11. [Без группы] Без названия — Строка в файле: ~4453
+   Причина: ошибка соединения (ValueError: unknown url type: 'б#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2417" tvg-logo="http://epg.one/img2/2417.png" tvg-rec="7",Большая Азия HD 🇪🇸')
+   Ссылка: б#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2417" tvg-logo="http://epg.one/img2/2417.png" tvg-rec="7",Большая Азия HD 🇪🇸
 
-12. Z!History HD 🇨🇿 — Причина: HTTP ошибка 502
-   http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31695/index.m3u8
+12. [Без группы] Investigation — Строка в файле: ~4490
+   Причина: ошибка соединения (ValueError: unknown url type: 'Discovery HD orig 🇳🇱')
+   Ссылка: Discovery HD orig 🇳🇱
 
-13. BOX Travel HD 🇨🇿 — Причина: HTTP ошибка 404
-   http://7j9atzv2.streamoras.top/iptv/VGWB9P9PSCG8HS/19418/
+13. [SCIENCE 💥] History 2 HD 🇳🇱 — Строка в файле: ~4654
+   Причина: HTTP ошибка 502
+   Ссылка: http://dd624624.ottolok.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
 
-14. Без названия — Причина: ошибка соединения (ValueError)
-   index.m3u8
+14. [SCIENCE 💥] History 2 HD 🇨🇿 — Строка в файле: ~4657
+   Причина: HTTP ошибка 502
+   Ссылка: http://dbca06a0.rossteleccom.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
 
-15. VF Стройка 🇨🇿 — Причина: HTTP ошибка 404
-   http://7j9atzv2.streamoras.top/
+15. [SCIENCE 💥] Travel+Adventure 🇳🇱 — Строка в файле: ~4672
+   Причина: ошибка соединения (UnicodeEncodeError: 'ascii' codec can't encode character '\u0445' in position 49: ordinal not in range(128))
+   Ссылка: http://dd624624.ottolok.net/iptv/XLLWS47TLMFBMWCP56MEZD43/850/index.m3u8х
 
-16. Без названия — Причина: ошибка соединения (ValueError)
-   б#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2417" tvg-logo="http://epg.one/img2/2417.png" tvg-rec="7",Большая Азия HD 🇪🇸
+16. [SCIENCE 💥] Поехали! HD 🇪🇸 — Строка в файле: ~4732
+   Причина: HTTP ошибка 404
+   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/14020/index.m3u8
 
-17. Investigation — Причина: ошибка соединения (ValueError)
-   Discovery HD orig 🇳🇱
+17. [SCIENCE 💥] Поехали! HD 🇳🇱 — Строка в файле: ~4735
+   Причина: HTTP ошибка 404
+   Ссылка: http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/14020/index.m3u8
 
-18. History 2 HD 🇳🇱 — Причина: HTTP ошибка 502
-   http://dd624624.ottolok.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
+18. [RELAX🏝️] Просто Украина — Строка в файле: ~4944
+   Причина: HTTP ошибка 404
+   Ссылка: http://iptv.prosto.tv:7000/ch303/video.m3u8
 
-19. History 2 HD 🇨🇿 — Причина: HTTP ошибка 502
-   http://dbca06a0.rossteleccom.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
+19. [RELAX🏝️] Зима — Строка в файле: ~4971
+   Причина: HTTP ошибка 404
+   Ссылка: http://iptv.prosto.tv:7000/ch327/video.m3u8
 
-20. Travel+Adventure 🇳🇱 — Причина: ошибка соединения (UnicodeEncodeError)
-   http://dd624624.ottolok.net/iptv/XLLWS47TLMFBMWCP56MEZD43/850/index.m3u8х
+20. [RELAX🏝️] Ночь — Строка в файле: ~4974
+   Причина: HTTP ошибка 404
+   Ссылка: http://iptv.prosto.tv:7000/ch349/video.m3u8
 
-21. Поехали! HD 🇪🇸 — Причина: HTTP ошибка 404
-   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/14020/index.m3u8
-
-22. Поехали! HD 🇳🇱 — Причина: HTTP ошибка 404
-   http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/14020/index.m3u8
-
-23. Deluxe Lounge HD — Причина: HTTP ошибка 404
-   https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
-
-24. Travel Guide TV — Причина: HTTP ошибка 404
-   http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
-
-25. Stingray Naturescape — Причина: HTTP ошибка 404
-   https://jmp2.uk/stvp-CAAJ3400003T7
-
-26. ZenLIFE by Stingray — Причина: HTTP ошибка 404
-   https://jmp2.uk/rok-79876f8f79d0394ba8982259393e5e32.m3u8
-
-27. Bridge Русский Хит HD — Причина: HTTP ошибка 404
-   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZUXVS87HZNV54C/19226/index.m3u8
-
-28. Blue Hustler — Причина: HTTP ошибка 502
-   http://45.156.223.203/iptv/HSD8UEK6E2AENH/1064/index.m3u8
-
-29. Без названия — Причина: ошибка соединения (ValueError)
-   index.m3u8
-
-30. Dorcel TV HD orig — Причина: HTTP ошибка 404
-   http://45.156.223.203/iptv/HSD8UEK6E2AENH/9064/index.m3u8
-
-31. Redlight HD orig — Причина: HTTP ошибка 404
-   http://45.156.223.203/iptv/HSD8UEK6E2AENH/9066/index.m3u8
-
-32. Alba XXX 1 — Причина: HTTP ошибка 404
-   http://45.156.223.203/iptv/HSD8UEK6E2AENH/12106/index.m3u8
-
-33. Brazzers TV Europe HD — Причина: HTTP ошибка 404
-   http://45.156.223.203/iptv/HSD8UEK6E2AENH/12113/index.m3u8
+21. [Без группы] Без названия — Строка в файле: ~5318
+   Причина: ошибка соединения (ValueError: unknown url type: 'index.m3u8')
+   Ссылка: index.m3u8
 
