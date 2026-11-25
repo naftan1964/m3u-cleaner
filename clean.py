@@ -36,41 +36,43 @@ def fetch_bytes(url, max_bytes=16384, timeout=TIMEOUT):
   req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
   with urllib.request.urlopen(req, timeout=timeout) as resp:
     if resp.status != 200:
-      return b""
-    return resp.read(max_bytes)
+      return b"", f"HTTP {resp.status}"
+    return resp.read(max_bytes), "OK"
 
 
 def is_valid_ts_data(data):
   if not data or len(data) < 1880:
-    return False
+    return False, "пустой или слишком короткий ответ"
   head = data.split(b"\n", 1)[0].lstrip().lower()
   if head.startswith(
       (b"<!doctype", b"<html", b"404", b"403", b"error", b"no signal")
   ):
-    return False
+    return False, "HTML-страница или заглушка вместо видео"
   sync_pos = data.find(0x47)
   if sync_pos == -1:
-    return False
+    return False, "нет видеопакетов MPEG-TS (возможно fMP4 или аудио)"
   mv = memoryview(data)
   packets = 0
   for pos in range(sync_pos, len(data) - 4, 188):
     if mv[pos] != 0x47:
-      return False
+      return False, "повреждённый поток MPEG-TS"
     pid = ((mv[pos + 1] & 0x1F) << 8) | mv[pos + 2]
     scrambling = (mv[pos + 3] & 0xC0) >> 6
     has_payload = (mv[pos + 3] & 0x10) != 0
     if 0x0020 <= pid < 0x1FFF and scrambling == 0 and has_payload:
       packets += 1
       if packets >= 3:
-        return True
-  return False
+        return True, "OK"
+  return False, "нет незашифрованного видеопотока"
 
 
-def check_url(url):
+def check_url_detailed(url):
+  if "err.cdntv" in url:
+    return False, "заглушка провайдера (err.cdntv)"
   try:
-    data = fetch_bytes(url, max_bytes=8192)
+    data, status = fetch_bytes(url, max_bytes=8192)
     if not data:
-      return False
+      return False, status
 
     if data.lstrip().startswith(b"#EXTM3U"):
       current_url = url
@@ -82,22 +84,39 @@ def check_url(url):
             if line.strip() and not line.strip().startswith("#")
         ]
         if not sub_links:
-          return False
+          return False, "пустой m3u8-плейлист"
         next_url = urljoin(current_url, sub_links[0])
+        if "err.cdntv" in next_url:
+          return False, "заглушка провайдера (err.cdntv)"
         if ".m3u8" in next_url.lower() and next_url != current_url:
-          sub_data = fetch_bytes(next_url, max_bytes=8192)
-          if not sub_data or not sub_data.lstrip().startswith(b"#EXTM3U"):
-            return False
+          sub_data, sub_status = fetch_bytes(next_url, max_bytes=8192)
+          if not sub_data:
+            return False, sub_status
+          if not sub_data.lstrip().startswith(b"#EXTM3U"):
+            return False, "ошибка вложенного m3u8"
           current_url = next_url
           text = sub_data.decode("utf-8", errors="ignore")
         else:
-          seg_data = fetch_bytes(next_url, max_bytes=16384)
+          seg_data, seg_status = fetch_bytes(next_url, max_bytes=16384)
+          if not seg_data:
+            return False, seg_status
           return is_valid_ts_data(seg_data)
-      return False
+      return False, "слишком глубокая вложенность m3u8"
 
     return is_valid_ts_data(data)
-  except Exception:
-    return False
+  except urllib.error.HTTPError as e:
+    return False, f"HTTP ошибка {e.code}"
+  except urllib.error.URLError as e:
+    return False, f"ошибка сети / таймаут ({e.reason})"
+  except TimeoutError:
+    return False, "таймаут ожидания ответа"
+  except Exception as e:
+    return False, f"ошибка соединения ({type(e).__name__})"
+
+
+def check_url(url):
+  ok, _ = check_url_detailed(url)
+  return ok
 
 
 def load_playlist_lines(source):
@@ -117,63 +136,6 @@ def load_playlist_lines(source):
     return f.read().splitlines()
 
 
-def load_keys_data(filepath=KEYS_FILE):
-  if not os.path.exists(filepath):
-    return [], {}, {}
-
-  raw_lines = []
-  with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
-    for line in f:
-      item = line.strip()
-      if item and not item.startswith("#"):
-        raw_lines.append(item)
-
-  unique_items = list(dict.fromkeys(raw_lines))
-  tokens = []
-  by_tail = {}
-  by_name = {}
-
-  for item in unique_items:
-    if item.startswith(("http://", "https://")):
-      parsed = urlparse(item)
-      parts = [p for p in parsed.path.split("/") if p]
-      if parts:
-        last_part = parts[-1]
-        if "." in last_part and len(parts) >= 2:
-          tokens.append(parts[-2])
-        else:
-          tokens.append(last_part)
-
-      try:
-        pl_lines = load_playlist_lines(item)
-        pl_entries = parse_playlist(pl_lines)
-        for _, h_lines, stream_url in pl_entries:
-          if "err.cdntv" in stream_url:
-            continue
-          sp = urlparse(stream_url)
-          s_parts = [p for p in sp.path.split("/") if p]
-          if len(s_parts) >= 2:
-            tail = "/".join(s_parts[-2:])
-            by_tail.setdefault(tail, []).append(stream_url)
-          for h in h_lines:
-            if h.startswith("#EXTINF") and "," in h:
-              _, ch_name = h.rsplit(",", 1)
-              ch_key = ch_name.strip().lower()
-              if ch_key:
-                by_name.setdefault(ch_key, []).append(stream_url)
-      except Exception:
-        pass
-    else:
-      tokens.append(item)
-
-  unique_tokens = list(dict.fromkeys(tokens))
-  print(
-      f"Извлечено уникальных ключей из {filepath}: {len(unique_tokens)}"
-      f" ({', '.join(unique_tokens)})"
-  )
-  return unique_tokens, by_tail, by_name
-
-
 def parse_playlist(lines):
   entries = []
   header_lines = []
@@ -189,12 +151,25 @@ def parse_playlist(lines):
   return entries
 
 
-def extract_channel_name(header_lines):
+def extract_channel_name(header_lines, raw=False):
   for h in header_lines:
     if h.startswith("#EXTINF") and "," in h:
       _, name = h.rsplit(",", 1)
-      return name.strip().lower()
-  return ""
+      return name.strip() if raw else name.strip().lower()
+  return "Без названия" if raw else ""
+
+
+def extract_token_from_item(item):
+  if item.startswith(("http://", "https://")):
+    parsed = urlparse(item)
+    parts = [p for p in parsed.path.split("/") if p]
+    if parts:
+      last_part = parts[-1]
+      if "." in last_part and len(parts) >= 2:
+        return parts[-2]
+      return last_part
+    return ""
+  return item.strip()
 
 
 def build_candidate_urls(old_url, header_lines, tokens, by_tail, by_name):
@@ -247,7 +222,7 @@ def build_candidate_urls(old_url, header_lines, tokens, by_tail, by_name):
     for u in by_tail.get(tail, []):
       candidates.append(u)
 
-  ch_name = extract_channel_name(header_lines)
+  ch_name = extract_channel_name(header_lines, raw=False)
   if ch_name:
     for u in by_name.get(ch_name, []):
       candidates.append(u)
@@ -255,11 +230,113 @@ def build_candidate_urls(old_url, header_lines, tokens, by_tail, by_name):
   return list(dict.fromkeys(candidates))
 
 
+def load_and_clean_keys(entries, filepath=KEYS_FILE):
+  if not os.path.exists(filepath):
+    return [], {}, {}
+
+  raw_lines = []
+  with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+    for line in f:
+      item = line.strip()
+      if item and not item.startswith("#"):
+        raw_lines.append(item)
+
+  if not raw_lines:
+    return [], {}, {}
+
+  # 1. Удаляем дубликаты
+  unique_items = list(dict.fromkeys(raw_lines))
+  dups_removed = len(raw_lines) - len(unique_items)
+  if dups_removed > 0:
+    print(f"В {filepath} удалено дубликатов: {dups_removed}")
+
+  # Берём первые 3 ссылки из основного листа для тестовой подстановки чистых ключей
+  sample_urls = [u for _, _, u in entries[:3]]
+
+  valid_items = []
+  tokens = []
+  by_tail = {}
+  by_name = {}
+  dead_keys_count = 0
+
+  print(f"Предпроверка ключей ({len(unique_items)} шт.)...")
+
+  for item in unique_items:
+    token = extract_token_from_item(item)
+    is_alive = False
+    temp_tail = {}
+    temp_name = {}
+
+    if item.startswith(("http://", "https://")):
+      try:
+        pl_lines = load_playlist_lines(item)
+        pl_entries = parse_playlist(pl_lines)
+        valid_streams = [
+            (h, u) for _, h, u in pl_entries if "err.cdntv" not in u
+        ]
+        # Проверяем до 2 потоков из загруженного листа
+        for _, test_u in valid_streams[:2]:
+          if check_url(test_u):
+            is_alive = True
+            break
+        if is_alive:
+          for h_lines, stream_url in valid_streams:
+            sp = urlparse(stream_url)
+            s_parts = [p for p in sp.path.split("/") if p]
+            if len(s_parts) >= 2:
+              tail = "/".join(s_parts[-2:])
+              temp_tail.setdefault(tail, []).append(stream_url)
+            ch_key = extract_channel_name(h_lines, raw=False)
+            if ch_key:
+              temp_name.setdefault(ch_key, []).append(stream_url)
+      except Exception:
+        is_alive = False
+    else:
+      # Если передан чистый ключ — тестируем подстановкой в первые каналы листа
+      for su in sample_urls:
+        for cand in build_candidate_urls(su, [], [token], {}, {}):
+          if check_url(cand):
+            is_alive = True
+            break
+        if is_alive:
+          break
+
+    if is_alive:
+      valid_items.append(item)
+      if token:
+        tokens.append(token)
+      for k, v in temp_tail.items():
+        by_tail.setdefault(k, []).extend(v)
+      for k, v in temp_name.items():
+        by_name.setdefault(k, []).extend(v)
+    else:
+      dead_keys_count += 1
+      print(f"Удалён нерабочий ключ из {filepath}: {item}")
+
+  # Перезаписываем keys.txt, если были дубликаты или нерабочие ключи
+  if len(valid_items) != len(raw_lines):
+    with open(filepath, "w", encoding="utf-8") as f:
+      for vi in valid_items:
+        f.write(vi + "\n")
+    print(
+        f"Файл {filepath} обновлён: оставлено рабочих ключей — {len(valid_items)}"
+        f" (удалено мёртвых: {dead_keys_count}, дублей: {dups_removed})"
+    )
+
+  unique_tokens = list(dict.fromkeys(tokens))
+  print(
+      f"Активных уникальных ключей для работы: {len(unique_tokens)}"
+      f" ({', '.join(unique_tokens)})"
+  )
+  return unique_tokens, by_tail, by_name
+
+
 def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
   idx, header_lines, url = entry
 
-  if check_url(url):
-    return (idx, "alive", header_lines, url)
+  ok, reason = check_url_detailed(url)
+  if ok:
+    return (idx, "alive", header_lines, url, "")
 
   if tokens or by_tail or by_name:
     parsed = urlparse(url)
@@ -270,7 +347,7 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
     if cached_prefix and len(old_parts) >= 2:
       fast_url = cached_prefix.rstrip("/") + "/" + "/".join(old_parts[-2:])
       if fast_url != url and check_url(fast_url):
-        return (idx, "fixed", header_lines, fast_url)
+        return (idx, "fixed", header_lines, fast_url, "")
 
     for candidate in build_candidate_urls(
         url, header_lines, tokens, by_tail, by_name
@@ -281,9 +358,9 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
         if len(c_parts) >= 3:
           prefix = f"{cp.scheme}://{cp.netloc}/" + "/".join(c_parts[:-2])
           working_prefix_cache[host] = prefix
-        return (idx, "fixed", header_lines, candidate)
+        return (idx, "fixed", header_lines, candidate, "")
 
-  return (idx, "dead", header_lines, url)
+  return (idx, "dead", header_lines, url, reason)
 
 
 def main():
@@ -302,11 +379,11 @@ def main():
   start_time = time.time()
   lines = load_playlist_lines(source)
   entries = parse_playlist(lines)
-  tokens, by_tail, by_name = load_keys_data(KEYS_FILE)
-
   print(f"Найдено каналов: {len(entries)}")
+
+  tokens, by_tail, by_name = load_and_clean_keys(entries, KEYS_FILE)
   if not (tokens or by_tail or by_name):
-    print(f"Файл {KEYS_FILE} пуст или не найден — работаю в режиме очистки.")
+    print(f"Рабочих ключей в {KEYS_FILE} нет — работаю в режиме очистки.")
 
   working_prefix_cache = {}
   results = [None] * len(entries)
@@ -322,19 +399,19 @@ def main():
         for entry in entries
     ]
     for future in concurrent.futures.as_completed(futures):
-      idx, status, header_lines, final_url = future.result()
-      results[idx] = (status, header_lines, final_url)
+      idx, status, header_lines, final_url, reason = future.result()
+      results[idx] = (status, header_lines, final_url, reason)
       done_count += 1
       if done_count % 25 == 0 or done_count == len(entries):
         print(f"Проверено: {done_count}/{len(entries)}")
 
   alive_count = 0
   fixed_count = 0
-  dead_count = 0
+  dead_entries = []
 
   with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
     out.write("#EXTM3U\n")
-    for status, header_lines, final_url in results:
+    for status, header_lines, final_url, reason in results:
       if status in ("alive", "fixed"):
         if status == "alive":
           alive_count += 1
@@ -344,17 +421,27 @@ def main():
           out.write(h + "\n")
         out.write(final_url + "\n")
       else:
-        dead_count += 1
+        ch_title = extract_channel_name(header_lines, raw=True)
+        dead_entries.append((ch_title, final_url, reason))
+
+  # Записываем отчёт об удалённых каналах
+  now_str = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
+  with open(DELETED_FILE, "w", encoding="utf-8") as df:
+    df.write(f"Отчёт проверки от {now_str}\n")
+    df.write(f"Итоговый файл: {OUTPUT_FILE} | Удалено каналов: {len(dead_entries)}\n")
+    df.write("=" * 60 + "\n\n")
+    for i, (ch_title, bad_url, reason) in enumerate(dead_entries, 1):
+      df.write(f"{i}. {ch_title} — Причина: {reason}\n")
+      df.write(f"   {bad_url}\n\n")
 
   elapsed = round(time.time() - start_time, 1)
   print("\nГотово!")
   print(f"Рабочих изначально: {alive_count}")
   print(f"Восстановлено через {KEYS_FILE}: {fixed_count}")
-  print(f"Удалено нерабочих: {dead_count}")
+  print(f"Удалено нерабочих: {len(dead_entries)} (список в {DELETED_FILE})")
   print(f"Сохранено в {OUTPUT_FILE} за {elapsed} сек.")
 
 
 if __name__ == "__main__":
   main()
-
 
