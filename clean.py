@@ -9,6 +9,7 @@ USER_AGENT = "Mozilla/5.0"
 TIMEOUT = 10
 OUTPUT_FILE = os.environ.get("OUT_NAME") or "cleaned_playlist.m3u"
 KEYS_FILE = "keys.txt"
+DELETED_FILE = "deleted_channels.txt"
 MAX_WORKERS = 4
 
 STATIC_SEGMENTS = {
