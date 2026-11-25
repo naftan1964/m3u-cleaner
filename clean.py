@@ -111,7 +111,8 @@ def check_url_detailed(url):
   except TimeoutError:
     return False, "таймаут ожидания ответа"
   except Exception as e:
-    return False, f"ошибка соединения ({type(e).__name__})"
+    return False, f"ошибка соединения ({type(e).__name__}: {e})"
+
 
 
 def check_url(url):
@@ -139,14 +140,14 @@ def load_playlist_lines(source):
 def parse_playlist(lines):
   entries = []
   header_lines = []
-  for line in lines:
+  for line_num, line in enumerate(lines, 1):
     stripped = line.strip()
     if not stripped or stripped == "#EXTM3U":
       continue
     if stripped.startswith("#"):
       header_lines.append(stripped)
     else:
-      entries.append((len(entries), header_lines, stripped))
+      entries.append((len(entries), header_lines, stripped, line_num))
       header_lines = []
   return entries
 
@@ -157,6 +158,18 @@ def extract_channel_name(header_lines, raw=False):
       _, name = h.rsplit(",", 1)
       return name.strip() if raw else name.strip().lower()
   return "Без названия" if raw else ""
+
+
+def extract_channel_group(header_lines):
+  for h in header_lines:
+    if h.startswith("#EXTGRP:"):
+      return h.split(":", 1)[1].strip()
+  for h in header_lines:
+    if h.startswith("#EXTINF") and 'group-title="' in h:
+      part = h.split('group-title="', 1)[1]
+      return part.split('"', 1)[0].strip()
+  return "Без группы"
+
 
 
 def extract_token_from_item(item):
@@ -345,13 +358,12 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
   return unique_tokens, by_tail, by_name
 
 
-
 def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
-  idx, header_lines, url = entry
+  idx, header_lines, url, line_num = entry
 
   ok, reason = check_url_detailed(url)
   if ok:
-    return (idx, "alive", header_lines, url, "")
+    return (idx, "alive", header_lines, url, "", line_num)
 
   if tokens or by_tail or by_name:
     parsed = urlparse(url)
@@ -362,7 +374,7 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
     if cached_prefix and len(old_parts) >= 2:
       fast_url = cached_prefix.rstrip("/") + "/" + "/".join(old_parts[-2:])
       if fast_url != url and check_url(fast_url):
-        return (idx, "fixed", header_lines, fast_url, "")
+        return (idx, "fixed", header_lines, fast_url, "", line_num)
 
     for candidate in build_candidate_urls(
         url, header_lines, tokens, by_tail, by_name
@@ -373,10 +385,9 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
         if len(c_parts) >= 3:
           prefix = f"{cp.scheme}://{cp.netloc}/" + "/".join(c_parts[:-2])
           working_prefix_cache[host] = prefix
-        return (idx, "fixed", header_lines, candidate, "")
+        return (idx, "fixed", header_lines, candidate, "", line_num)
 
-  return (idx, "dead", header_lines, url, reason)
-
+  return (idx, "dead", header_lines, url, reason, line_num)
 
 def main():
   args_tail = sys.argv[1:]
