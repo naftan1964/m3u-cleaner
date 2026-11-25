@@ -426,8 +426,8 @@ def main():
         for entry in entries
     ]
     for future in concurrent.futures.as_completed(futures):
-      idx, status, header_lines, final_url, reason = future.result()
-      results[idx] = (status, header_lines, final_url, reason)
+      idx, status, header_lines, final_url, reason, line_num = future.result()
+      results[idx] = (status, header_lines, final_url, reason, line_num)
       done_count += 1
       if done_count % 25 == 0 or done_count == len(entries):
         print(f"Проверено: {done_count}/{len(entries)}")
@@ -438,7 +438,7 @@ def main():
 
   with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
     out.write("#EXTM3U\n")
-    for status, header_lines, final_url, reason in results:
+    for status, header_lines, final_url, reason, line_num in results:
       if status in ("alive", "fixed"):
         if status == "alive":
           alive_count += 1
@@ -449,17 +449,24 @@ def main():
         out.write(final_url + "\n")
       else:
         ch_title = extract_channel_name(header_lines, raw=True)
-        dead_entries.append((ch_title, final_url, reason))
+        ch_group = extract_channel_group(header_lines)
+        dead_entries.append((ch_group, ch_title, line_num, final_url, reason))
 
-  # Записываем отчёт об удалённых каналах
+  # Записываем подробный отчёт об удалённых каналах
   now_str = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
   with open(DELETED_FILE, "w", encoding="utf-8") as df:
     df.write(f"Отчёт проверки от {now_str}\n")
-    df.write(f"Итоговый файл: {OUTPUT_FILE} | Удалено каналов: {len(dead_entries)}\n")
+    df.write(
+        f"Итоговый файл: {OUTPUT_FILE} | Удалено каналов:"
+        f" {len(dead_entries)}\n"
+    )
     df.write("=" * 60 + "\n\n")
-    for i, (ch_title, bad_url, reason) in enumerate(dead_entries, 1):
-      df.write(f"{i}. {ch_title} — Причина: {reason}\n")
-      df.write(f"   {bad_url}\n\n")
+    for i, (ch_group, ch_title, line_num, bad_url, reason) in enumerate(
+        dead_entries, 1
+    ):
+      df.write(f"{i}. [{ch_group}] {ch_title} — Строка в файле: ~{line_num}\n")
+      df.write(f"   Причина: {reason}\n")
+      df.write(f"   Ссылка: {bad_url}\n\n")
 
   elapsed = round(time.time() - start_time, 1)
   print("\nГотово!")
@@ -471,4 +478,5 @@ def main():
 
 if __name__ == "__main__":
   main()
+
 
