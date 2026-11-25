@@ -1,10 +1,12 @@
 name: Clean M3U Playlist
 
 on:
+  schedule:
+    - cron: '0 1 * * *'
   workflow_dispatch:
     inputs:
       source:
-        description: 'Ссылка на лист ИЛИ имя файла (пусто = Main Mix)'
+        description: 'Чужая ссылка для проверки (оставьте ПУСТЫМ для вашего Main Mix)'
         required: false
         default: ''
 
@@ -27,13 +29,13 @@ jobs:
       - name: Run cleaner
         env:
           TARGET_SOURCE: ${{ github.event.inputs.source || secrets.MAIN_MIX_URL }}
-          OUT_NAME: ${{ github.event.inputs.source == '' && 'cleaned_playlist.m3u' || 'test_playlist.m3u' }}
+          OUT_NAME: ${{ (github.event_name == 'schedule' || github.event.inputs.source == '') && 'cleaned_playlist.m3u' || 'test_playlist.m3u' }}
         run: python3 clean.py
 
       - name: Save playlists
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "github-actions[bot]@://github.com"
           git add cleaned_playlist.m3u test_playlist.m3u 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "Update playlist"
@@ -41,5 +43,6 @@ jobs:
           else
             echo "Изменений нет."
           fi
+
 
 
