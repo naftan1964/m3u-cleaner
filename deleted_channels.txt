@@ -1,0 +1,628 @@
+Отчёт проверки от 2026-11-25 08:07:55 UTC
+Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 208
+============================================================
+
+1. НТВ HD 🇷🇺 — Причина: пустой или слишком короткий ответ
+   https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
+
+2. Соловьёв Live — Причина: HTTP ошибка 404
+   https://stream.smotrim.ru/hls/solovievlive/playlist_6.m3u8
+
+3. Беларусь 2 — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/2173/index.m3u8
+
+4. Беларусь 2 — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/2173/index.m3u8
+
+5. Беларусь 2 — Причина: HTTP ошибка 502
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/2173/index.m3u8
+
+6. ОНТ BY — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/42L7TCH8YYKLBRHNPV52HBRN/5061/index.m3u8
+
+7. ОНТ BY — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/5061/index.m3u8
+
+8. ОНТ BY — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/5061/index.m3u8
+
+9. Надiя ТВ UA — Причина: HTTP ошибка 404
+   http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/956/index.m3u8
+
+10. Kvartal TV UA — Причина: HTTP ошибка 404
+   http://86f624624.amazzin.pw/iptv/YN2H92MFHBQ5HH/932/index.m3u8
+
+11. Мир Баскетбола HD 🇪🇸 — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DM5Z5ZG799WVM2/20004/index.m3u8
+
+12. Мир Баскетбола HD 🇳🇱 — Причина: HTTP ошибка 404
+   http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/20004/index.m3u8
+
+13. Мир Баскетбола HD 🇨🇿 — Причина: HTTP ошибка 404
+   http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/20004/index.m3u8
+
+14. СтартБаскет 🇷🇺 — Причина: HTTP ошибка 403
+   http://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/1080p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8?live=15&ref=http://tvstart.ru/channels/start-basket-test/
+
+15. Матч ТВ HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/169/index.m3u8
+
+16. Матч! Премьер HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/193/index.m3u8
+
+17. Окко Футбол 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/491/index.m3u8
+
+18. Окко Спорт HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/492/index.m3u8
+
+19. Окко Прайм Спорт HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/493/index.m3u8
+
+20. Матч! Футбол 1 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/130/index.m3u8
+
+21. Матч! Футбол 2 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/142/index.m3u8
+
+22. Матч! Футбол 3 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/185/index.m3u8
+
+23. Матч! Игра 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/188/index.m3u8
+
+24. Setanta Sports 2 HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/235/index.m3u8
+
+25. Setanta Sports UA 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/313/index.m3u8
+
+26. Setanta Sports+ HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/390/index.m3u8
+
+27. Sport 1 HD LT 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/461/index.m3u8
+
+28. Sport 1 HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/391/index.m3u8
+
+29. Sport 2 HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/392/index.m3u8
+
+30. Sport 3 HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/393/index.m3u8
+
+31. Sport 4 HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/394/index.m3u8
+
+32. Dynamo Kyiv TV 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/396/index.m3u8
+
+33. Trace Sports 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/256/index.m3u8
+
+34. Суспільне Спорт HD UA 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/444/index.m3u8
+
+35. DiVi Sport 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/457/index.m3u8
+
+36. Maincast кіберспорт 🇺🇦 — Причина: ошибка сети / таймаут ([Errno -2] Name or service not known)
+   http://tream.mcquack.net/487/index.m3u8
+
+37. Maincast sport 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/490/index.m3u8
+
+38. KHL ТВ 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/166/index.m3u8
+
+39. KHL Prime 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/178/index.m3u8
+
+40. Viju+ Sport 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/333/index.m3u8
+
+41. TV3 Sport LT 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/416/index.m3u8
+
+42. Беларусь 5 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/33/index.m3u8
+
+43. Qazsport 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/72/index.m3u8
+
+44. Equalympic 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/485/index.m3u8
+
+45. Viju+ premiere HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/106.m3u8
+
+46. Viju+ megahit HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/105.m3u8
+
+47. Viju+ comedy HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/104.m3u8
+
+48. Viju+ Serial HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/311/index.m3u8
+
+49. Viju TV1000 Action HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/100/index.m3u8
+
+50. Viju TV1000 Action 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/101.m3u8
+
+51. Viju TV1000 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/103.m3u8
+
+52. Viju TV1000 Русское 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/102.m3u8
+
+53. Кинокомедия HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/265/index.m3u8
+
+54. Киноужас HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/278/index.m3u8
+
+55. Киносемья HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/170/index.m3u8
+
+56. Киносвидание HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/171/index.m3u8
+
+57. Мосфильм. Золотая коллекция HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/369/index.m3u8
+
+58. Любимое Кино 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/456/index.m3u8
+
+59. Наше Мужское HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/362/index.m3u8
+
+60. НТВ Сериал 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/301/index.m3u8
+
+61. Кинокомедия 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/68/index.m3u8
+
+62. Комедийное HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/74/index.m3u8
+
+63. Кино ТВ HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/221/index.m3u8
+
+64. Кинопоказ HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/64/index.m3u8
+
+65. Остросюжетное HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/214/index.m3u8
+
+66. Шокирующее HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/75/index.m3u8
+
+67. Еврокино HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/385/index.m3u8
+
+68. Блокбастер HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/364/index.m3u8
+
+69. .sci-fi 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/180/index.m3u8
+
+70. BCU 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/488/index.m3u8
+
+71. CineMan 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/349/index.m3u8
+
+72. CineMan Top 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/350/index.m3u8
+
+73. CineMan Катастрофы 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/471/index.m3u8
+
+74. CineMan Мелодрама 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/472/index.m3u8
+
+75. CineMan Action 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/351/index.m3u8
+
+76. CineMan Thriller 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/352/index.m3u8
+
+77. CineMan Ужасы 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/355/index.m3u8
+
+78. CineMan Комедия 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/356/index.m3u8
+
+79. CineMan VHS 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/474/index.m3u8
+
+80. CineMan Ментовские войны 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/477/index.m3u8
+
+81. Fresh Rating 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/422/index.m3u8
+
+82. Fresh Cinema 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/423/index.m3u8
+
+83. Fresh Premiere 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/424/index.m3u8
+
+84. Fresh Comedy 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/426/index.m3u8
+
+85. Fresh Family 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/427/index.m3u8
+
+86. Fresh VHS 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/428/index.m3u8
+
+87. Fresh Fantastic 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/429/index.m3u8
+
+88. Fresh Series 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/430/index.m3u8
+
+89. Fresh Horror 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/431/index.m3u8
+
+90. Fresh Adventure 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/432/index.m3u8
+
+91. Fresh Romantic 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/433/index.m3u8
+
+92. Fresh Thriller 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/434/index.m3u8
+
+93. Русский роман HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/266/index.m3u8
+
+94. KinoKazka 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/167/index.m3u8
+
+95. .black 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/263/index.m3u8
+
+96. .red HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/69/index.m3u8
+
+97. FX HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/182/index.m3u8
+
+98. Plan_B HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/196/index.m3u8
+
+99. Hollywood HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/268/index.m3u8
+
+100. KinoJam 1 HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/395/index.m3u8
+
+101. KinoJam 2 HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/465/index.m3u8
+
+102. Твій Серіал HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/466/index.m3u8
+
+103. Хит HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/363/index.m3u8
+
+104. Enter-фільм HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/322/index.m3u8
+
+105. Премиальное HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/421/index.m3u8
+
+106. Ретро 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/191/index.m3u8
+
+107. FAN 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/420/index.m3u8
+
+108. KinoLiving 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/445/index.m3u8
+
+109. Kinowood HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/446/index.m3u8
+
+110. Kinosweet HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/447/index.m3u8
+
+111. Дорама 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/412/index.m3u8
+
+112. Play-x Тайны Чапман HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2215.m3u8
+
+113. Play-x Тайны Чапман HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2215.m3u8
+
+114. Play-x Про людей и войну HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2216.m3u8
+
+115. Play-x Про людей и войну HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2216.m3u8
+
+116. Play-x География уральских пельменей HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2217.m3u8
+
+117. Play-x География уральских пельменей HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2217.m3u8
+
+118. Play-x Женский стендап HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2229.m3u8
+
+119. Play-x Женский стендап HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2229.m3u8
+
+120. Play-x Военная приемка HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2218.m3u8
+
+121. Play-x Военная приемка HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2218.m3u8
+
+122. Play-x Импровизаторы HD🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2219.m3u8
+
+123. Play-x Импровизаторы HD🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2219.m3u8
+
+124. Play-x 6 кадров HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2220.m3u8
+
+125. Play-x 6 кадров HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2220.m3u8
+
+126. Play-x music Enigmatic HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2221.m3u8
+
+127. Play-x music Enigmatic HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2221.m3u8
+
+128. Play-x Между нами HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2222.m3u8
+
+129. Play-x Между нами HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2222.m3u8
+
+130. Play-x Последний герой HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2224.m3u8
+
+131. Play-x Последний герой HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2224.m3u8
+
+132. Play-x Русская дорога HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2225.m3u8
+
+133. Play-x Русская дорога HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2225.m3u8
+
+134. Play-x Пограничный HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2231.m3u8
+
+135. Play-x Пограничный HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2231.m3u8
+
+136. Play-x Уральские пельмени HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2226.m3u8
+
+137. Play-x Уральские пельмени HD 🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2226.m3u8
+
+138. Play-x (90-е) HD🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/s8uahjxmiw/2227.m3u8
+
+139. Play-x (90-е) HD🇫🇷 — Причина: заглушка провайдера (err.cdntv)
+   http://u.vipl.one/hls/9bpaycj4dk/2227.m3u8
+
+140. .sci-fi HD 🇪🇸 — Причина: ошибка сети / таймаут ([Errno -2] Name or service not known)
+   http://sewv654wfcsdwfi87fwvgbngh.siaul
+
+141. Z!History HD 🇪🇸 — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZUXVS87HZNV54C/31695/index.m3u8
+
+142. Z!History HD 🇳🇱 — Причина: HTTP ошибка 502
+   http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31695/index.m3u8
+
+143. Z!History HD 🇨🇿 — Причина: HTTP ошибка 502
+   http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31695/index.m3u8
+
+144. Глазами Туриста HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/304/index.m3u8
+
+145. Приключения HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/198/index.m3u8
+
+146. TERRA HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/402/index.m3u8
+
+147. One Planet HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/448/index.m3u8
+
+148. Живая Планета 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/83/index.m3u8
+
+149. The Explorers HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/450/index.m3u8
+
+150. Viju+ Planet HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/240/index.m3u8
+
+151. TravelXP HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/451/index.m3u8
+
+152. Discovery 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/177/index.m3u8
+
+153. National Geographic Wild HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/149/index.m3u8
+
+154. TLC HD 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/168/index.m3u8
+
+155. RAZ 1 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/463/index.m3u8
+
+156. RAZ 2 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/464/index.m3u8
+
+157. Світ+ 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/358/index.m3u8
+
+158. ЗооСвіт 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/460/index.m3u8
+
+159. В мире животных 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/241/index.m3u8
+
+160. Мама 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/79/index.m3u8
+
+161. Доктор 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/80/index.m3u8
+
+162. Da Vinci 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/238/index.m3u8
+
+163. Quiz TV 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/397/index.m3u8
+
+164. Соль ТВ 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/398/index.m3u8
+
+165. Чемодан ТВ 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/399/index.m3u8
+
+166. Фауна 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/401/index.m3u8
+
+167. Наука 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/403/index.m3u8
+
+168. Авто24 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/78/index.m3u8
+
+169. Авто Плюс 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/186/index.m3u8
+
+170. Перший Автомобільний 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/404/index.m3u8
+
+171. Фронт 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/489/index.m3u8
+
+172. 365 дней ТВ 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/70/index.m3u8
+
+173. Охотник и рыболов 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/194/index.m3u8
+
+174. Диалоги о рыбалке 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/264/index.m3u8
+
+175. OstWest24 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/455/index.m3u8
+
+176. Continent E 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/449/index.m3u8
+
+177. Кухня ТВ 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/179/index.m3u8
+
+178. Food Time 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/216/index.m3u8
+
+179. Food Network 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/298/index.m3u8
+
+180. Insight TV 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/361/index.m3u8
+
+181. Мега 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/325/index.m3u8
+
+182. 6 Соток 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/405/index.m3u8
+
+183. Закон 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/406/index.m3u8
+
+184. Масон 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/346/index.m3u8
+
+185. Трофей 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/357/index.m3u8
+
+186. Нано ТВ 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/419/index.m3u8
+
+187. Cineman Relax 4K 🇺🇦 — Причина: HTTP ошибка 403
+   http://stream.mcquack.net/459/index.m3u8
+
+188. BOX Travel HD 🇨🇿 — Причина: HTTP ошибка 404
+   http://7j9atzv2.streamoras.top/iptv/VGWB9P9PSCG8HS/19418/
+
+189. Без названия — Причина: ошибка соединения (ValueError)
+   index.m3u8
+
+190. VF Стройка 🇨🇿 — Причина: HTTP ошибка 404
+   http://7j9atzv2.streamoras.top/
+
+191. Без названия — Причина: ошибка соединения (ValueError)
+   б#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2417" tvg-logo="http://epg.one/img2/2417.png" tvg-rec="7",Большая Азия HD 🇪🇸
+
+192. Investigation — Причина: ошибка соединения (ValueError)
+   Discovery HD orig 🇳🇱
+
+193. History 2 HD 🇳🇱 — Причина: HTTP ошибка 502
+   http://dd624624.ottolok.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
+
+194. History 2 HD 🇨🇿 — Причина: HTTP ошибка 502
+   http://dbca06a0.rossteleccom.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
+
+195. Travel+Adventure 🇳🇱 — Причина: ошибка соединения (UnicodeEncodeError)
+   http://dd624624.ottolok.net/iptv/XLLWS47TLMFBMWCP56MEZD43/850/index.m3u8х
+
+196. Поехали! HD 🇪🇸 — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/14020/index.m3u8
+
+197. Поехали! HD 🇳🇱 — Причина: HTTP ошибка 404
+   http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/14020/index.m3u8
+
+198. Deluxe Lounge HD — Причина: HTTP ошибка 404
+   https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
+
+199. Travel Guide TV — Причина: HTTP ошибка 404
+   http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
+
+200. Stingray Naturescape — Причина: HTTP ошибка 404
+   https://jmp2.uk/stvp-CAAJ3400003T7
+
+201. ZenLIFE by Stingray — Причина: HTTP ошибка 404
+   https://jmp2.uk/rok-79876f8f79d0394ba8982259393e5e32.m3u8
+
+202. Bridge Русский Хит HD — Причина: HTTP ошибка 404
+   http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZUXVS87HZNV54C/19226/index.m3u8
+
+203. Blue Hustler — Причина: HTTP ошибка 502
+   http://45.156.223.203/iptv/HSD8UEK6E2AENH/1064/index.m3u8
+
+204. Без названия — Причина: ошибка соединения (ValueError)
+   index.m3u8
+
+205. Dorcel TV HD orig — Причина: HTTP ошибка 404
+   http://45.156.223.203/iptv/HSD8UEK6E2AENH/9064/index.m3u8
+
+206. Redlight HD orig — Причина: HTTP ошибка 404
+   http://45.156.223.203/iptv/HSD8UEK6E2AENH/9066/index.m3u8
+
+207. Alba XXX 1 — Причина: HTTP ошибка 404
+   http://45.156.223.203/iptv/HSD8UEK6E2AENH/12106/index.m3u8
+
+208. Brazzers TV Europe HD — Причина: HTTP ошибка 404
+   http://45.156.223.203/iptv/HSD8UEK6E2AENH/12113/index.m3u8
+
