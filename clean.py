@@ -160,16 +160,18 @@ def extract_channel_name(header_lines, raw=False):
 
 
 def extract_token_from_item(item):
-  if item.startswith(("http://", "https://")):
-    parsed = urlparse(item)
+  clean = item.strip()
+  if clean.startswith(("http://", "https://")):
+    parsed = urlparse(clean)
     parts = [p for p in parsed.path.split("/") if p]
-    if parts:
-      last_part = parts[-1]
-      if "." in last_part and len(parts) >= 2:
-        return parts[-2]
-      return last_part
+    for part in reversed(parts):
+      if "." in part or part.isdigit() or len(part) < 6:
+        continue
+      if part.lower() in STATIC_SEGMENTS:
+        continue
+      return part
     return ""
-  return item.strip()
+  return clean
 
 
 def build_candidate_urls(old_url, header_lines, tokens, by_tail, by_name):
@@ -244,14 +246,19 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
   if not raw_lines:
     return [], {}, {}
 
-  # 1. Удаляем дубликаты
   unique_items = list(dict.fromkeys(raw_lines))
   dups_removed = len(raw_lines) - len(unique_items)
   if dups_removed > 0:
     print(f"В {filepath} удалено дубликатов: {dups_removed}")
 
-  # Берём первые 3 ссылки из основного листа для тестовой подстановки чистых ключей
-  sample_urls = [u for _, _, u in entries[:3]]
+  domain_samples = {}
+  for _, _, u in entries:
+    host = urlparse(u).netloc
+    if host:
+      lst = domain_samples.setdefault(host, [])
+      if len(lst) < 3:
+        lst.append(u)
+  sample_urls = [u for urls in domain_samples.values() for u in urls]
 
   valid_items = []
   tokens = []
@@ -267,15 +274,21 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
     temp_tail = {}
     temp_name = {}
 
+    # Если это полная ссылка или чистый ключ iLook (14/24 символа) — проверяем через лист
+    pl_url = ""
     if item.startswith(("http://", "https://")):
+      pl_url = item
+    elif token and len(token) in (14, 24) and token.isalnum():
+      pl_url = f"https://epg.one{token}"
+
+    if pl_url:
       try:
-        pl_lines = load_playlist_lines(item)
+        pl_lines = load_playlist_lines(pl_url)
         pl_entries = parse_playlist(pl_lines)
         valid_streams = [
             (h, u) for _, h, u in pl_entries if "err.cdntv" not in u
         ]
-        # Проверяем до 2 потоков из загруженного листа
-        for _, test_u in valid_streams[:2]:
+        for _, test_u in valid_streams[:3]:
           if check_url(test_u):
             is_alive = True
             break
@@ -291,13 +304,15 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
               temp_name.setdefault(ch_key, []).append(stream_url)
       except Exception:
         is_alive = False
-    else:
-      # Если передан чистый ключ — тестируем подстановкой в первые каналы листа
+
+    # Запасная проверка подстановкой по всем серверам из Main Mix
+    if not is_alive and token:
       for su in sample_urls:
         for cand in build_candidate_urls(su, [], [token], {}, {}):
           if check_url(cand):
             is_alive = True
             break
+          time.sleep(0.2)
         if is_alive:
           break
 
@@ -313,7 +328,6 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
       dead_keys_count += 1
       print(f"Удалён нерабочий ключ из {filepath}: {item}")
 
-  # Перезаписываем keys.txt, если были дубликаты или нерабочие ключи
   if len(valid_items) != len(raw_lines):
     with open(filepath, "w", encoding="utf-8") as f:
       for vi in valid_items:
@@ -329,6 +343,7 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
       f" ({', '.join(unique_tokens)})"
   )
   return unique_tokens, by_tail, by_name
+
 
 
 def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
