@@ -265,7 +265,7 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
     print(f"В {filepath} удалено дубликатов: {dups_removed}")
 
   domain_samples = {}
-  for _, _, u in entries:
+  for _, _, u, _ in entries:
     host = urlparse(u).netloc
     if host:
       lst = domain_samples.setdefault(host, [])
@@ -299,11 +299,12 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
         pl_lines = load_playlist_lines(pl_url)
         pl_entries = parse_playlist(pl_lines)
         valid_streams = [
-            (h, u) for _, h, u in pl_entries if "err.cdntv" not in u
+            (h, u) for _, h, u, _ in pl_entries if "err.cdntv" not in u
         ]
         for _, test_u in valid_streams[:3]:
           if check_url(test_u):
             is_alive = True
+
             break
         if is_alive:
           for h_lines, stream_url in valid_streams:
