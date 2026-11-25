@@ -7,7 +7,7 @@ import urllib.request
 
 USER_AGENT = "Mozilla/5.0"
 TIMEOUT = 10
-OUTPUT_FILE = "cleaned_playlist.m3u"
+OUTPUT_FILE = os.environ.get("OUT_NAME") or "cleaned_playlist.m3u"
 KEYS_FILE = "keys.txt"
 MAX_WORKERS = 4
 
