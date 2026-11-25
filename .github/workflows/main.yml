@@ -1,8 +1,6 @@
 name: Clean M3U Playlist
 
 on:
-  schedule:
-    - cron: '0 1 * * *'
   workflow_dispatch:
     inputs:
       source:
@@ -29,7 +27,7 @@ jobs:
       - name: Run cleaner
         env:
           TARGET_SOURCE: ${{ github.event.inputs.source || secrets.MAIN_MIX_URL }}
-          OUT_NAME: ${{ (github.event_name == 'schedule' || github.event.inputs.source == '') && 'cleaned_playlist.m3u' || 'test_playlist.m3u' }}
+          OUT_NAME: ${{ github.event.inputs.source == '' && 'cleaned_playlist.m3u' || 'test_playlist.m3u' }}
         run: python3 clean.py
 
       - name: Save playlists
@@ -43,6 +41,7 @@ jobs:
           else
             echo "Изменений нет."
           fi
+
 
 
 
