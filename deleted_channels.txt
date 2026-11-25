@@ -1,5 +1,5 @@
-Отчёт проверки от 2026-11-25 08:07:55 UTC
-Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 208
+Отчёт проверки от 2026-11-25 08:52:16 UTC
+Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 210
 ============================================================
 
 1. НТВ HD 🇷🇺 — Причина: пустой или слишком короткий ответ
@@ -14,7 +14,7 @@
 4. Беларусь 2 — Причина: HTTP ошибка 404
    http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/MLLNWFWVC3H9YNUQTDBDHZGK/2173/index.m3u8
 
-5. Беларусь 2 — Причина: HTTP ошибка 502
+5. Беларусь 2 — Причина: HTTP ошибка 404
    http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/3MKGMVU86EYR56/2173/index.m3u8
 
 6. ОНТ BY — Причина: HTTP ошибка 404
@@ -563,66 +563,72 @@
 187. Cineman Relax 4K 🇺🇦 — Причина: HTTP ошибка 403
    http://stream.mcquack.net/459/index.m3u8
 
-188. BOX Travel HD 🇨🇿 — Причина: HTTP ошибка 404
-   http://7j9atzv2.streamoras.top/iptv/VGWB9P9PSCG8HS/19418/
-
-189. Без названия — Причина: ошибка соединения (ValueError)
+188. Без названия — Причина: ошибка соединения (ValueError)
    index.m3u8
 
-190. VF Стройка 🇨🇿 — Причина: HTTP ошибка 404
+189. VF Стройка 🇨🇿 — Причина: HTTP ошибка 404
    http://7j9atzv2.streamoras.top/
 
-191. Без названия — Причина: ошибка соединения (ValueError)
+190. Без названия — Причина: ошибка соединения (ValueError)
    б#EXTINF:0 group-title="SCIENCE 💥" tvg-id="2417" tvg-logo="http://epg.one/img2/2417.png" tvg-rec="7",Большая Азия HD 🇪🇸
 
-192. Investigation — Причина: ошибка соединения (ValueError)
+191. Investigation — Причина: ошибка соединения (ValueError)
    Discovery HD orig 🇳🇱
 
-193. History 2 HD 🇳🇱 — Причина: HTTP ошибка 502
+192. History 2 HD 🇳🇱 — Причина: HTTP ошибка 502
    http://dd624624.ottolok.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
 
-194. History 2 HD 🇨🇿 — Причина: HTTP ошибка 502
+193. History 2 HD 🇨🇿 — Причина: HTTP ошибка 502
    http://dbca06a0.rossteleccom.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
 
-195. Travel+Adventure 🇳🇱 — Причина: ошибка соединения (UnicodeEncodeError)
+194. Travel+Adventure 🇳🇱 — Причина: ошибка соединения (UnicodeEncodeError)
    http://dd624624.ottolok.net/iptv/XLLWS47TLMFBMWCP56MEZD43/850/index.m3u8х
 
-196. Поехали! HD 🇪🇸 — Причина: HTTP ошибка 404
+195. Поехали! HD 🇪🇸 — Причина: HTTP ошибка 404
    http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/14020/index.m3u8
 
-197. Поехали! HD 🇳🇱 — Причина: HTTP ошибка 404
+196. Поехали! HD 🇳🇱 — Причина: HTTP ошибка 404
    http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/14020/index.m3u8
 
-198. Deluxe Lounge HD — Причина: HTTP ошибка 404
+197. Deluxe Lounge HD — Причина: HTTP ошибка 404
    https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
 
-199. Travel Guide TV — Причина: HTTP ошибка 404
+198. Travel Guide TV — Причина: HTTP ошибка 404
    http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
-200. Stingray Naturescape — Причина: HTTP ошибка 404
+199. Про Факт — Причина: HTTP ошибка 404
+   http://iptv.prosto.tv:7000/ch315/video.m3u8
+
+200. Река — Причина: HTTP ошибка 404
+   http://iptv.prosto.tv:7000/ch338/video.m3u8
+
+201. Железная дорога — Причина: HTTP ошибка 404
+   http://iptv.prosto.tv:7000/ch348/video.m3u8
+
+202. Stingray Naturescape — Причина: HTTP ошибка 404
    https://jmp2.uk/stvp-CAAJ3400003T7
 
-201. ZenLIFE by Stingray — Причина: HTTP ошибка 404
+203. ZenLIFE by Stingray — Причина: HTTP ошибка 404
    https://jmp2.uk/rok-79876f8f79d0394ba8982259393e5e32.m3u8
 
-202. Bridge Русский Хит HD — Причина: HTTP ошибка 404
+204. Bridge Русский Хит HD — Причина: HTTP ошибка 404
    http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZUXVS87HZNV54C/19226/index.m3u8
 
-203. Blue Hustler — Причина: HTTP ошибка 502
+205. Blue Hustler — Причина: HTTP ошибка 502
    http://45.156.223.203/iptv/HSD8UEK6E2AENH/1064/index.m3u8
 
-204. Без названия — Причина: ошибка соединения (ValueError)
+206. Без названия — Причина: ошибка соединения (ValueError)
    index.m3u8
 
-205. Dorcel TV HD orig — Причина: HTTP ошибка 404
+207. Dorcel TV HD orig — Причина: HTTP ошибка 404
    http://45.156.223.203/iptv/HSD8UEK6E2AENH/9064/index.m3u8
 
-206. Redlight HD orig — Причина: HTTP ошибка 404
+208. Redlight HD orig — Причина: HTTP ошибка 404
    http://45.156.223.203/iptv/HSD8UEK6E2AENH/9066/index.m3u8
 
-207. Alba XXX 1 — Причина: HTTP ошибка 404
+209. Alba XXX 1 — Причина: HTTP ошибка 404
    http://45.156.223.203/iptv/HSD8UEK6E2AENH/12106/index.m3u8
 
-208. Brazzers TV Europe HD — Причина: HTTP ошибка 404
+210. Brazzers TV Europe HD — Причина: HTTP ошибка 404
    http://45.156.223.203/iptv/HSD8UEK6E2AENH/12113/index.m3u8
 
