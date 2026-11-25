@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.11'
 
-            - name: Run cleaner
+      - name: Run cleaner
         env:
           TARGET_SOURCE: ${{ github.event.inputs.source || secrets.MAIN_MIX_URL }}
           OUT_NAME: ${{ github.event.inputs.source == '' && 'cleaned_playlist.m3u' || 'test_playlist.m3u' }}
