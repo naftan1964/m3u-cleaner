@@ -443,9 +443,7 @@ def main():
 
   start_time = time.time()
   lines = load_playlist_lines(source)
-  entries = parse_playlist(lines)
-      lines = load_playlist_lines(source)
-  entries = parse_playlist(lines)
+  entries = parse_pla
   print(f"Найдено каналов: {len(entries)}")
 
   seen_urls = set()
