@@ -17,10 +17,9 @@ WHITELIST_DOMAINS = (
     "cdn.ntv.ru",
     "live.y666tv.cc",
     "iptv.prosto.tv",
-    "siauliairsavlt.pw",
-    "kazaktelekom.com",
     "mkpnet.ru",
 )
+
 
 
 STATIC_SEGMENTS = {
