@@ -30,10 +30,10 @@ jobs:
           OUT_NAME: ${{ github.event.inputs.source == '' && 'cleaned_playlist.m3u' || 'test_playlist.m3u' }}
         run: python3 clean.py
 
-            - name: Save playlists
+      - name: Save playlists
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "github-actions[bot]@://github.com"
           git add cleaned_playlist.m3u test_playlist.m3u deleted_channels.txt deleted_playlist.m3u keys.txt 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "Update playlist"
@@ -43,17 +43,20 @@ jobs:
           fi
 
       - name: Send Telegram notification
-        if: always() && env.TG_TOKEN != '' && env.TG_CHAT != ''
+        if: always()
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          SUMMARY=$(head -n 3 deleted_channels.txt 2>/dev/null || echo "Проверка завершена")
-          curl -s -X POST "https://telegram.org{TG_TOKEN}/sendDocument" \
-            -F "chat_id=${TG_CHAT}" \
-            -F "document=@deleted_channels.txt" \
-            -F "caption=✅ Чистка плейлиста завершена!
+          if [ -n "$TG_TOKEN" ] && [ -n "$TG_CHAT" ] && [ -f deleted_channels.txt ]; then
+            SUMMARY=$(head -n 3 deleted_channels.txt)
+            curl -s -X POST "https://telegram.org{TG_TOKEN}/sendDocument" \
+              -F "chat_id=${TG_CHAT}" \
+              -F "document=@deleted_channels.txt" \
+              -F "caption=✅ Чистка плейлиста завершена!
           ${SUMMARY}" >/dev/null || true
+          fi
+
 
 
 
