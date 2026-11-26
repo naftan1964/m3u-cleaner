@@ -87,6 +87,19 @@ def is_valid_ts_data(data):
   return False, "нет незашифрованного видеопотока"
 
 
+DYNAMIC_MARKERS = (
+    "token=",
+    "nimblesessionid=",
+    "ip=",
+    "st=",
+    "md5=",
+    "mediatailor",
+    "rtbcdn.ru",
+    "cloudfront.net",
+    "/manifest/",
+)
+
+
 def pick_1080p_variant(base_url, text):
   lines = [l.strip() for l in text.splitlines() if l.strip()]
   variants = []
@@ -97,16 +110,19 @@ def pick_1080p_variant(base_url, text):
         continue
       height = 0
       bandwidth = 0
-      for part in line.split(":", 1)[1].split(","):
+      attrs = line.split(":", 1)[1]
+      for part in attrs.split(","):
+        part = part.strip()
         if part.startswith("RESOLUTION=") and "x" in part:
           try:
-            height = int(part.split("x", 1)[1])
-          except ValueError:
+            res_val = part.split("=", 1)[1]
+            height = int(res_val.split("x", 1)[1])
+          except (ValueError, IndexError):
             pass
         elif part.startswith("BANDWIDTH="):
           try:
-            bandwidth = int(part.split("=", 1))
-          except ValueError:
+            bandwidth = int(part.split("=", 1)[1])
+          except (ValueError, IndexError):
             pass
       variants.append((height, bandwidth, urljoin(base_url, next_line)))
 
@@ -140,9 +156,7 @@ def check_url_detailed(url):
         best_1080 = pick_1080p_variant(current_url, text)
         if best_1080:
           next_url = best_1080
-          if not any(
-              k in next_url.lower() for k in ("ip=", "mediatailor", "st=")
-          ):
+          if not any(m in next_url.lower() for m in DYNAMIC_MARKERS):
             resolved_url = next_url
         else:
           sub_links = [
@@ -187,6 +201,7 @@ def check_url_detailed(url):
 def check_url(url):
   ok, _, _ = check_url_detailed(url)
   return ok
+
 
 
 
