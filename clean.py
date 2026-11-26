@@ -10,6 +10,9 @@ TIMEOUT = 10
 OUTPUT_FILE = os.environ.get("OUT_NAME") or "cleaned_playlist.m3u"
 KEYS_FILE = "keys.txt"
 DELETED_FILE = "deleted_channels.txt"
+DELETED_M3U_FILE = "deleted_playlist.m3u"
+MAX_WORKERS = 4
+
 MAX_WORKERS = 4
 MAX_WORKERS = 4
 
@@ -482,7 +485,9 @@ def main():
       else:
         ch_title = extract_channel_name(header_lines, raw=True)
         ch_group = extract_channel_group(header_lines)
-        dead_entries.append((ch_group, ch_title, line_num, final_url, reason))
+        dead_entries.append(
+            (ch_group, ch_title, line_num, final_url, reason, header_lines)
+        )
 
   # Записываем подробный отчёт об удалённых каналах
   now_str = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
@@ -493,12 +498,21 @@ def main():
         f" {len(dead_entries)}\n"
     )
     df.write("=" * 60 + "\n\n")
-    for i, (ch_group, ch_title, line_num, bad_url, reason) in enumerate(
+    for i, (ch_group, ch_title, line_num, bad_url, reason, _) in enumerate(
         dead_entries, 1
     ):
       df.write(f"{i}. [{ch_group}] {ch_title} — Строка в файле: ~{line_num}\n")
       df.write(f"   Причина: {reason}\n")
       df.write(f"   Ссылка: {bad_url}\n\n")
+
+  # Сохраняем удалённые каналы в отдельный M3U для быстрого предпросмотра
+  with open(DELETED_M3U_FILE, "w", encoding="utf-8") as dm:
+    dm.write("#EXTM3U\n")
+    for _, _, _, bad_url, _, header_lines in dead_entries:
+      for h in header_lines:
+        dm.write(h + "\n")
+      dm.write(bad_url + "\n")
+
 
   elapsed = round(time.time() - start_time, 1)
   print("\nГотово!")
