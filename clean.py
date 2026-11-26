@@ -18,6 +18,7 @@ WHITELIST_DOMAINS = (
     "live.y666tv.cc",
     "iptv.prosto.tv",
     "mkpnet.ru",
+    "smotrim.ru",
 )
 
 REPLACE_ILOOK_DOMAINS = (
