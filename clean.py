@@ -444,6 +444,40 @@ def main():
   start_time = time.time()
   lines = load_playlist_lines(source)
   entries = parse_playlist(lines)
+      lines = load_playlist_lines(source)
+  entries = parse_playlist(lines)
+  print(f"Найдено каналов: {len(entries)}")
+
+  seen_urls = set()
+  filtered_entries = []
+  pre_dead_results = {}
+
+  for entry in entries:
+    idx, header_lines, url, line_num = entry
+    ch_lower = extract_channel_name(header_lines, raw=False)
+    if any(kw in ch_lower for kw in BLOCKED_QUALITY_KEYWORDS):
+      pre_dead_results[idx] = (
+          "dead",
+          header_lines,
+          url,
+          "отфильтровано (формат 4K / UHD)",
+          line_num,
+      )
+    elif url in seen_urls:
+      pre_dead_results[idx] = (
+          "dead",
+          header_lines,
+          url,
+          "дубликат ссылки в плейлисте",
+          line_num,
+      )
+    else:
+      seen_urls.add(url)
+      filtered_entries.append(entry)
+
+  if pre_dead_results:
+    print(f"Отсеяно до проверки (4K/дубли): {len(pre_dead_results)}")
+
   print(f"Найдено каналов: {len(entries)}")
 
   tokens, by_tail, by_name = load_and_clean_keys(entries, KEYS_FILE)
@@ -451,7 +485,7 @@ def main():
     print(f"Рабочих ключей в {KEYS_FILE} нет — работаю в режиме очистки.")
 
   working_prefix_cache = {}
-  results = [None] * len(entries)
+  results = [pre_dead_results.get(i) for i in range(len(entries))]
   done_count = 0
 
   with concurrent.futures.ThreadPoolExecutor(
@@ -461,14 +495,15 @@ def main():
         executor.submit(
             process_entry, entry, tokens, by_tail, by_name, working_prefix_cache
         )
-        for entry in entries
+        for entry in filtered_entries
     ]
     for future in concurrent.futures.as_completed(futures):
       idx, status, header_lines, final_url, reason, line_num = future.result()
       results[idx] = (status, header_lines, final_url, reason, line_num)
       done_count += 1
-      if done_count % 25 == 0 or done_count == len(entries):
-        print(f"Проверено: {done_count}/{len(entries)}")
+      if done_count % 25 == 0 or done_count == len(filtered_entries):
+        print(f"Проверено: {done_count}/{len(filtered_entries)}")
+
 
   alive_count = 0
   fixed_count = 0
