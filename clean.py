@@ -203,8 +203,6 @@ def check_url(url):
   return ok
 
 
-
-
 def load_playlist_lines(source):
   source = source.strip()
   if source.startswith(("http://", "https://")):
