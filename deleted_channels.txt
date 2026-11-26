@@ -1,12 +1,8 @@
-Отчёт проверки от 2026-11-26 09:37:44 UTC
-Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 2
+Отчёт проверки от 2026-11-26 10:11:58 UTC
+Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 1
 ============================================================
 
-1. [SCIENCE 💥] Поехали! HD 🇪🇸 — Строка в файле: ~4712
-   Причина: HTTP ошибка 404
-   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/14020/index.m3u8
-
-2. [SCIENCE 💥] Поехали! HD 🇳🇱 — Строка в файле: ~4715
-   Причина: HTTP ошибка 404
-   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/L6FEQLRTGGHTKC/14020/index.m3u8
+1. [General✨] Смотрим 100% Праздник — Строка в файле: ~85
+   Причина: таймаут ожидания ответа
+   Ссылка: https://stream.smotrim.ru/hls3/fasttv04/playlist_3.m3u8
 
