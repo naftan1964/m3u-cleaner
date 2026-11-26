@@ -87,61 +87,107 @@ def is_valid_ts_data(data):
   return False, "нет незашифрованного видеопотока"
 
 
+def pick_1080p_variant(base_url, text):
+  lines = [l.strip() for l in text.splitlines() if l.strip()]
+  variants = []
+  for i, line in enumerate(lines):
+    if line.startswith("#EXT-X-STREAM-INF:") and i + 1 < len(lines):
+      next_line = lines[i + 1]
+      if next_line.startswith("#"):
+        continue
+      height = 0
+      bandwidth = 0
+      for part in line.split(":", 1)[1].split(","):
+        if part.startswith("RESOLUTION=") and "x" in part:
+          try:
+            height = int(part.split("x", 1)[1])
+          except ValueError:
+            pass
+        elif part.startswith("BANDWIDTH="):
+          try:
+            bandwidth = int(part.split("=", 1))
+          except ValueError:
+            pass
+      variants.append((height, bandwidth, urljoin(base_url, next_line)))
+
+  if not variants:
+    return None
+
+  allowed = [v for v in variants if 0 < v[0] <= 1080]
+  if not allowed:
+    allowed = [v for v in variants if v[0] == 0] or variants
+
+  allowed.sort(key=lambda x: (x[0], x[1]), reverse=True)
+  return allowed[0][2]
+
+
 def check_url_detailed(url):
   if "err.cdntv" in url:
-    return False, "заглушка провайдера (err.cdntv)"
+    return False, "заглушка провайдера (err.cdntv)", url
   host = urlparse(url).hostname or ""
   if any(host == d or host.endswith("." + d) for d in WHITELIST_DOMAINS):
-    return True, "OK (белый список)"
+    return True, "OK (белый список)", url
+  resolved_url = url
   try:
-    data, status = fetch_bytes(url, max_bytes=8192)
+    data, status = fetch_bytes(url, max_bytes=16384)
     if not data:
-      return False, status
+      return False, status, url
 
     if data.lstrip().startswith(b"#EXTM3U"):
       current_url = url
       text = data.decode("utf-8", errors="ignore")
       for _ in range(2):
-        sub_links = [
-            line.strip()
-            for line in text.splitlines()
-            if line.strip() and not line.strip().startswith("#")
-        ]
-        if not sub_links:
-          return False, "пустой m3u8-плейлист"
-        next_url = urljoin(current_url, sub_links[0])
+        best_1080 = pick_1080p_variant(current_url, text)
+        if best_1080:
+          next_url = best_1080
+          if not any(
+              k in next_url.lower() for k in ("ip=", "mediatailor", "st=")
+          ):
+            resolved_url = next_url
+        else:
+          sub_links = [
+              line.strip()
+              for line in text.splitlines()
+              if line.strip() and not line.strip().startswith("#")
+          ]
+          if not sub_links:
+            return False, "пустой m3u8-плейлист", url
+          next_url = urljoin(current_url, sub_links[0])
+
         if "err.cdntv" in next_url:
-          return False, "заглушка провайдера (err.cdntv)"
+          return False, "заглушка провайдера (err.cdntv)", url
         if ".m3u8" in next_url.lower() and next_url != current_url:
-          sub_data, sub_status = fetch_bytes(next_url, max_bytes=8192)
+          sub_data, sub_status = fetch_bytes(next_url, max_bytes=16384)
           if not sub_data:
-            return False, sub_status
+            return False, sub_status, url
           if not sub_data.lstrip().startswith(b"#EXTM3U"):
-            return False, "ошибка вложенного m3u8"
+            return False, "ошибка вложенного m3u8", url
           current_url = next_url
           text = sub_data.decode("utf-8", errors="ignore")
         else:
           seg_data, seg_status = fetch_bytes(next_url, max_bytes=16384)
           if not seg_data:
-            return False, seg_status
-          return is_valid_ts_data(seg_data)
-      return False, "слишком глубокая вложенность m3u8"
+            return False, seg_status, url
+          ok, reason = is_valid_ts_data(seg_data)
+          return ok, reason, resolved_url
+      return False, "слишком глубокая вложенность m3u8", url
 
-    return is_valid_ts_data(data)
+    ok, reason = is_valid_ts_data(data)
+    return ok, reason, resolved_url
   except urllib.error.HTTPError as e:
-    return False, f"HTTP ошибка {e.code}"
+    return False, f"HTTP ошибка {e.code}", url
   except urllib.error.URLError as e:
-    return False, f"ошибка сети / таймаут ({e.reason})"
+    return False, f"ошибка сети / таймаут ({e.reason})", url
   except TimeoutError:
-    return False, "таймаут ожидания ответа"
+    return False, "таймаут ожидания ответа", url
   except Exception as e:
-    return False, f"ошибка соединения ({type(e).__name__}: {e})"
-
+    return False, f"ошибка соединения ({type(e).__name__}: {e})", url
 
 
 def check_url(url):
-  ok, _ = check_url_detailed(url)
+  ok, _, _ = check_url_detailed(url)
   return ok
+
 
 
 def load_playlist_lines(source):
