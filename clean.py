@@ -444,11 +444,13 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
     )
     was_replaced = True
 
-  ok, reason = check_url_detailed(url)
+  ok, reason, resolved_url = check_url_detailed(url)
+  if not ok and "err.cdntv" not in url:
+    time.sleep(2)
+    ok, reason, resolved_url = check_url_detailed(url)
   if ok:
-    status = "fixed" if was_replaced else "alive"
-    return (idx, status, header_lines, url, "", line_num)
-
+    status = "fixed" if (was_replaced or resolved_url != url) else "alive"
+    return (idx, status, header_lines, resolved_url, "", line_num)
 
   if tokens or by_tail or by_name:
     parsed = urlparse(url)
@@ -473,6 +475,7 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
         return (idx, "fixed", header_lines, candidate, "", line_num)
 
   return (idx, "dead", header_lines, url, reason, line_num)
+
 
 def main():
   args_tail = sys.argv[1:]
