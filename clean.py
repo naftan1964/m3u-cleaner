@@ -447,22 +447,13 @@ def main():
   print(f"Найдено каналов: {len(entries)}")
 
 
-  seen_urls = set()
+    seen_urls = set()
   filtered_entries = []
   pre_dead_results = {}
 
   for entry in entries:
     idx, header_lines, url, line_num = entry
-    ch_lower = extract_channel_name(header_lines, raw=False)
-    if any(kw in ch_lower for kw in BLOCKED_QUALITY_KEYWORDS):
-      pre_dead_results[idx] = (
-          "dead",
-          header_lines,
-          url,
-          "отфильтровано (формат 4K / UHD)",
-          line_num,
-      )
-    elif url in seen_urls:
+    if url in seen_urls:
       pre_dead_results[idx] = (
           "dead",
           header_lines,
@@ -475,7 +466,8 @@ def main():
       filtered_entries.append(entry)
 
   if pre_dead_results:
-    print(f"Отсеяно до проверки (4K/дубли): {len(pre_dead_results)}")
+    print(f"Отсеяно дубликатов до проверки: {len(pre_dead_results)}")
+
 
   print(f"Найдено каналов: {len(entries)}")
 
