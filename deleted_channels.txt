@@ -1,5 +1,5 @@
-Отчёт проверки от 2026-11-26 12:46:55 UTC
-Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 10
+Отчёт проверки от 2026-11-26 13:25:17 UTC
+Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 4
 ============================================================
 
 1. [General✨] НТВ 🇨🇿** — Строка в файле: ~28
@@ -17,28 +17,4 @@
 4. [KINO 🎁] Киномикс HD 🇪🇸 — Строка в файле: ~1541
    Причина: дубликат ссылки в плейлисте
    Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/HUHD4R93BHAACTNFQWLBC3DZ/509/index.m3u8
-
-5. [RELAX🏝️] CineMan Relax 4K — Строка в файле: ~4885
-   Причина: отфильтровано (формат 4K / UHD)
-   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DDHWUBMVDBPFYZ/32226/index.m3u8
-
-6. [RELAX🏝️] Fireplace 4K — Строка в файле: ~5008
-   Причина: отфильтровано (формат 4K / UHD)
-   Ссылка: https://jmp2.uk/stvp-KRBD44000025L
-
-7. [SEX🌸] Anal 4K — Строка в файле: ~5630
-   Причина: отфильтровано (формат 4K / UHD)
-   Ссылка: http://45.156.223.203/iptv/HSD8UEK6E2AENH/12190/index.m3u8
-
-8. [♋️Взрослые☯️] Anal 4K — Строка в файле: ~5692
-   Причина: отфильтровано (формат 4K / UHD)
-   Ссылка: http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/12190/index.m3u8
-
-9. [♋️Взрослые☯️] Anal 4K — Строка в файле: ~5694
-   Причина: отфильтровано (формат 4K / UHD)
-   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R289VL865ZMLBCBG2U4CFVU3/12190/index.m3u8
-
-10. [♋️Взрослые☯️] Anal 4K — Строка в файле: ~5696
-   Причина: отфильтровано (формат 4K / UHD)
-   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/Z9LPP8ZWL9WCSR/12190/index.m3u8
 
