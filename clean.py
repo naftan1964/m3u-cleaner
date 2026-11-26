@@ -447,7 +447,7 @@ def main():
   print(f"Найдено каналов: {len(entries)}")
 
 
-    seen_urls = set()
+  seen_urls = set()
   filtered_entries = []
   pre_dead_results = {}
 
