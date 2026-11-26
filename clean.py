@@ -19,6 +19,7 @@ WHITELIST_DOMAINS = (
     "iptv.prosto.tv",
     "siauliairsavlt.pw",
     "kazaktelekom.com",
+    "mkpnet.ru",
 )
 
 
