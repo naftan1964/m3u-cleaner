@@ -20,6 +20,12 @@ WHITELIST_DOMAINS = (
     "mkpnet.ru",
     "smotrim.ru",
 )
+BLOCKED_QUALITY_KEYWORDS = (
+    "4k",
+    "uhd",
+    "2160p",
+    "ultra hd",
+)
 
 REPLACE_ILOOK_DOMAINS = (
     "kazaktelekom.com",
