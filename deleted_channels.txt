@@ -1,40 +1,44 @@
-Отчёт проверки от 2026-11-25 22:09:24 UTC
-Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 9
+Отчёт проверки от 2026-11-26 01:10:18 UTC
+Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 10
 ============================================================
 
 1. [General✨] НТВ HD 🇷🇺 — Строка в файле: ~7
    Причина: пустой или слишком короткий ответ
    Ссылка: https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
 
-2. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇪🇸 — Строка в файле: ~2198
+2. [KINO 🎁] Дом Кино 🇩🇪 — Строка в файле: ~1688
+   Причина: HTTP ошибка 404
+   Ссылка: http://live.y666tv.cc/8136/video.m3u8?token=09b9751a49b0f563639b23b4bd2ba1bd
+
+3. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇪🇸 — Строка в файле: ~2198
    Причина: HTTP ошибка 404
    Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZUXVS87HZNV54C/31695/index.m3u8
 
-3. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇳🇱 — Строка в файле: ~2201
+4. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇳🇱 — Строка в файле: ~2201
    Причина: HTTP ошибка 502
    Ссылка: http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31695/index.m3u8
 
-4. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇨🇿 — Строка в файле: ~2204
+5. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇨🇿 — Строка в файле: ~2204
    Причина: HTTP ошибка 502
    Ссылка: http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31695/index.m3u8
 
-5. [SCIENCE 💥] History 2 HD 🇳🇱 — Строка в файле: ~4643
+6. [SCIENCE 💥] History 2 HD 🇳🇱 — Строка в файле: ~4643
    Причина: HTTP ошибка 502
    Ссылка: http://dd624624.ottolok.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
 
-6. [SCIENCE 💥] History 2 HD 🇨🇿 — Строка в файле: ~4646
+7. [SCIENCE 💥] History 2 HD 🇨🇿 — Строка в файле: ~4646
    Причина: HTTP ошибка 502
    Ссылка: http://dbca06a0.rossteleccom.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
 
-7. [SCIENCE 💥] Поехали! HD 🇪🇸 — Строка в файле: ~4721
+8. [SCIENCE 💥] Поехали! HD 🇪🇸 — Строка в файле: ~4721
    Причина: HTTP ошибка 404
    Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/14020/index.m3u8
 
-8. [SCIENCE 💥] Поехали! HD 🇳🇱 — Строка в файле: ~4724
+9. [SCIENCE 💥] Поехали! HD 🇳🇱 — Строка в файле: ~4724
    Причина: HTTP ошибка 404
    Ссылка: http://bval1.kazaktelekom.com/iptv/L6FEQLRTGGHTKC/14020/index.m3u8
 
-9. [Без группы] Без названия — Строка в файле: ~5307
-   Причина: ошибка соединения (ValueError: unknown url type: 'index.m3u8')
-   Ссылка: index.m3u8
+10. [RELAX🏝️] Ночь — Строка в файле: ~4963
+   Причина: HTTP ошибка 404
+   Ссылка: http://iptv.prosto.tv:7000/ch349/video.m3u8
 
