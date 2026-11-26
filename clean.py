@@ -13,9 +13,6 @@ DELETED_FILE = "deleted_channels.txt"
 DELETED_M3U_FILE = "deleted_playlist.m3u"
 MAX_WORKERS = 4
 
-MAX_WORKERS = 4
-MAX_WORKERS = 4
-
 WHITELIST_DOMAINS = (
     "cdn.ntv.ru",
     "live.y666tv.cc",
