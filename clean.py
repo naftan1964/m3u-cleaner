@@ -508,7 +508,6 @@ def main():
   entries = parse_playlist(lines)
   print(f"Найдено каналов: {len(entries)}")
 
-
   seen_urls = set()
   filtered_entries = []
   pre_dead_results = {}
@@ -530,13 +529,9 @@ def main():
   if pre_dead_results:
     print(f"Отсеяно дубликатов до проверки: {len(pre_dead_results)}")
 
-
-  print(f"Найдено каналов: {len(entries)}")
-
   tokens, by_tail, by_name = load_and_clean_keys(entries, KEYS_FILE)
   if not (tokens or by_tail or by_name):
     print(f"Рабочих ключей в {KEYS_FILE} нет — работаю в режиме очистки.")
-
   working_prefix_cache = {}
   results = [pre_dead_results.get(i) for i in range(len(entries))]
   done_count = 0
@@ -556,7 +551,6 @@ def main():
       done_count += 1
       if done_count % 25 == 0 or done_count == len(filtered_entries):
         print(f"Проверено: {done_count}/{len(filtered_entries)}")
-
 
   alive_count = 0
   fixed_count = 0
@@ -603,7 +597,6 @@ def main():
       for h in header_lines:
         dm.write(h + "\n")
       dm.write(bad_url + "\n")
-
 
   elapsed = round(time.time() - start_time, 1)
   print("\nГотово!")
