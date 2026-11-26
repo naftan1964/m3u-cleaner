@@ -11,6 +11,16 @@ OUTPUT_FILE = os.environ.get("OUT_NAME") or "cleaned_playlist.m3u"
 KEYS_FILE = "keys.txt"
 DELETED_FILE = "deleted_channels.txt"
 MAX_WORKERS = 4
+MAX_WORKERS = 4
+
+WHITELIST_DOMAINS = (
+    "cdn.ntv.ru",
+    "live.y666tv.cc",
+    "iptv.prosto.tv",
+    "siauliairsavlt.pw",
+    "kazaktelekom.com",
+)
+
 
 STATIC_SEGMENTS = {
     "iptv",
@@ -69,6 +79,9 @@ def is_valid_ts_data(data):
 def check_url_detailed(url):
   if "err.cdntv" in url:
     return False, "заглушка провайдера (err.cdntv)"
+  host = urlparse(url).hostname or ""
+  if any(host == d or host.endswith("." + d) for d in WHITELIST_DOMAINS):
+    return True, "OK (белый список)"
   try:
     data, status = fetch_bytes(url, max_bytes=8192)
     if not data:
