@@ -378,10 +378,26 @@ def load_and_clean_keys(entries, filepath=KEYS_FILE):
 
 def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
   idx, header_lines, url, line_num = entry
+  was_replaced = False
+
+  parsed_init = urlparse(url)
+  init_host = parsed_init.hostname or ""
+  if any(
+      init_host == d or init_host.endswith("." + d)
+      for d in REPLACE_ILOOK_DOMAINS
+  ):
+    url = urlunparse(
+        parsed_init._replace(scheme="http", netloc=GOOD_ILOOK_HOST)
+    )
+    was_replaced = True
 
   ok, reason = check_url_detailed(url)
   if ok:
-    return (idx, "alive", header_lines, url, "", line_num)
+    status = "fixed" if was_replaced else "alive"
+    return (idx, status, header_lines, url, "", line_num)
+
+  if tokens or by_tail or by_name:
+
 
   if tokens or by_tail or by_name:
     parsed = urlparse(url)
