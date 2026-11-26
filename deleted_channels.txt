@@ -1,8 +1,32 @@
-Отчёт проверки от 2026-11-26 07:36:15 UTC
-Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 1
+Отчёт проверки от 2026-11-26 08:52:58 UTC
+Итоговый файл: cleaned_playlist.m3u | Удалено каналов: 7
 ============================================================
 
-1. [General✨] РЕН ТВ HD 🇷🇺(borman) — Строка в файле: ~146
+1. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇪🇸 — Строка в файле: ~2198
    Причина: HTTP ошибка 404
-   Ссылка: https://flussonic.mkpnet.ru/tv-44dfec2799c5738e/video.m3u8
+   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZUXVS87HZNV54C/31695/index.m3u8
+
+2. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇳🇱 — Строка в файле: ~2201
+   Причина: HTTP ошибка 502
+   Ссылка: http://9d33a541.ucomist.net/iptv/LX5XP9Q4LAY25EPEELQBVCTS/31695/index.m3u8
+
+3. [📺Кинозалы👑🐦‍🔥🌍] Z!History HD 🇨🇿 — Строка в файле: ~2204
+   Причина: HTTP ошибка 502
+   Ссылка: http://6ttwbn1v.vexiumis.top/iptv/MAZX5FG63YUWFU/31695/index.m3u8
+
+4. [SCIENCE 💥] History 2 HD 🇳🇱 — Строка в файле: ~4643
+   Причина: HTTP ошибка 502
+   Ссылка: http://dd624624.ottolok.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
+
+5. [SCIENCE 💥] History 2 HD 🇨🇿 — Строка в файле: ~4646
+   Причина: HTTP ошибка 502
+   Ссылка: http://dbca06a0.rossteleccom.net/iptv/LNE7CK973BXBGD/1052/index.m3u8
+
+6. [SCIENCE 💥] Поехали! HD 🇪🇸 — Строка в файле: ~4721
+   Причина: HTTP ошибка 404
+   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LNE7CK973BXBGD/14020/index.m3u8
+
+7. [SCIENCE 💥] Поехали! HD 🇳🇱 — Строка в файле: ~4724
+   Причина: HTTP ошибка 404
+   Ссылка: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/L6FEQLRTGGHTKC/14020/index.m3u8
 
