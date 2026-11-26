@@ -396,8 +396,6 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
     status = "fixed" if was_replaced else "alive"
     return (idx, status, header_lines, url, "", line_num)
 
-  if tokens or by_tail or by_name:
-
 
   if tokens or by_tail or by_name:
     parsed = urlparse(url)
