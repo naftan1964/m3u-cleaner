@@ -20,6 +20,10 @@ WHITELIST_DOMAINS = (
     "mkpnet.ru",
 )
 
+REPLACE_ILOOK_DOMAINS = (
+    "kazaktelekom.com",
+)
+GOOD_ILOOK_HOST = "sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw"
 
 
 STATIC_SEGMENTS = {
