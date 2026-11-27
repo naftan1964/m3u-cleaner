@@ -490,7 +490,7 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
   return (idx, "dead", header_lines, url, reason, line_num)
 
 
-  def main():
+def main():
   args_tail = sys.argv[1:]
   if args_tail:
     source = next(iter(args_tail))
