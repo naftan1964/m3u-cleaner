@@ -490,7 +490,7 @@ def process_entry(entry, tokens, by_tail, by_name, working_prefix_cache):
   return (idx, "dead", header_lines, url, reason, line_num)
 
 
-def main():
+  def main():
   args_tail = sys.argv[1:]
   if args_tail:
     source = next(iter(args_tail))
@@ -574,7 +574,6 @@ def main():
             (ch_group, ch_title, line_num, final_url, reason, header_lines)
         )
 
-  # Записываем подробный отчёт об удалённых каналах
   now_str = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
   with open(DELETED_FILE, "w", encoding="utf-8") as df:
     df.write(f"Отчёт проверки от {now_str}\n")
@@ -590,7 +589,6 @@ def main():
       df.write(f"   Причина: {reason}\n")
       df.write(f"   Ссылка: {bad_url}\n\n")
 
-  # Сохраняем удалённые каналы в отдельный M3U для быстрого предпросмотра
   with open(DELETED_M3U_FILE, "w", encoding="utf-8") as dm:
     dm.write("#EXTM3U\n")
     for _, _, _, bad_url, _, header_lines in dead_entries:
@@ -604,6 +602,54 @@ def main():
   print(f"Восстановлено через {KEYS_FILE}: {fixed_count}")
   print(f"Удалено нерабочих: {len(dead_entries)} (список в {DELETED_FILE})")
   print(f"Сохранено в {OUTPUT_FILE} за {elapsed} сек.")
+
+  tg_lines = [
+      f"🧹 ОТЧЁТ M3U CLEANER ({OUTPUT_FILE})",
+      f"✅ Рабочих изначально: {alive_count}",
+      f"🔧 Восстановлено ключами: {fixed_count}",
+      f"❌ Удалено нерабочих: {len(dead_entries)}",
+      f"⏱ Время проверки: {elapsed} сек.",
+  ]
+  if dead_entries:
+    tg_lines.append("")
+    tg_lines.append("📋 Удалённые каналы:")
+    for ch_group, ch_title, _, _, reason, _ in dead_entries[:20]:
+      tg_lines.append(f"• [{ch_group}] {ch_title} — {reason}")
+    if len(dead_entries) > 20:
+      tg_lines.append(f"...и ещё {len(dead_entries) - 20} шт. (см. {DELETED_FILE})")
+
+  send_telegram_report("\n".join(tg_lines))
+
+
+def send_telegram_report(text):
+  raw_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+  raw_chat_id = os.environ.get("TELEGRAM_CHAT_ID", "")
+
+  digits = "".join(c for c in raw_chat_id if c.isdigit() or c == "-")
+  token = raw_token.strip()
+  if " " in token:
+    for part in token.split():
+      if ":" in part:
+        token = part
+        break
+
+  if ":" not in token or not digits:
+    print("⚠️ Секреты TELEGRAM_BOT_TOKEN или TELEGRAM_CHAT_ID не заданы.")
+    return
+
+  tg_host = "api.telegram.org"
+  api_url = f"https://{tg_host}/bot{token}/sendMessage"
+  payload = urlencode({
+      "chat_id": digits,
+      "text": text[:3800],
+  }).encode("utf-8")
+
+  try:
+    req = urllib.request.Request(api_url, data=payload, method="POST")
+    with urllib.request.urlopen(req, timeout=15) as resp:
+      print("📨 Ответ Telegram:", resp.read().decode("utf-8", errors="ignore"))
+  except Exception as e:
+    print(f"❌ Ошибка отправки в Telegram: {e}")
 
 
 if __name__ == "__main__":
